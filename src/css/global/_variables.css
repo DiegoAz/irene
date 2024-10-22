@@ -1,0 +1,63 @@
+:root {
+    @utopia typeScale({
+        minWidth: 320,          /* Defaults to plugin minWidth */
+        maxWidth: 1240,         /* Defaults to plugin maxWidth */
+        minFontSize: 18,
+        maxFontSize: 20,
+        minTypeScale: 1.2,
+        maxTypeScale: 1.25,
+        positiveSteps: 5,
+        negativeSteps: 2,
+        relativeTo: 'viewport', /* Optional */
+        prefix: 'step'          /* Optional */
+      });
+
+    @utopia spaceScale({
+        minWidth: 320,             /* Defaults to plugin minWidth */
+        maxWidth: 1240,            /* Defaults to plugin maxWidth */
+        minSize: 18,
+        maxSize: 20,
+        positiveSteps: [1.5, 2, 3, 4, 5, 6],
+        negativeSteps: [0.75, 0.5, 0.25, 0.125],
+        customSizes: ['3xs-xs'],
+        relativeTo: 'viewport',    /* Optional */
+        prefix: 'space',           /* Optional */
+        usePx: false,              /* Optional */
+    });
+
+    /* semantic variables */
+    --gutter: var(--space-s-m);
+    --text-size-small: var(--step--1);
+    --text-size-base: var(--step-0);
+    --text-size-heading-1: var(--step-5);
+    --text-size-heading-2: var(--step-4);
+    --text-size-heading-3: var(--step-3);
+    --font-base: system-ui, sans-serif;
+    --leading: 1.5;
+    --leading-fine: 1.2;
+    --color: deeppink;
+    --breakpoint: 820px;
+    --header-height: var(--space-2xl);
+    --sidebar-width: 20rem;
+    --sidebar-width-mobile: 80vw;
+    --transition-base: 250ms ease;
+    --z-index-header: 1000;
+    --z-index-sidebar: 900;
+
+    /* color scheme */
+    &:has(input[name="color-scheme"][value="light dark"]:checked) {
+        color-scheme: light dark;
+    }
+    &:has(input[name="color-scheme"][value="light"]:checked) {
+        color-scheme: light;
+    }
+    &:has(input[name="color-scheme"][value="dark"]:checked) {
+        color-scheme: dark;
+    }
+
+    /* --transition-base: 250ms ease;
+    --transition-movement: 200ms linear;
+    --transition-fade: 300ms ease;
+    --wrapper-width: clamp(16rem, 98vw, 65rem);
+    --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5); */
+}

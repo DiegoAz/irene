@@ -1,0 +1,53 @@
+/*
+  Global styles
+
+  Low-specificity, global styles that apply to the whole
+  project: https://cube.fyi/css.html
+*/
+/* body {
+    background: var(--color-light);
+    color: var(--color-dark);
+    font-size: var(--size-step-0);
+    font-family: var(--font-base);
+    line-height: var(--leading-standard);
+} */
+
+body {
+    font-family: var(--font-base);
+    font-size: var(--text-size-base);
+    line-height: var(--leading-standard);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+}
+
+body.menu-open {
+    overflow: hidden;
+}
+
+@media (max-width: 51.25em) {
+    /* 820px / 16px = 51.25em */
+    .sidebar {
+        -webkit-overflow-scrolling: touch; /* Para un scroll suave en iOS */
+    }
+}
+
+h1,
+h2,
+h3 {
+    line-height: var(--leading-fine);
+}
+
+h1 {
+    font-size: var(--text-size-heading-1);
+}
+
+h2 {
+    font-size: var(--text-size-heading-2);
+}
+
+h3 {
+    font-size: var(--text-size-heading-3);
+}

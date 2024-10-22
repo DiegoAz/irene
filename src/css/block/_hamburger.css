@@ -1,0 +1,40 @@
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    @media (max-width: 51.25em) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .hamburger {
+        display: block;
+        width: 48px;
+        stroke: black;
+        stroke-width: 1.5;
+        fill: rgba(0, 0, 0, 0);
+        stroke-linecap: round;
+    }
+
+    .menu-text {
+        font-size: 12px; /* Ajusta este valor según tus necesidades */
+        color: #000;
+    }
+}
+
+/* .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+} */

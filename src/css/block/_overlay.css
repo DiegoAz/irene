@@ -1,0 +1,16 @@
+.overlay {
+    display: none;
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: calc(var(--z-index-sidebar) - 1);
+}
+
+@media (max-width: 51.25em) {
+    .overlay.active {
+        display: block;
+    }
+}

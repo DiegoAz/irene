@@ -1,0 +1,11 @@
+# Misc
+*.log
+npm-debug.*
+.DS_Store
+Thumbs.db
+.env
+.cache
+
+node_modules
+_site
+.git

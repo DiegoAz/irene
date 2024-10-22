@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    background-color: white;
+    block-size: var(--header-height);
+    border-block-end: 1px dashed #e0e1e7;
+    /* added for toggle */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: var(--z-index-header);
+}

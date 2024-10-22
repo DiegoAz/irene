@@ -1,0 +1,28 @@
+# Changes here will be overwritten by Copier
+_commit: v1.0.0
+_src_path: .
+async_config: false
+base_layout: base
+css_plugin: postcss-css
+eleventy_config_file: eleventy.config.js
+eleventy_version: ^3.0.0
+global_data_dir: _data
+html_template_engine: liquid
+include_global_data_dir: true
+input_dir: src
+main_styles_file: style
+markdown_template_engine: liquid
+open_in: zed
+output_dir: _site
+package_manager: pnpm
+postcss_plugins:
+- autoprefixer
+- cssnano
+- postcss-nesting
+project_description: irene
+project_name: irene
+quiet_mode: false
+styles_dir: css
+styles_language: css
+template_structure: nested
+use_esm: false

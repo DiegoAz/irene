@@ -1,0 +1,26 @@
+{
+    "name": "irene",
+    "version": "1.0.0",
+    "description": "irene",
+    "main": "index.js",
+    "scripts": {
+        "serve": "eleventy --serve",
+        "build": "eleventy",
+        "clean": "rm -rf _site",
+        "debug": "DEBUG=Eleventy* eleventy"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@11ty/eleventy": "^3.0.0"
+    },
+    "devDependencies": {
+        "@jgarber/eleventy-plugin-postcss": "^1.0.1",
+        "autoprefixer": "^10.4.20",
+        "cssnano": "^7.0.6",
+        "postcss-easy-import": "^4.0.0",
+        "postcss-nesting": "^13.0.0",
+        "postcss-utopia": "^1.1.0"
+    }
+}
