@@ -1,9 +1,27 @@
 nav {
     margin-block-start: var(--space-m);
+    /* min-width: 300px; */
     ul {
         list-style: none;
         padding: 0;
+
+        &.parent {
+            li.title a {
+                font-weight: normal;
+            }
+        }
+
+        &.children {
+            color: var(--nav-link-fg);
+            border-inline-start: 1px solid rgb(229, 231, 235);
+            margin-inline-start: var(--space-xs-s);
+
+            li a {
+                margin-left: var(--space-xs);
+            }
+        }
     }
+
     li {
         margin-top: 4px;
         a {
@@ -12,13 +30,13 @@ nav {
             display: flex;
             align-items: center;
             border-radius: 8px;
-            /* font-size: var(--text-size-base); */
+            color: var(--nav-link-fg);
             &:hover {
-                background: rgb(240, 240, 243);
+                background: var(--nav-link-hv-bg);
             }
             &.active {
-                background: #1c1c1c;
-                color: white;
+                background: var(--nav-link-active-bg);
+                /* color: white; */
             }
         }
     }

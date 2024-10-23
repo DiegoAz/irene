@@ -25,7 +25,18 @@
         usePx: false,              /* Optional */
     });
 
+    /* colors */
+    --color: deeppink;
+    --gray-0: rgb(240, 240, 243);
+    --gray-1: rgb(113, 113, 122);
+    --gray-2: rgb(63, 63, 70);
+    --gray-3: rgb(24, 24, 27);
+
     /* semantic variables */
+    --nav-link-fg: var(--gray-2);
+    --nav-link-hv-bg: var(--gray-0);
+    --nav-link-active-bg: var(--gray-0);
+
     --gutter: var(--space-s-m);
     --text-size-small: var(--step--1);
     --text-size-base: var(--step-0);
@@ -35,7 +46,7 @@
     --font-base: system-ui, sans-serif;
     --leading: 1.5;
     --leading-fine: 1.2;
-    --color: deeppink;
+
     --breakpoint: 820px;
     --header-height: var(--space-2xl);
     --sidebar-width: 20rem;
