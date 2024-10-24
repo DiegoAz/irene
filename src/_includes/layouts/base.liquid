@@ -2,19 +2,23 @@
 <header>
     <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
         <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20" aria-hidden="true">
-          <path d="M4,8L12,8L20,8M4,12L20,12M4,16L12,16L20,16">
-            <animate dur="0.1s" attributeName="d" values="M4,8L12,8L20,8M4,12L20,12M4,16L12,16L20,16;M6,6L12,12L18,6M12,12L12,12M6,18L12,12L18,18" fill="freeze" begin="start.begin" />
-            <animate dur="0.1s" attributeName="d" values="M6,6L12,12L18,6M12,12L12,12M6,18L12,12L18,18;M4,8L12,8L20,8M4,12L20,12M4,16L12,16L20,16" fill="freeze" begin="reverse.begin" />
-          </path>
-          <rect width="24" height="24" stroke="none">
-            <animate dur="2s" id="reverse" attributeName="width" begin="click" />
-          </rect>
-          <rect width="24" height="24" stroke="none">
-            <animate dur="0.001s" id="start" attributeName="width" values="24;0" fill="freeze" begin="click" />
-            <animate dur="0.001s" attributeName="width" values="0;24" fill="freeze" begin="reverse.begin" />
-          </rect>
+            <path d="M4,8L12,8L20,8M4,12L20,12M4,16L12,16L20,16">
+                <animate dur="0.1s" attributeName="d"
+                    values="M4,8L12,8L20,8M4,12L20,12M4,16L12,16L20,16;M6,6L12,12L18,6M12,12L12,12M6,18L12,12L18,18"
+                    fill="freeze" begin="start.begin" />
+                <animate dur="0.1s" attributeName="d"
+                    values="M6,6L12,12L18,6M12,12L12,12M6,18L12,12L18,18;M4,8L12,8L20,8M4,12L20,12M4,16L12,16L20,16"
+                    fill="freeze" begin="reverse.begin" />
+            </path>
+            <rect width="24" height="24" stroke="none">
+                <animate dur="2s" id="reverse" attributeName="width" begin="click" />
+            </rect>
+            <rect width="24" height="24" stroke="none">
+                <animate dur="0.001s" id="start" attributeName="width" values="24;0" fill="freeze" begin="click" />
+                <animate dur="0.001s" attributeName="width" values="0;24" fill="freeze" begin="reverse.begin" />
+            </rect>
         </svg>
-      <span class="menu-text">Menú</span>
+        <span class="menu-text">Menú</span>
     </button>
     <a href="#">Irene</a>
 </header>
@@ -24,7 +28,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#" {% if pageId == "home" %}class="active"{% endif %}>Inicio</a>
+                    <a href="#" {% if pageId=="home" %}class="active link" {% endif %}>Inicio</a>
                 </li>
                 <li><a href="#">Guía</a></li>
             </ul>
@@ -32,11 +36,19 @@
         <nav>
             <ul class="parent">
                 <li class="title">
-                    <a href="#">Unidades</a>
+                    <button class="link">
+                        <span>Unidades</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6"></path>
+                        </svg>
+                    </button>
                 </li>
+
                 <li>
                     <ul class="children">
-                        <li><a href="#">Unidad 1</a></li>
+                        <li>
+                            <a href="#">Unidad 1</a>
+                        </li>
                         <li><a href="#">Unidad 2</a></li>
                         <li><a href="#">Unidad 3</a></li>
                         <li><a href="#">Unidad 4</a></li>

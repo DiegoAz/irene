@@ -69,3 +69,12 @@ document.addEventListener("DOMContentLoaded", function () {
         { passive: false },
     );
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.querySelector('.parent .title button');
+    const parentElement = document.querySelector('.parent');
+
+    toggleButton.addEventListener('click', function () {
+        parentElement.classList.toggle('expanded');
+    });
+});
