@@ -1,3 +1,6 @@
+{% assign currentPage = navigation.es | where: "url", page.url | first %}
+{% assign pageTitle = currentPage.title | default: title %}
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -7,7 +10,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
-        <title>{{ title }}</title>
+        <title>{{ pageTitle }}</title>
         <link rel="stylesheet" href="/css/style.css" />
     </head>
 </html>

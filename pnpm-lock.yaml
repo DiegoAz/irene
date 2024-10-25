@@ -11,6 +11,9 @@ importers:
       '@11ty/eleventy':
         specifier: ^3.0.0
         version: 3.0.0
+      '@11ty/eleventy-navigation':
+        specifier: ^0.3.5
+        version: 0.3.5
     devDependencies:
       '@jgarber/eleventy-plugin-postcss':
         specifier: ^1.0.1
@@ -43,6 +46,9 @@ packages:
     resolution: {integrity: sha512-d0CuufX6yPtVz+RW0oJZg1pVoxo1jOrPmpXYacoiKLJm0MMC9MkPQOCXlimguHVaceHejFo5+aZB9/aGB2RR0A==}
     engines: {node: '>=18'}
     hasBin: true
+
+  '@11ty/eleventy-navigation@0.3.5':
+    resolution: {integrity: sha512-4aKW5aIQDFed8xs1G1pWcEiFPcDSwZtA4IH1eERtoJ+Xy+/fsoe0pzbDmw84bHZ9ACny5jblENhfZhcCxklqQw==}
 
   '@11ty/eleventy-plugin-bundle@3.0.0':
     resolution: {integrity: sha512-JSnqehT+sWSPi6e44jTXUW+KiV9284YF9fzPQvfGB4cXlk/m/SJk17CavHCleIvKXDN+jrUw9TZkwAwr85ONWQ==}
@@ -1289,6 +1295,10 @@ snapshots:
       - bufferutil
       - supports-color
       - utf-8-validate
+
+  '@11ty/eleventy-navigation@0.3.5':
+    dependencies:
+      dependency-graph: 0.11.0
 
   '@11ty/eleventy-plugin-bundle@3.0.0(posthtml@0.16.6)':
     dependencies:

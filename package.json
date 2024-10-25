@@ -13,7 +13,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@11ty/eleventy": "^3.0.0"
+        "@11ty/eleventy": "^3.0.0",
+        "@11ty/eleventy-navigation": "^0.3.5"
     },
     "devDependencies": {
         "@jgarber/eleventy-plugin-postcss": "^1.0.1",

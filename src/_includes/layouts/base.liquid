@@ -23,71 +23,41 @@
     <a href="#">Irene</a>
 </header>
 
+{% assign nav = navigation.es %}
 <div class="layout-sidebar">
     <div class="sidebar">
         <nav>
             <ul>
+                {% for item in nav %}
+                {% if item.children %}
                 <li>
-                    <a href="#" {% if pageId=="home" %}class="active link" {% endif %}>Inicio</a>
-                </li>
-                <li><a href="#">Guía</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <ul class="parent">
-                <li class="title">
-                    <button class="link">
-                        <span>Unidades</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="m9 18 6-6-6-6"></path>
-                        </svg>
-                    </button>
-                </li>
-                <li>
-                    <ul class="children">
-                        <li><a href="#">Unidad 1</a></li>
-                        <li><a href="#">Unidad 2</a></li>
-                        <li><a href="#">Unidad 3</a></li>
-                        <li><a href="#">Unidad 4</a></li>
-                        <li><a href="#">Unidad 5</a></li>
-                        <li><a href="#">Unidad 6</a></li>
-                        <li><a href="#">Unidad 7</a></li>
-                        <li><a href="#">Unidad 8</a></li>
+                    <ul class="parent">
+                        <li class="title">
+                            <button class="link">
+                                <span>{{ item.title }}</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="m9 18 6-6-6-6"></path>
+                                </svg>
+                            </button>
+                        </li>
+                        <li>
+                            <ul class="children">
+                                {% for child in item.children %}
+                                <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
                     </ul>
                 </li>
-            </ul>
-        </nav>
-        <nav>
-            <ul class="parent">
-                <li class="title">
-                    <button class="link">
-                        <span>Unidades</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="m9 18 6-6-6-6"></path>
-                        </svg>
-                    </button>
-                </li>
+                {% else %}
                 <li>
-                    <ul class="children">
-                        <li><a href="#">Unidad 1</a></li>
-                        <li><a href="#">Unidad 2</a></li>
-                        <li><a href="#">Unidad 3</a></li>
-                        <li><a href="#">Unidad 4</a></li>
-                        <li><a href="#">Unidad 5</a></li>
-                        <li><a href="#">Unidad 6</a></li>
-                        <li><a href="#">Unidad 7</a></li>
-                        <li><a href="#">Unidad 8</a></li>
-                    </ul>
+                    <a href="{{ item.url }}" {% if page.url==item.url %}class="active link" {% endif %}>{{ item.title
+                        }}</a>
                 </li>
-            </ul>
-        </nav>
-
-        <nav>
-            <ul>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Contacto</a></li>
+                {% endif %}
+                {% endfor %}
             </ul>
         </nav>
     </div>
