@@ -1,0 +1,28 @@
+ <article class="testimonial"></article>
+  <h1>{{ title }}</h1>
+  <p class="meta">
+    <span class="city">{{ city }}</span> - 
+    <span class="year">{{ year }}</span>
+  </p>
+
+  {% if video %}
+  <div class="video-container">
+    <video controls>
+      <source src="{{ video }}" type="video/mp4">
+      Tu navegador no soporta el tag de video.
+    </video>
+  </div>
+  {% endif %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  {% if images %}
+  <div class="image-gallery">
+    {% for image in images %}
+      <img src="{{ image }}" alt="Imagen {{ forloop.index }} de testimonios en {{ city }}, {{ year }}">
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>
