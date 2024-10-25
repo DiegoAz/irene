@@ -71,10 +71,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    const toggleButton = document.querySelector('.parent .title button');
-    const parentElement = document.querySelector('.parent');
+    const parentElements = document.querySelectorAll('.parent');
 
-    toggleButton.addEventListener('click', function () {
-        parentElement.classList.toggle('expanded');
+    parentElements.forEach(function (parentElement) {
+        const toggleButton = parentElement.querySelector('.title button');
+
+        toggleButton.addEventListener('click', function () {
+            parentElement.classList.toggle('expanded');
+        });
     });
 });
