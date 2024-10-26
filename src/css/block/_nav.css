@@ -6,18 +6,8 @@ nav {
         padding: 0;
 
         &.parent {
-            &.expanded {
-                .children {
-                    display: block;
-                }
-                
-                .title svg {
-                    transform: rotate(90deg);
-                    transition: transform var(--transition-base);
-    
-                }
-            }
-            button {
+            .title button {
+                position: relative;
                 text-decoration: none;
                 padding: 8px 12px;
                 display: flex;
@@ -29,11 +19,27 @@ nav {
                 border: none;
                 width: 100%;
                 cursor: pointer;
+                
                 &:hover {
                     background: var(--nav-link-hv-bg);
                 }
-                &.active {
-                    background: var(--nav-link-active-bg);
+                
+                svg {
+                    position: absolute;
+                    right: 12px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    transition: transform var(--transition-base);
+                }
+            }
+
+            &.expanded {
+                > .title button svg {
+                    transform: translateY(-50%) rotate(90deg);
+                }
+                
+                > li > .children {
+                    display: block;
                 }
             }
         }
@@ -65,7 +71,6 @@ nav {
             }
             &.active {
                 background: var(--nav-link-active-bg);
-                /* color: white; */
             }
         }
     }

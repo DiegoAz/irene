@@ -72,17 +72,54 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     const parentElements = document.querySelectorAll('.parent');
+    
+    // Añadir clase para prevenir transiciones durante la carga
+    document.body.classList.add('is-loading');
+
+    // Función para guardar el estado en localStorage
+    function saveMenuState() {
+        const state = {};
+        parentElements.forEach(parent => {
+            const key = parent.querySelector('.title button span').textContent.trim();
+            state[key] = parent.classList.contains('expanded');
+        });
+        localStorage.setItem('menuState', JSON.stringify(state));
+    }
+
+    // Función para cargar el estado desde localStorage
+    function loadMenuState() {
+        const state = JSON.parse(localStorage.getItem('menuState')) || {};
+        parentElements.forEach(parent => {
+            const key = parent.querySelector('.title button span').textContent.trim();
+            if (state[key]) {
+                parent.classList.add('expanded');
+            }
+        });
+    }
 
     parentElements.forEach(function (parentElement) {
         const toggleButton = parentElement.querySelector('.title button');
 
-        toggleButton.addEventListener('click', function () {
+        toggleButton.addEventListener('click', function (e) {
+            e.preventDefault();
             parentElement.classList.toggle('expanded');
+            saveMenuState();
         });
+    });
 
-        // Si el elemento padre tiene un hijo activo, mantenlo expandido
+    // Cargar el estado del menú al cargar la página
+    loadMenuState();
+
+    // Si el elemento padre tiene un hijo activo, mantenlo expandido
+    parentElements.forEach(function (parentElement) {
         if (parentElement.querySelector('.children .active')) {
             parentElement.classList.add('expanded');
+            saveMenuState();
         }
     });
+
+    // Remover la clase de carga después de un breve retraso
+    setTimeout(() => {
+        document.body.classList.remove('is-loading');
+    }, 100);
 });

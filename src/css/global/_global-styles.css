@@ -51,3 +51,9 @@ h2 {
 h3 {
     font-size: var(--text-size-heading-3);
 }
+
+/* Añadir esto al final del archivo */
+.is-loading nav ul.parent .title button svg {
+    transition: none !important;
+}
+
