@@ -79,5 +79,10 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleButton.addEventListener('click', function () {
             parentElement.classList.toggle('expanded');
         });
+
+        // Si el elemento padre tiene un hijo activo, mantenlo expandido
+        if (parentElement.querySelector('.children .active')) {
+            parentElement.classList.add('expanded');
+        }
     });
 });

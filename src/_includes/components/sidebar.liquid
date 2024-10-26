@@ -1,0 +1,14 @@
+{% assign nav = navigation.es %}
+<div class="sidebar">
+    <nav>
+        <ul>
+            {% for item in nav %}
+                {% if item.children %}
+                    {% include "components/nav-item-with-children.liquid" %}
+                {% else %}
+                    {% include "components/nav-item.liquid" %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

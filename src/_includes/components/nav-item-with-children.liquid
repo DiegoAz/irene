@@ -1,0 +1,25 @@
+{% assign is_expanded = false %}
+{% for child in item.children %}
+  {% if page.url contains child.activePattern %}
+    {% assign is_expanded = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<li>
+    <ul class="parent {% if is_expanded %}expanded{% endif %}">
+        <li class="title">
+            <button class="link">
+                <span>{{ item.title }}</span>
+                {% include "components/chevron-icon.liquid" %}
+            </button>
+        </li>
+        <li>
+            <ul class="children">
+                {% for child in item.children %}
+                <li><a href="{{ child.url }}" {% if page.url contains child.activePattern %}class="active"{% endif %}>{{ child.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+</li>

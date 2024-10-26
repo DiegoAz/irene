@@ -29,8 +29,16 @@ module.exports = {
       title: "Testimonios",
       key: "testimonials",
       children: [
-        { title: "Fortaleza, 2024", url: "/testimonials/fortaleza-2024/" },
-        { title: "Tunja, 2023", url: "/testimonials/tunja-2023/" },
+        { 
+          title: "Fortaleza, 2024", 
+          url: "/testimonios/fortaleza-2024/",
+          activePattern: "/testimonios/fortaleza-2024/"
+        },
+        // { 
+        //   title: "Tunja, 2023", 
+        //   url: "/testimonials/tunja-2023/",
+        //   activePattern: "/testimonials/tunja-2023/"
+        // },
         // ... más testimonios ...
       ]
     },

@@ -1,0 +1,5 @@
+<div class="image-gallery">
+  {% for image in images %}
+    <img src="{{ image }}" alt="Imagen {{ forloop.index }} de testimonios en {{ city }}, {{ year }}">
+  {% endfor %}
+</div>

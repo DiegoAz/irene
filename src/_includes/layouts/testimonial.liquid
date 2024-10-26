@@ -1,28 +1,21 @@
- <article class="testimonial"></article>
-  <h1>{{ title }}</h1>
-  <p class="meta">
-    <span class="city">{{ city }}</span> - 
-    <span class="year">{{ year }}</span>
-  </p>
+---
+layout: layouts/base.liquid
+---
 
+<article class="testimonial">
+  <h1>{{ title }}</h1>
+  
+  {% include "testimonials/testimonial-meta.liquid" %}
+  
   {% if video %}
-  <div class="video-container">
-    <video controls>
-      <source src="{{ video }}" type="video/mp4">
-      Tu navegador no soporta el tag de video.
-    </video>
-  </div>
+    {% include "testimonials/testimonial-video.liquid" %}
   {% endif %}
 
-  <div class="content">
+  <div class="testimonial-content">
     {{ content }}
   </div>
 
   {% if images %}
-  <div class="image-gallery">
-    {% for image in images %}
-      <img src="{{ image }}" alt="Imagen {{ forloop.index }} de testimonios en {{ city }}, {{ year }}">
-    {% endfor %}
-  </div>
+    {% include "testimonials/testimonial-gallery.liquid" %}
   {% endif %}
 </article>
