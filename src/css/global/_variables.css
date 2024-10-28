@@ -25,18 +25,7 @@
         usePx: false,              /* Optional */
     });
 
-    /* colors */
-    /* --gray-1: rgb(113, 113, 122);
-    --gray-2: rgb(63, 63, 70); */
-    /* --nav-link-fg: var(--gray-2); */
-    /* --nav-link-hv-bg: var(--gray-0);
-    --nav-link-active-bg: var(--gray-0); */
- 
-
-   
-
     /* semantic variables */
-
     --gutter: var(--space-s-m);
     --text-size-small: var(--step--1);
     --text-size-base: var(--step-0);
@@ -60,42 +49,14 @@
     --transition-fade: 300ms ease;
     --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
 
-
-    /* --light-gray: hsl(240, 12%, 95%); */
+    /* colors */
     --light-gray: hsl(220 13% 91%);
     --dark-gray: hsl(240 3.7% 15.9%);
-
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
-    /* color scheme */
-    /* light */
-    --background-color: var(--white);
-    --text-color: var(--black);
-    --border-color: var(--light-gray);
-    /* --nav-link-fg: var(--text-color); */
-    --nav-link-hv-bg: var(--light-gray);
-    --nav-link-active-bg: var(--light-gray);
-    
-    /* meta text */
-    --meta-light: hsl(220 10% 40%); /* Para modo claro */
-    --meta-dark: hsl(220 10% 70%);  /* Para modo oscuro */
-    --meta-text-color: var(--meta-light);
-
-
-    /* color-scheme: light dark; */
-    /* --wrapper-width: clamp(16rem, 98vw, 65rem); */
-
+    --meta-light: hsl(220 10% 40%); 
+    --meta-dark: hsl(220 10% 70%);
 }
-
-/* @media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: var(--black);
-        --text-color: var(--white);
-        --border-color: var(--dark-gray);
-        --nav-link-hv-bg: var(--dark-gray);
-        --nav-link-active-bg: var(--dark-gray);
-    }
-} */
 
 [color-scheme="light"] {
     --background-color: var(--white);
