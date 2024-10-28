@@ -12,10 +12,12 @@
         gap: 0;
     }
 
+
+
     .hamburger {
         display: block;
         width: 48px;
-        stroke: black;
+        stroke: var(--text-color);
         stroke-width: 1.5;
         fill: rgba(0, 0, 0, 0);
         stroke-linecap: round;
@@ -23,7 +25,7 @@
 
     .menu-text {
         font-size: 12px; /* Ajusta este valor según tus necesidades */
-        color: #000;
+        color: var(--text-color);
     }
 }
 

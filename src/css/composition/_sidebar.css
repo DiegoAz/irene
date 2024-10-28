@@ -8,9 +8,10 @@
     left: 0;
     bottom: 0;
     width: var(--sidebar-width); */
-    border-inline-end: 1px dashed #e0e1e7;
+    border-inline-end: 1px dashed var(--border-color);
     padding-inline: var(--space-xs);
     padding-block-end: var(--space-s);
+    background-color: var(--background-color);
 }
 
 @media (max-width: 51.25em) {
@@ -21,7 +22,7 @@
         left: -100%;
         width: var(--sidebar-width-mobile);
         height: calc(100% - var(--header-height));
-        background-color: white;
+        
         transition: left var(--transition-base);
         overflow-y: auto;
         z-index: var(--z-index-sidebar);

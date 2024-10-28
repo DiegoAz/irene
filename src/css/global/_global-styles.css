@@ -17,6 +17,11 @@ body {
     font-size: var(--text-size-base);
     line-height: var(--leading-standard);
     -webkit-font-smoothing: antialiased;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color var(--transition-base), 
+                color var(--transition-base),
+                border-color var(--transition-base);
 }
 
 body {
@@ -25,6 +30,11 @@ body {
 
 body.menu-open {
     overflow: hidden;
+}
+
+.no-transition,
+.no-transition * {
+  transition: none !important;
 }
 
 @media (max-width: 51.25em) {

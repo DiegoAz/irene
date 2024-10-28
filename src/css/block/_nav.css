@@ -14,7 +14,7 @@ nav {
                 align-items: center;
                 justify-content: space-between;
                 border-radius: 8px;
-                color: var(--nav-link-fg);
+                color: var(--text-color);
                 background: none;
                 border: none;
                 width: 100%;
@@ -46,8 +46,8 @@ nav {
 
         &.children {
             display: none;
-            color: var(--nav-link-fg);
-            border-inline-start: 1px solid rgb(229, 231, 235);
+            color: var(--text-color);
+            border-inline-start: 1px solid var(--border-color);
             margin-inline-start: var(--space-xs-s);
 
             li a {
