@@ -1,3 +1,7 @@
-.t-small {
-    font-size: var(--step--1);
+.text-size-small {
+    font-size: var(--text-size-small);
+}
+
+.meta-text-color {
+    color: var(--meta-text-color);
 }

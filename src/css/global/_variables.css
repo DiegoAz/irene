@@ -76,7 +76,10 @@
     --nav-link-hv-bg: var(--light-gray);
     --nav-link-active-bg: var(--light-gray);
     
-    
+    /* meta text */
+    --meta-light: hsl(220 10% 40%); /* Para modo claro */
+    --meta-dark: hsl(220 10% 70%);  /* Para modo oscuro */
+    --meta-text-color: var(--meta-light);
 
 
     /* color-scheme: light dark; */
@@ -100,6 +103,7 @@
     --border-color: var(--light-gray);
     --nav-link-hv-bg: var(--light-gray);
     --nav-link-active-bg: var(--light-gray);
+    --meta-text-color: var(--meta-light);
 }
 
 [color-scheme="dark"] {
@@ -108,4 +112,5 @@
     --border-color: var(--dark-gray);
     --nav-link-hv-bg: var(--dark-gray);
     --nav-link-active-bg: var(--dark-gray);
+    --meta-text-color: var(--meta-dark);
 }
