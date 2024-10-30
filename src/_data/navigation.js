@@ -34,7 +34,7 @@ module.exports = {
     },
     {
       title: "Currículo",
-      url: "/curriculum/",
+      url: "/curriculo/",
       key: "curriculum"
     },
     {
