@@ -27,8 +27,8 @@
 
     /* semantic variables */
     --gutter: var(--space-s-m);
-    --text-size-small: var(--step--1);
-    --text-size-base: var(--step-0);
+    --text-size-small: var(--step--2);
+    --text-size-base: var(--step--1);
     --text-size-heading-1: var(--step-2);
     --text-size-heading-2: var(--step-3);
     --text-size-heading-3: var(--step-2);
