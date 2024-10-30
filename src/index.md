@@ -1,0 +1,12 @@
+---
+layout: "layouts/base"
+---
+# Presentación
+
+El proyecto “Irene: un libro de trabajo basado en la literatura clásica para la resolución de conflictos (GL1668)” es una iniciativa de investigación educativa diseñada para integrar la enseñanza de la “Cátedra de la Paz” en las instituciones de educación secundaria de Colombia. El proyecto busca fomentar el diálogo, la empatía y el pensamiento crítico en los estudiantes, por medio de textos clásicos de la literatura griega y romana, con el fin de promover la resolución pacífica de conflictos tanto en el aula como en sus comunidades.
+
+Una de las principales innovaciones de Irene es la adaptación del método socrático, que ha sido probada en varias instituciones educativas y que cuenta con una guía para su implementación en contextos diferentes al escolar. Esta metodología se centra en generar debates abiertos que no buscan imponer quién tiene razón, sino alcanzar consensos a través de la reflexión colectiva y el respeto a la diversidad de opiniones. Los estudiantes son guiados para relacionar los conflictos presentados en los textos clásicos con los problemas sociales y políticos de su propio contexto, con lo que se fomenta una comprensión crítica de los derechos humanos y la convivencia pacífica.
+
+El proyecto, además de su implementación en Colombia, ha expandido su alcance hacia la región amazónica de Brasil, donde se está trabajando con comunidades indígenas para adaptar los materiales y el currículo a sus realidades culturales y sociales. Este esfuerzo pone un enfoque especial en reducir la violencia de género y fortalecer las capacidades de resolución de conflictos dentro de las comunidades locales. La colaboración con líderes y educadores locales es clave para garantizar que los materiales sean relevantes e impactantes.
+
+Gracias al apoyo de la Universidad de La Sabana, el King’s College London, la Universidade do Estado do Amazonas y el Arts and Humanities Research Council (AHRC), Irene busca generar un modelo educativo flexible y escalable que pueda aplicarse no solo en Colombia, sino en otras regiones de América Latina afectadas por conflictos. La combinación de recursos impresos y digitales asegura un acceso más amplio a los materiales, especialmente en áreas rurales o con limitado acceso a internet. De esta manera, el proyecto Irene subraya la importancia de las humanidades como herramientas para la transformación social y la construcción de paz.
