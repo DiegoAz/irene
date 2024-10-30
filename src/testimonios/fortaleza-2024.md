@@ -9,6 +9,10 @@ year: 2024
 #   - "/img/testimonials/fortaleza-2024/image3.jpg"
 #   - "/img/testimonials/fortaleza-2024/image4.jpg"
 ---
+
+<img src="/img/testimonios/fortaleza-2024/image3.jpg" alt="Estudiantes de la Escola Municipal Creusa do Carmo Rocha participando en una discusión socrática" class="testimonial-image">
+
+
 El 27 de septiembre de 2024, el profesor Ronald Forero Álvarez fue invitado a dar la conferencia titulada “Cidadania Global e Cultura de Paz” en la Escola Municipal Creusa do Carmo Rocha, en Fortaleza, Brasil. Durante este evento, el profesor presentó a estudiantes de grado 8° la adaptación del método socrático, diseñada en el marco del proyecto Irene.
 
 La actividad involucró a 20 estudiantes de secundaria de 13 y 14 años, quienes participaron en la discusión guiada por el profesor Forero. Los estudiantes debatieron temas relacionados con la ciudadanía global, los derechos humanos y la convivencia pacífica. Durante dos horas, los participantes expresaron sus ideas y reflexionaron colectivamente sobre sus implicaciones en su entorno.
