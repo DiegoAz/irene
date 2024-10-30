@@ -1,5 +1,6 @@
 ---
 title: Currículo
+layout: "layouts/base"
 ---
 
 # Currículo
