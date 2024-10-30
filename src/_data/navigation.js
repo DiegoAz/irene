@@ -8,7 +8,29 @@ module.exports = {
     {
       title: "Sobre el proyecto",
       url: "/acerca-de/",
-      key: "about"
+      key: "about",
+      children: [
+        {
+          title: "Introducción",
+          url: "/acerca-de/introduccion/",
+          activePattern: "/acerca-de/introduccion/"
+        },
+        {
+          title: "Objetivos",
+          url: "/acerca-de/objetivos/",
+          activePattern: "/acerca-de/objetivos/"
+        },
+        {
+          title: "Equipo",
+          url: "/acerca-de/equipo/",
+          activePattern: "/acerca-de/equipo/"
+        },
+        {
+          title: "Instituciones asociadas",
+          url: "/acerca-de/instituciones-asociadas/",
+          activePattern: "/acerca-de/instituciones-asociadas/"
+        }
+      ]
     },
     {
       title: "Currículo",
