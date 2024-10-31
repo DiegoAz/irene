@@ -3,7 +3,7 @@
 A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada uno de ellos aporta su experiencia y conocimiento para el éxito de esta iniciativa interdisciplinaria:
 
 
-<div>
+<div class="team-member-card-1">
     <p>
         <span class="bold">Ronald Forero Álvarez</span>
         <span> - </span>
@@ -16,6 +16,17 @@ A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada 
 **Martin Dinter** - King’s College London
 
 Martin proporciona un enfoque académico internacional y apoya con la difusión del proyecto a nivel global. También contribuye con la revisión de las publicaciones y con la búsqueda de fuentes de financiación.
+
+<div class="team-member-card-2">
+    <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
+    <p>
+        <span class="bold">Ronald Forero Álvarez</span>
+        <span class="meta-text-color semibold">Investigador Principal</span>
+        <span class="meta-text-color institution">Universidad de La Sabana</span>
+    </p>
+    <p>Ronald lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
+</div>
+
 
 **Deisy Amapola Vásquez Guerrero** - Secretaría de Educación de Tunja
 
