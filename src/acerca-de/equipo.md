@@ -17,14 +17,26 @@ A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada 
 
 Martin proporciona un enfoque académico internacional y apoya con la difusión del proyecto a nivel global. También contribuye con la revisión de las publicaciones y con la búsqueda de fuentes de financiación.
 
-<div class="team-member-card-2">
-    <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
-    <p>
-        <span class="bold">Ronald Forero Álvarez</span>
-        <span class="meta-text-color semibold">Investigador Principal</span>
-        <span class="meta-text-color institution">Universidad de La Sabana</span>
-    </p>
-    <p>Ronald lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
+<div class="grid">
+    <div class="team-member-card-2">
+        <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
+        <p>
+            <span class="bold">Ronald Forero Álvarez</span>
+            <span class="meta-text-color">Investigador Principal</span>
+            <span class="meta-text-color institution">Universidad de La Sabana</span>
+        </p>
+        <p>Lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
+    </div>
+    <div class="team-member-card-2">
+        <img src="/img/equipo/rafael_uribe.jpg" alt="Rafael Uribe Neira" class="team-member-photo">
+        <p>
+            <span class="bold">Rafael Uribe Neira</span>
+            <span class="meta-text-color semibold"></span>
+            <span class="meta-text-color institution">Otto-von-Guericke University</span>
+        </p>
+        <p>Contribuye al desarrollo teórico del proyecto y ayuda a establecer vínculos con otros proyectos de investigación internacionales.</p>
+    </div>
+
 </div>
 
 <div class="team-member-card-3">
@@ -35,7 +47,7 @@ Martin proporciona un enfoque académico internacional y apoya con la difusión 
     </p>
     <div class="flex">
         <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
-        <p>Ronald lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
+        <p>Lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
     </div>
 </div>
 

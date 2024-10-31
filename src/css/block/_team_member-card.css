@@ -7,6 +7,12 @@
     }
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-s);
+}
+
 .team-member-card-3 {
 
     .flex {
@@ -27,6 +33,7 @@
 
     span {
         display: block;
+        text-align: center;
 
         &.semibold {
             font-weight: 500;
