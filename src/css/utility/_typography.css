@@ -5,3 +5,7 @@
 .meta-text-color {
     color: var(--meta-text-color);
 }
+
+.bold {
+    font-weight: bold;
+}
