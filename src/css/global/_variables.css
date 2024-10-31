@@ -50,8 +50,8 @@
     --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
 
     /* colors */
-    --white: hsl(0, 0%, 96%);
-    --black: hsl(240, 3%, 11%);
+    --white: hsl(0 0% 96%);
+    --black: hsl(240 3% 11%);
     --light-gray: hsl(220 13% 91%);
     --dark-gray: hsl(240 3.7% 15.9%);
     --meta-light: hsl(30 6% 35%);   
