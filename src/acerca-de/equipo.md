@@ -28,6 +28,15 @@ Martin proporciona un enfoque académico internacional y apoya con la difusión 
         <p>Lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
     </div>
     <div class="team-member-card-2">
+        <img src="/img/equipo/martin_dinter.jpg" alt="Martin Dinter" class="team-member-photo">
+        <p>
+            <span class="bold">Martin Dinter</span>
+            <span class="meta-text-color">Profesor</span>
+            <span class="meta-text-color institution">King's College London</span>
+        </p>
+        <p>Proporciona un enfoque académico internacional y apoya con la difusión del proyecto a nivel global. También contribuye con la revisión de las publicaciones y con la búsqueda de fuentes de financiación.</p>
+    </div>
+    <div class="team-member-card-2">
         <img src="/img/equipo/rafael_uribe.jpg" alt="Rafael Uribe Neira" class="team-member-photo">
         <p>
             <span class="bold">Rafael Uribe Neira</span>
