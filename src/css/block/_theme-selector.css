@@ -11,14 +11,36 @@
   border: none;
   cursor: pointer;
   padding: 0;
-  width: 27px;
-  height: 27px;
+  /* width: 27px;
+  height: 27px; */
 }
 
 .theme-circle {
   display: block;
-  width: 27px;
-  height: 27px;
+  width: 1.7em;
+  height: 1.7em;
+
+  circle {
+    stroke: var(--dark-gray);
+    stroke-width: 2;
+  }
+
+  
+  > .light {
+    fill: var(--white);
+  }
+  
+  > .dark {
+    fill: var(--dark-gray);
+  }
+
+  &.light {
+    fill: var(--white);
+  }
+
+  &.dark {
+    fill: var(--dark-gray);
+  }
 }
 
 /* Estilos para móvil */

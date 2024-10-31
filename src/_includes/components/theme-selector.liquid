@@ -1,29 +1,29 @@
 <div class="theme-selector">
   <button class="theme-toggle mobile-only" type="button" aria-label="Selector de tema" aria-expanded="false">
     <svg class="theme-circle" width="27" height="27" viewBox="0 0 28 28">
-      <path d="M14 1A13 13 0 0114 27 13 13 0 0114 1" fill="#fff"/>
-      <path d="M14 1A13 13 0 0127 14 13 13 0 0114 27" fill="#333"/>
-      <circle cx="14" cy="14" r="13" fill="none" stroke="#333" stroke-width="2"/>
+      <path class="light" d="M14 1A13 13 0 0114 27 13 13 0 0114 1"/>
+      <path class="dark" d="M14 1A13 13 0 0127 14 13 13 0 0114 27"/>
+      <circle cx="14" cy="14" r="13" fill="none" stroke-width="2"/>
     </svg>
   </button>
   
   <!-- Menú de opciones -->
   <div class="theme-options-tooltip">
     <button class="theme-option" data-theme="auto" aria-label="Tema automático">
-      <svg class="theme-circle auto" width="27" height="27" viewBox="0 0 28 28">
-        <path d="M14 1A13 13 0 0114 27 13 13 0 0114 1" fill="#fff"/>
-        <path d="M14 1A13 13 0 0127 14 13 13 0 0114 27" fill="#333"/>
-        <circle cx="14" cy="14" r="13" fill="none" stroke="#333" stroke-width="2"/>
+      <svg class="theme-circle auto" width="28" height="28" viewBox="0 0 28 28">
+        <path class="light" d="M14 1A13 13 0 0114 27 13 13 0 0114 1"/>
+        <path class="dark" d="M14 1A13 13 0 0127 14 13 13 0 0114 27"/>
+        <circle cx="14" cy="14" r="13" fill="none" stroke-width="2"/>
       </svg>
     </button>
     <button class="theme-option" data-theme="light" aria-label="Tema claro">
       <svg class="theme-circle light" width="28" height="28" viewBox="0 0 28 28">
-        <circle cx="14" cy="14" r="13" fill="#fff" stroke="#333" stroke-width="2"/>
+        <circle cx="14" cy="14" r="13" stroke-width="2"/>
       </svg>
     </button>
     <button class="theme-option" data-theme="dark" aria-label="Tema oscuro">
       <svg class="theme-circle dark" width="28" height="28" viewBox="0 0 28 28">
-        <circle cx="14" cy="14" r="13" fill="#333" stroke="#333" stroke-width="2"/>
+        <circle cx="14" cy="14" r="13" stroke-width="2"/>
       </svg>
     </button>
   </div>
