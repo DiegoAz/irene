@@ -10,7 +10,7 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-s);
+    gap: var(--space-xs);
     justify-items: center;
 
     @media (max-width: 768px) {
@@ -45,9 +45,9 @@
             font-weight: 500;
         }
     }
-    p {
-            text-align: center;
-        }
+    /* p {
+        text-align: center;
+    } */
 
     .team-member-photo {
         width: 200px;
