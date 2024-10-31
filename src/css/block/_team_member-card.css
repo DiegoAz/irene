@@ -45,7 +45,9 @@
             font-weight: 500;
         }
     }
-
+    p {
+            text-align: center;
+        }
 
     .team-member-photo {
         width: 200px;
