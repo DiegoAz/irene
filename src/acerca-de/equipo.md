@@ -9,6 +9,7 @@ A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada 
         <span> - </span>
         <span class="meta-text-color">Investigador Principal, Universidad de La Sabana</span>
     </p>
+    <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
     <p>Ronald lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
 </div>
 
