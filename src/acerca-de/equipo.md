@@ -27,6 +27,18 @@ Martin proporciona un enfoque académico internacional y apoya con la difusión 
     <p>Ronald lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
 </div>
 
+<div class="team-member-card-3">
+    <p>
+        <span class="bold">Ronald Forero Álvarez</span>
+        <span class="meta-text-color semibold"> - Investigador Principal</span>
+        <span class="meta-text-color institution">Universidad de La Sabana</span>
+    </p>
+    <div class="flex">
+        <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
+        <p>Ronald lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
+    </div>
+</div>
+
 
 **Deisy Amapola Vásquez Guerrero** - Secretaría de Educación de Tunja
 

@@ -1,9 +1,18 @@
-.team-member-card-1 {
+.team-member-card-1, .team-member-card-3 {
 
     .team-member-photo {
         width: 150px;
         height: 150px;
         border-radius: 2%;
+    }
+}
+
+.team-member-card-3 {
+
+    .flex {
+        gap: var(--space-s);
+        display: flex;
+        align-items: center;
     }
 }
 
