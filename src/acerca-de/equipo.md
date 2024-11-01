@@ -4,7 +4,7 @@ A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada 
 
 <div class="grid">
     <div class="team-member-card">
-        <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
+        <img src="/img/equipo/ronald_forero.png" alt="Ronald Forero Álvarez" class="team-member-photo">
         <p>
             <span class="bold">Ronald Forero Álvarez</span>
             <span class="meta-text-color">Investigador Principal</span>
