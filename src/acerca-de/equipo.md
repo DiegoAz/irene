@@ -37,7 +37,7 @@ A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada 
         <p>Juan Gabriel apoya la adaptación del proyecto a la realidad escolar. Trabaja directamente con los estudiantes y docentes en la implementación del currículo.</p>
     </div>
     <div class="team-member-card">
-        <img src="/img/equipo/jeiviane.jpg" alt="Jeiviane Justiniano Da Silva" class="team-member-photo">
+        <img src="/img/equipo/dummy_user.png" alt="Jeiviane Justiniano Da Silva" class="team-member-photo">
         <p>
             <span class="bold">Jeiviane Justiniano Da Silva</span>
             <span class="meta-text-color">Universidade do Estado do Amazonas</span>
@@ -61,7 +61,7 @@ A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada 
         <p>Rafael contribuye al desarrollo teórico del proyecto y ayuda a establecer vínculos con otros proyectos de investigación internacionales.</p>
     </div>
     <div class="team-member-card">
-        <img src="/img/equipo/lucio_martin.jpg" alt="Lucio Martín Forero Álvarez" class="team-member-photo">
+        <img src="/img/equipo/dummy_user.png" alt="Lucio Martín Forero Álvarez" class="team-member-photo">
         <p>
             <span class="bold">Lucio Martín Forero Álvarez</span>
             <span class="meta-text-color">Universidad Nacional de Colombia</span>
@@ -69,7 +69,7 @@ A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada 
         <p>Lucio Martín aporta su experiencia en historia y escritura creativa para que los materiales didácticos tengan una conexión más profunda con los estudiantes mediante la escritura.</p>
     </div>
     <div class="team-member-card">
-        <img src="/img/equipo/jesus_david.jpg" alt="Jesús David Girado Sierra" class="team-member-photo">
+        <img src="/img/equipo/dummy_user.png" alt="Jesús David Girado Sierra" class="team-member-photo">
         <p>
             <span class="bold">Jesús David Girado Sierra</span>
             <span class="meta-text-color">Universidad de La Sabana</span>
