@@ -43,11 +43,6 @@ module.exports = {
       key: "resources"
     },
     {
-      title: "Guía",
-      url: "/guia/",
-      key: "guide"
-    },
-    {
       title: "Testimonios",
       key: "testimonials",
       children: [
