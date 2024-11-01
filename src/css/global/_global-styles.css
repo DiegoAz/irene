@@ -73,7 +73,8 @@ img {
     margin-block: var(--space-s);
 }
 
-a {
+a.link {
     font-style: italic;
+    color: var(--text-color);
 }
 
