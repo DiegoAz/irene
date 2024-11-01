@@ -1,12 +1,3 @@
-.team-member-card-1, .team-member-card-3 {
-
-    .team-member-photo {
-        width: 150px;
-        height: 150px;
-        border-radius: 2%;
-    }
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -19,16 +10,7 @@
     }
 }
 
-.team-member-card-3 {
-
-    .flex {
-        gap: var(--space-s);
-        display: flex;
-        align-items: center;
-    }
-}
-
-.team-member-card-2 {
+.team-member-card {
     margin-block: var(--space-s);
     border: 1px solid var(--border-color);
     display: flex;
@@ -45,9 +27,6 @@
             font-weight: 500;
         }
     }
-    /* p {
-        text-align: center;
-    } */
 
     .team-member-photo {
         width: 200px;

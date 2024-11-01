@@ -2,23 +2,8 @@
 
 A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada uno de ellos aporta su experiencia y conocimiento para el éxito de esta iniciativa interdisciplinaria:
 
-
-<!-- <div class="team-member-card-1">
-    <p>
-        <span class="bold">Ronald Forero Álvarez</span>
-        <span> - </span>
-        <span class="meta-text-color">Investigador Principal, Universidad de La Sabana</span>
-    </p>
-    <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
-    <p>Ronald lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
-</div> -->
-
-<!-- **Martin Dinter** - King’s College London
-
-Martin proporciona un enfoque académico internacional y apoya con la difusión del proyecto a nivel global. También contribuye con la revisión de las publicaciones y con la búsqueda de fuentes de financiación. -->
-
 <div class="grid">
-    <div class="team-member-card-2">
+    <div class="team-member-card">
         <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
         <p>
             <span class="bold">Ronald Forero Álvarez</span>
@@ -27,68 +12,75 @@ Martin proporciona un enfoque académico internacional y apoya con la difusión 
         </p>
         <p>Lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
     </div>
-    <div class="team-member-card-2">
+    <div class="team-member-card">
         <img src="/img/equipo/martin_dinter.jpg" alt="Martin Dinter" class="team-member-photo">
         <p>
             <span class="bold">Martin Dinter</span>
-            <span class="meta-text-color">Profesor</span>
             <span class="meta-text-color institution">King's College London</span>
         </p>
         <p>Proporciona un enfoque académico internacional y apoya con la difusión del proyecto a nivel global. También contribuye con la revisión de las publicaciones y con la búsqueda de fuentes de financiación.</p>
     </div>
-    <div class="team-member-card-2">
+    <div class="team-member-card">
+        <img src="/img/equipo/deisy_vasquez.jpg" alt="Deisy Amapola Vásquez Guerrero" class="team-member-photo">
+        <p>
+            <span class="bold">Deisy Amapola Vásquez Guerrero</span>
+            <span class="meta-text-color">Secretaría de Educación de Tunja</span>
+        </p>
+        <p>Deisy contribuye desde su experiencia en la administración educativa y promueve la implementación del proyecto en las instituciones de Tunja.</p>
+    </div>
+    <div class="team-member-card">
+        <img src="/img/equipo/juan_santamaria.jpg" alt="Juan Gabriel Santamaría Pérez" class="team-member-photo">
+        <p>
+            <span class="bold">Juan Gabriel Santamaría Pérez</span>
+            <span class="meta-text-color">Colegio Gustavo Rojas Pinilla</span>
+        </p>
+        <p>Juan Gabriel apoya la adaptación del proyecto a la realidad escolar. Trabaja directamente con los estudiantes y docentes en la implementación del currículo.</p>
+    </div>
+    <div class="team-member-card">
+        <img src="/img/equipo/jeiviane.jpg" alt="Jeiviane Justiniano Da Silva" class="team-member-photo">
+        <p>
+            <span class="bold">Jeiviane Justiniano Da Silva</span>
+            <span class="meta-text-color">Universidade do Estado do Amazonas</span>
+        </p>
+        <p>Jeiviane lidera los esfuerzos del proyecto en la región amazónica de Brasil. Trabaja con comunidades indígenas para adaptar los contenidos educativos del proyecto.</p>
+    </div>
+    <div class="team-member-card">
+        <img src="/img/equipo/carlos_renato.jpg" alt="Carlos Renato Rosário de Jesús" class="team-member-photo">
+        <p>
+            <span class="bold">Carlos Renato Rosário de Jesús</span>
+            <span class="meta-text-color">Universidade do Estado do Amazonas</span>
+        </p>
+        <p>Carlos Renato colabora en la adaptación cultural del proyecto en Brasil. Contribuye con su difusión en la región amazónica y colabora con la revisión de los materiales didácticos.</p>
+    </div>
+    <div class="team-member-card">
         <img src="/img/equipo/rafael_uribe.jpg" alt="Rafael Uribe Neira" class="team-member-photo">
         <p>
             <span class="bold">Rafael Uribe Neira</span>
-            <span class="meta-text-color semibold"></span>
-            <span class="meta-text-color institution">Otto-von-Guericke University</span>
+            <span class="meta-text-color">Otto-von-Guericke University</span>
         </p>
-        <p>Contribuye al desarrollo teórico del proyecto y ayuda a establecer vínculos con otros proyectos de investigación internacionales.</p>
+        <p>Rafael contribuye al desarrollo teórico del proyecto y ayuda a establecer vínculos con otros proyectos de investigación internacionales.</p>
     </div>
-
+    <div class="team-member-card">
+        <img src="/img/equipo/lucio_martin.jpg" alt="Lucio Martín Forero Álvarez" class="team-member-photo">
+        <p>
+            <span class="bold">Lucio Martín Forero Álvarez</span>
+            <span class="meta-text-color">Universidad Nacional de Colombia</span>
+        </p>
+        <p>Lucio Martín aporta su experiencia en historia y escritura creativa para que los materiales didácticos tengan una conexión más profunda con los estudiantes mediante la escritura.</p>
+    </div>
+    <div class="team-member-card">
+        <img src="/img/equipo/jesus_david.jpg" alt="Jesús David Girado Sierra" class="team-member-photo">
+        <p>
+            <span class="bold">Jesús David Girado Sierra</span>
+            <span class="meta-text-color">Universidad de La Sabana</span>
+        </p>
+        <p>Jesús David proporciona asesoramiento en la gestión del proyecto y apoya con su expansión y sostenibilidad a largo plazo.</p>
+    </div>
+    <div class="team-member-card">
+        <img src="/img/equipo/natalia_mendez.jpg" alt="Natalia Valentina Méndez López" class="team-member-photo">
+        <p>
+            <span class="bold">Natalia Valentina Méndez López</span>
+            <span class="meta-text-color">Universidad de La Sabana</span>
+        </p>
+        <p>Natalia Valentina apoya la coordinación y comunicación del proyecto y contribuye a mantener un enfoque interdisciplinario y colaborativo. Su tesis de pregrado está relacionada con el proyecto.</p>
 </div>
-
-<!-- <div class="team-member-card-3">
-    <p>
-        <span class="bold">Ronald Forero Álvarez</span>
-        <span class="meta-text-color semibold"> - Investigador Principal</span>
-        <span class="meta-text-color institution">Universidad de La Sabana</span>
-    </p>
-    <div class="flex">
-        <img src="/img/equipo/ronald.png" alt="Ronald Forero Álvarez" class="team-member-photo">
-        <p>Lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
-    </div>
-</div> -->
-
-
-**Deisy Amapola Vásquez Guerrero** - Secretaría de Educación de Tunja
-
-Deisy contribuye desde su experiencia en la administración educativa y promueve la implementación del proyecto en las instituciones de Tunja.
-
-**Juan Gabriel Santamaría Pérez** - Colegio Gustavo Rojas Pinilla
-
-Juan Gabriel apoya la adaptación del proyecto a la realidad escolar. Trabaja directamente con los estudiantes y docentes en la implementación del currículo.
-
-**Jeiviane Justiniano Da Silva** - Universidade do Estado do Amazonas
-
-Jeiviane lidera los esfuerzos del proyecto en la región amazónica de Brasil. Trabaja con comunidades indígenas para adaptar los contenidos educativos del proyecto.
-
-**Carlos Renato Rosário de Jesús** - Universidade do Estado do Amazonas
-
-Carlos Renato colabora en la adaptación cultural del proyecto en Brasil. Contribuye con su difusión en la región amazónica y colabora con la revisión de los materiales didácticos.
-
-**Rafael Uribe Neira** - Otto-von-Guericke University
-
-Rafael contribuye al desarrollo teórico del proyecto y ayuda a establecer vínculos con otros proyectos de investigación internacionales.
-
-**Lucio Martín Forero Álvarez** - Universidad Nacional de Colombia
-
-Lucio Martín aporta su experiencia en historia y escritura creativa para que los materiales didácticos tengan una conexión más profunda con los estudiantes mediante la escritura.
-
-**Jesús David Girado Sierra** - Universidad de La Sabana
-
-Jesús David proporciona asesoramiento en la gestión del proyecto y apoya con su expansión y sostenibilidad a largo plazo.
-
-**Natalia Valentina Méndez López** - Universidad de La Sabana
-
-Natalia Valentina apoya la coordinación y comunicación del proyecto y contribuye a mantener un enfoque interdisciplinario y colaborativo. Su tesis de pregrado está relacionada con el proyecto.
