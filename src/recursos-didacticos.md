@@ -5,4 +5,4 @@ layout: "layouts/base"
 
 # Recursos didácticos
 
-En desarrollo ...
+En desarrollo.

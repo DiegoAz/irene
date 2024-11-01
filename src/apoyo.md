@@ -4,3 +4,5 @@ layout: "layouts/base"
 ---
 
 # Apoya el proyecto
+
+En desarrollo.
