@@ -81,7 +81,7 @@ module.exports = {
     },
     {
       title: "Apoya el proyecto",
-      url: "/apoya/",
+      url: "/apoyo/",
       key: "support"
     }
   ],
