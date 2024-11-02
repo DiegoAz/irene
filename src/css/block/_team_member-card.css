@@ -1,7 +1,7 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-xs);
+    gap: var(--space-3xs);
     justify-items: center;
 
     @media (max-width: 768px) {
