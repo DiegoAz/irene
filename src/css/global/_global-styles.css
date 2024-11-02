@@ -74,7 +74,6 @@ img {
 }
 
 a.external-link {
-    font-style: italic;
-    color: var(--text-color);
+    color: var(--link-color);
 }
 
