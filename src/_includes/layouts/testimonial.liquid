@@ -7,8 +7,10 @@ layout: layouts/base.liquid
   
   {% include "testimonials/testimonial-meta.liquid" %}
   
-  {% if video %}
-    {% include "testimonials/testimonial-video.liquid" %}
+  {% if videos %}
+    {% for video in videos %}
+      {% include "testimonials/testimonial-video.liquid" %}
+    {% endfor %}
   {% endif %}
 
   <div class="testimonial-content">
