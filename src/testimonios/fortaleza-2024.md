@@ -5,11 +5,10 @@ year: 2024
 videos:
   - url: "/videos/testimonios/fortaleza-2024/video1.mp4"
   - url: "/videos/testimonios/fortaleza-2024/video2.mp4"
-# images:
-#   - "/img/testimonials/fortaleza-2024/image1.jpg"
-#   - "/img/testimonials/fortaleza-2024/image2.jpg"
-#   - "/img/testimonials/fortaleza-2024/image3.jpg"
-#   - "/img/testimonials/fortaleza-2024/image4.jpg"
+images:
+  - "/img/testimonios/fortaleza-2024/image1.jpg"
+  - "/img/testimonios/fortaleza-2024/image2.jpg"
+  - "/img/testimonios/fortaleza-2024/image4.jpg"
 ---
 
 <img src="/img/testimonios/fortaleza-2024/image3.jpg" alt="Estudiantes de la Escola Municipal Creusa do Carmo Rocha participando en una discusión socrática" class="testimonial-image">
