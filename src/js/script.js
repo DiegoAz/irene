@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// En la configuración de Plyr
+// Agregar al final del archivo
 document.addEventListener('DOMContentLoaded', () => {
   const players = document.querySelectorAll('.plyr-video');
   if (players.length) {
@@ -289,12 +289,43 @@ document.addEventListener('DOMContentLoaded', () => {
           fallback: true,
           iosNative: true
         },
-        hideControls: true,
+        hideControls: true, // Ocultar controles automáticamente
+        autoHide: true, // Habilitar auto-ocultado
+        hideControlsTimeout: 2000, // Tiempo antes de ocultar (2 segundos)
         clickToPlay: true,
         ratio: '16:9'
       });
 
-      // Solo mantener los eventos de fullscreen
+      // Ocultar controles inicialmente excepto el botón central
+      const controls = plyrInstance.elements.controls;
+      if (controls) {
+        controls.style.opacity = '0';
+        controls.style.transition = 'opacity 0.3s ease';
+      }
+
+      // Mostrar controles al iniciar reproducción o al hacer hover
+      plyrInstance.on('play', () => {
+        if (controls) controls.style.opacity = '1';
+      });
+
+      player.addEventListener('mouseenter', () => {
+        if (controls) controls.style.opacity = '1';
+      });
+
+      // Ocultar controles al pausar o quitar el hover
+      plyrInstance.on('pause', () => {
+        if (!player.matches(':hover') && controls) {
+          controls.style.opacity = '0';
+        }
+      });
+
+      player.addEventListener('mouseleave', () => {
+        if (plyrInstance.paused && controls) {
+          controls.style.opacity = '0';
+        }
+      });
+
+      // Eventos de fullscreen
       plyrInstance.on('enterfullscreen', () => {
         document.documentElement.style.overflow = 'hidden';
         document.body.style.overflow = 'hidden';
