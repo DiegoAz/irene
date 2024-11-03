@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPassthroughCopy("src/img");
-    eleventyConfig.addPassthroughCopy("src/vid");
+    eleventyConfig.addPassthroughCopy("src/videos");
     eleventyConfig.setServerOptions({
         showAllHosts: true,
     });

@@ -7,15 +7,17 @@ layout: layouts/base.liquid
   
   {% include "testimonials/testimonial-meta.liquid" %}
   
-  {% if videos %}
-    {% for video in videos %}
-      {% include "testimonials/testimonial-video.liquid" %}
-    {% endfor %}
-  {% endif %}
-
   <div class="testimonial-content">
     {{ content }}
   </div>
+
+  {% if videos %}
+    <div class="video-grid">
+      {% for video in videos %}
+        {% include "testimonials/testimonial-video.liquid" %}
+      {% endfor %}
+    </div>
+  {% endif %}
 
   {% if images %}
     {% include "testimonials/testimonial-gallery.liquid" %}

@@ -1,6 +1,10 @@
-<div class="video-container">
-  <video controls>
-    <source src="{{ video }}" type="video/mp4">
+<div>
+  <video 
+    class="plyr-video"
+    id="player-{{ forloop.index }}"
+    playsinline 
+    controls>
+    <source src="{{ video.url }}" type="video/mp4" />
     Tu navegador no soporta el tag de video.
   </video>
 </div>

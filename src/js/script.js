@@ -268,3 +268,50 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// En la configuración de Plyr
+document.addEventListener('DOMContentLoaded', () => {
+  const players = document.querySelectorAll('.plyr-video');
+  if (players.length) {
+    players.forEach(player => {
+      const plyrInstance = new Plyr(player, {
+        controls: [
+          'play-large',
+          'play',
+          'progress',
+          'current-time',
+          'mute',
+          'volume',
+          'fullscreen'
+        ],
+        fullscreen: {
+          enabled: true,
+          fallback: true,
+          iosNative: true
+        },
+        hideControls: true,
+        clickToPlay: true,
+        ratio: '16:9'
+      });
+
+      // Solo mantener los eventos de fullscreen
+      plyrInstance.on('enterfullscreen', () => {
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';
+        if (document.fullscreenElement) {
+          screen.orientation.lock('portrait').catch(() => {
+            // Silenciosamente fallar si no es soportado
+          });
+        }
+      });
+
+      plyrInstance.on('exitfullscreen', () => {
+        document.documentElement.style.overflow = '';
+        document.body.style.overflow = '';
+        screen.orientation.unlock().catch(() => {
+          // Silenciosamente fallar si no es soportado
+        });
+      });
+    });
+  }
+});

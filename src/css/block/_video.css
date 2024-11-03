@@ -1,0 +1,26 @@
+/* 
+  Video component styles
+  Siguiendo metodología CUBE CSS para componentes de video
+*/
+
+/* Contenedor de la grid de videos */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2xs);
+  margin-block: var(--space-s);
+}
+
+/* Personalización de controles Plyr */
+:root {
+  --plyr-color-main: var(--dark-gray);
+  --plyr-range-fill-background: var(--light-gray);
+  --plyr-video-control-color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}  
+
