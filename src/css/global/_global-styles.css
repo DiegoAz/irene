@@ -16,7 +16,6 @@ body {
     font-family: var(--font-base);
     font-size: var(--text-size-base);
     line-height: var(--leading-standard);
-    -webkit-font-smoothing: antialiased;
     background-color: var(--background-color);
     color: var(--text-color);
     transition: background-color var(--transition-base), 
