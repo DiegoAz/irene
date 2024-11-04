@@ -26,7 +26,6 @@
         transition: left var(--transition-base);
         overflow-y: auto;
         z-index: var(--z-index-sidebar);
-        -webkit-overflow-scrolling: touch;
     }
 
     .sidebar.active {
