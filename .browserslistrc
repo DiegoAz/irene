@@ -1,0 +1,9 @@
+# Navegadores con más de 0.2% de uso global
+>0.2%
+# Últimas 2 versiones de cada navegador
+last 2 versions
+# Navegadores que aún reciben actualizaciones
+not dead
+# Soporte móvil
+ios >= 12
+android >= 8
