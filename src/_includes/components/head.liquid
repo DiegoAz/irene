@@ -1,16 +1,25 @@
-{% assign currentPage = navigation.es | where: "url", page.url | first %}
-{% assign pageTitle = currentPage.title | default: title %}
+{% assign pageTitle = title %}
+{% for item in navigation.es %}
+    {% if item.url == page.url %}
+        {% assign pageTitle = item.title %}
+    {% endif %}
+    {% if item.children %}
+        {% for child in item.children %}
+            {% if child.url == page.url %}
+                {% assign pageTitle = item.title | append: " - " | append: child.title %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
 
 <!doctype html>
-<html lang="en">
+<html lang="{{ site.lang }}">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
-        <title>{{ pageTitle }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="{{ site.description }}">
+        <title>{% if page.url == "/" %}{{ site.name }}{% else %}{{ pageTitle }} | {{ site.name }}{% endif %}</title>
         {% comment %} Inter font {% endcomment %}
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
