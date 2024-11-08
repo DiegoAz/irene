@@ -1,0 +1,12 @@
+<script>
+    // Establecer tema inicial
+    (function() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            document.documentElement.setAttribute('color-scheme', savedTheme);
+        } else {
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.setAttribute('color-scheme', prefersDark ? 'dark' : 'light');
+        }
+    })();
+</script>

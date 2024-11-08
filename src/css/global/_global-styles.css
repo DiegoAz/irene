@@ -12,6 +12,10 @@
     line-height: var(--leading-standard);
 } */
 
+:root {
+    color-scheme: light dark; /* Esto ayuda con elementos nativos del navegador */
+}
+
 body {
     font-family: var(--font-base);
     font-size: var(--text-size-base);
@@ -20,9 +24,10 @@ body {
     line-height: var(--leading-standard);
     background-color: var(--background-color);
     color: var(--text-color);
-    transition: background-color var(--transition-base), 
-                color var(--transition-base),
-                border-color var(--transition-base);
+    transition:
+        background-color var(--transition-base),
+        color var(--transition-base),
+        border-color var(--transition-base);
 }
 
 body {
@@ -35,7 +40,7 @@ body.menu-open {
 
 .no-transition,
 .no-transition * {
-  transition: none !important;
+    transition: none !important;
 }
 
 @media (max-width: 51.25em) {
@@ -77,4 +82,3 @@ img {
 a.external-link {
     color: var(--link-color);
 }
-
