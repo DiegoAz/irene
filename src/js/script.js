@@ -1,8 +1,11 @@
 import { initTheme } from "./modules/theme.js";
+import { initVideoPlayers } from "./modules/video.js";
 
 document.addEventListener("DOMContentLoaded", function () {
     // Inicializar tema
     initTheme();
+    // Inicializar reproductor de video
+    initVideoPlayers();
 
     const menuToggle = document.querySelector(".menu-toggle");
     const sidebar = document.querySelector(".sidebar");
@@ -131,80 +134,4 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
         document.body.classList.remove("no-transition");
     }, 20);
-
-    // Inicializar reproductor de video
-    const players = document.querySelectorAll(".plyr-video");
-    if (players.length) {
-        players.forEach((player) => {
-            const plyrInstance = new Plyr(player, {
-                controls: [
-                    "play-large",
-                    "play",
-                    "progress",
-                    "current-time",
-                    "mute",
-                    "volume",
-                    "fullscreen",
-                ],
-                fullscreen: {
-                    enabled: true,
-                    fallback: true,
-                    iosNative: true,
-                },
-                hideControls: true,
-                autoHide: true,
-                hideControlsTimeout: 2000,
-                clickToPlay: true,
-                ratio: "16:9",
-            });
-
-            // Ocultar controles inicialmente excepto el botón central
-            const controls = plyrInstance.elements.controls;
-            if (controls) {
-                controls.style.opacity = "0";
-                controls.style.transition = "opacity 0.3s ease";
-            }
-
-            // Mostrar controles al iniciar reproducción o al hacer hover
-            plyrInstance.on("play", () => {
-                if (controls) controls.style.opacity = "1";
-            });
-
-            player.addEventListener("mouseenter", () => {
-                if (controls) controls.style.opacity = "1";
-            });
-
-            // Ocultar controles al pausar o quitar el hover
-            plyrInstance.on("pause", () => {
-                if (!player.matches(":hover") && controls) {
-                    controls.style.opacity = "0";
-                }
-            });
-
-            player.addEventListener("mouseleave", () => {
-                if (plyrInstance.paused && controls) {
-                    controls.style.opacity = "0";
-                }
-            });
-
-            // Eventos de fullscreen
-            plyrInstance.on("enterfullscreen", () => {
-                document.documentElement.style.overflow = "hidden";
-                document.body.style.overflow = "hidden";
-                if (document.fullscreenElement) {
-                    screen.orientation.lock("portrait").catch(() => {
-                        // Silenciosamente fallar si no es soportado
-                    });
-                }
-            });
-
-            plyrInstance.on("exitfullscreen", () => {
-                document.documentElement.style.overflow = "";
-                document.body.style.overflow = "";
-                screen.orientation.unlock().catch(() => {
-                    // Silenciosamente fallar si no es soportado
-                });
-            });
-        });
-    }
 });
