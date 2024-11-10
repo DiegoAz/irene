@@ -1,0 +1,21 @@
+<li>
+    <ul class="parent">
+        <li class="title">
+            <button class="link">
+                <span>{{ child.title }}</span>
+                {% include "components/chevron-icon.liquid" %}
+            </button>
+        </li>
+        <li>
+            <ul class="children">
+                {% for nested_child in child.children %}
+                    <li>
+                        <a href="{{ nested_child.url }}" {% if page.url contains nested_child.activePattern %}class="active"{% endif %}>
+                            {{ nested_child.title }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+</li>

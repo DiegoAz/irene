@@ -17,7 +17,15 @@
         <li>
             <ul class="children">
                 {% for child in item.children %}
-                <li><a href="{{ child.url }}" {% if page.url contains child.activePattern %}class="active"{% endif %}>{{ child.title }}</a></li>
+                    {% if child.children %}
+                        {% include "components/nested-nav-item.liquid" with child %}
+                    {% else %}
+                        <li>
+                            <a href="{{ child.url }}" {% if page.url contains child.activePattern %}class="active"{% endif %}>
+                                {{ child.title }}
+                            </a>
+                        </li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </li>
