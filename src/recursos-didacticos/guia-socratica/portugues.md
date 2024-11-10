@@ -16,7 +16,7 @@ Convidamos a utilizar livremente este material impresso ou de forma digital. Tam
 
 Agradecemos sua colaboração para continuar construindo juntos!
 
-## O que é o método socrático?
+## A. O que é o método socrático?
 
 O método socrático é um procedimento de diálogo e raciocínio que se baseia na confrontação de ideias opostas através da troca de perguntas e respostas. Na adaptação que apresentamos neste guia, os interlocutores buscam aprofundar-se em um tema, não com a intenção de vencer uma discussão, mas de chegar coletivamente a uma compreensão mais clara e consensual sobre o assunto em debate. Cada pergunta formulada e cada resposta oferecida leva a uma reflexão mais profunda, permitindo que uma conclusão seja construída de forma colaborativa com as contribuições de todos os participantes na discussão.
 
@@ -26,7 +26,7 @@ Um dos pontos fortes do método socrático é que ele fomenta o pensamento crít
 
 Por sua natureza, este método é especialmente valioso para o desenvolvimento de habilidades de resolução de conflitos, pois ensina os participantes não apenas a dialogar e escutar ativamente, mas também a abordar desacordos de maneira construtiva. O processo socrático permite que as diferenças de opinião se transformem em oportunidades para avançar na compreensão mútua, gerando um espaço em que as soluções não são impostas, mas construídas coletivamente. Dessa maneira, os participantes aprendem a negociar e a alcançar consensos com o objetivo de resolver conflitos de maneira pacífica e respeitosa.
 
-## Quais aprendizados se buscam desenvolver?
+## B. Quais aprendizados se buscam desenvolver?
 
 A adaptação do método socrático tem como objetivo desenvolver uma série de aprendizados nos participantes, que vão além da simples memorização de conceitos ou da busca de quem está certo. Esses aprendizados são fundamentais para promover o pensamento crítico e a convivência pacífica. A seguir, detalham-se os principais aprendizados que se buscam desenvolver:
 
@@ -35,11 +35,11 @@ A adaptação do método socrático tem como objetivo desenvolver uma série de 
 3. Comunicação assertiva: Os participantes são guiados a expressar seus pensamentos e emoções de forma clara e respeitosa, ao mesmo tempo em que aprendem a ouvir e a valorizar as opiniões dos outros. Graças a isso, não só o diálogo construtivo é fortalecido, mas também promove um ambiente de respeito e compreensão mútua.
 4. Reflexão e autocrítica: O processo socrático convida os participantes a refletirem sobre suas próprias crenças e suposições. Essa introspecção permite que avaliem o alcance e as limitações de suas próprias opiniões, promovendo assim a autocrítica e o crescimento pessoal.
 
-## Como implementar o método socrático?
+## C. Como implementar o método socrático?
 
 Implementar o método socrático em ambientes onde se deseja promover o diálogo construtivo requer seguir uma série de etapas que orientam os participantes por meio de um processo de análise e reflexão. O tempo estimado para a atividade é de uma hora. A seguir, apresenta-se uma metodologia simples para colocar em prática essa abordagem.
 
-### Atividade preparatória
+### I. Atividade preparatória
 A reflexão inicial e as normas de participação que se expõem a seguir podem ser lidas por turnos entre os participantes. As perguntas que surgirem podem ser respondidas à medida que a discussão avança. Para fomentar a discussão, podem ser colocadas questões adicionais como: “O que é uma opinião?”, “O que é um argumento?”, “O que entendemos por ‘escuta ativa’?”, “Sabemos dialogar de maneira construtiva?”, etc.
 
 **Reflexão inicial**: O professor, facilitador ou orientador deve começar com uma reflexão para motivar os participantes a questionarem como interagem com as opiniões dos outros. O seguinte texto pode ser utilizado:
@@ -57,11 +57,11 @@ O método socrático é uma forma de aprender a alcançar consensos por meio do 
 6. Focar nos argumentos, não nas pessoas: As discussões devem girar em torno dos argumentos e não na pessoa que os emite. Deve-se evitar personalizar as críticas ou fazer comentários que ataquem os colegas em vez de suas ideias.
 7. Manter uma atitude aberta: Os participantes devem estar dispostos a reconsiderar seus próprios pontos de vista à luz dos argumentos apresentados pelos outros. O método socrático é um processo de análise coletiva, onde todos podem aprender e contribuir para o entendimento mútuo.
 
-### Explicação do método socrático
+### II. Explicação do método socrático
 
 No guia dos participantes, que está anexado a este documento, inclui-se uma breve biografia de Sócrates e uma explicação simples do método socrático. Recomenda-se que essa parte do guia seja lida por turnos entre os participantes, o que permitirá uma melhor compreensão do método e fomentará a discussão desde o início. Ao ler a história de Sócrates, os participantes poderão fazer perguntas, compreender o propósito do diálogo socrático e como aplicá-lo no processo de reflexão e resolução de conflitos.
 
-### Implementação da adaptação do método socrático
+### III. Implementação da adaptação do método socrático
 
 1. Questão inicial
 
@@ -118,13 +118,13 @@ Compreendo o que você disse, mas me parece que…
 
 Após a validação e refutação, o grupo deve reformular a afirmação original, integrando as forças dos diferentes pontos de vista. Se não se chegar a um consenso, repetem-se os passos 2. Opiniões, 3. Validação e refutação e 4. Reformulação. É importante lembrar aos participantes que nem sempre é possível chegar a um acordo imediato e que podem ser necessárias mais sessões para alcançá-lo. Também é importante ressaltar que o valor do exercício reside na reflexão crítica e no processo contínuo de diálogo, pois a troca de opiniões permite avançar na busca de consensos que facilitem uma convivência pacífica, respeitando e valorizando nossas diferenças.
 
-## Variação
+## D. Variação
 
 A atividade pode ser dividida em várias sessões, conforme o professor, facilitador ou orientador julgar adequado. Para enriquecer o diálogo, pode ser designada uma leitura prévia ou um vídeo relacionado com o tema, para que os participantes cheguem à discussão com mais contexto e opiniões mais fundamentadas.
 
 Se na primeira sessão não for possível reformular completamente a afirmação inicial, pode-se deixar para a sessão seguinte. Durante esse tempo, os participantes podem se comprometer a investigar mais sobre o tema, o que lhes permitirá refinar seus argumentos e contribuir de maneira mais sólida na etapa seguinte do diálogo. Recomenda-se que as sessões complementares não ultrapassem uma hora.
 
-## Avaliação
+## E. Avaliação
 
 A avaliação da aplicação do método socrático pode ser adaptada às necessidades e objetivos dos participantes. A seguir, apresentam-se várias possibilidades de avaliação:
 
@@ -133,20 +133,20 @@ A avaliação da aplicação do método socrático pode ser adaptada às necessi
 3. Plano de ação: Após o diálogo, os participantes podem criar um plano de ação coletivo que resuma as soluções ou consensos alcançados e como implementá-los em seu contexto particular (comunidade, equipe de trabalho, etc.). O plano permitirá ver como o método socrático pode levar a ações concretas.
 4. Pesquisas de feedback: Os participantes podem preencher uma pesquisa de feedback anônima para avaliar a eficácia do método socrático em melhorar o entendimento mútuo e a resolução de conflitos. Perguntas como: Você se sentiu ouvido(a)? Você mudou sua perspectiva após o diálogo? Como você avaliaria a qualidade do debate? podem ajudar a medir o impacto do processo.
 
-## Guia para os participantes
+## F. Guia para os participantes
 
 ### Podemos chegar a consensos?
 
 ### Guia prático de diálogo para a resolução de conflitos baseado no método socrático
 
-#### Introdução
+#### I. Introdução
 
 Apresentamos neste guia uma adaptação do método socrático para a resolução de conflitos. Seu objetivo principal é conscientizar as pessoas sobre a necessidade do diálogo construtivo, da análise crítica e da busca por consensos. O guia também visa motivar as pessoas a criar espaços de troca de ideias, onde os participantes possam questionar suas próprias suposições e as dos outros. O processo dialógico busca construir uma compreensão coletiva que respeite a diversidade de perspectivas e se afaste da imposição de opiniões. Espera-se que os participantes não apenas aprendam a dialogar, mas também a negociar e chegar a consensos, habilidades essenciais para uma convivência harmoniosa. O guia é destinado a qualquer grupo de pessoas interessadas em facilitar o diálogo, podendo ser aplicado em diferentes contextos:
 - **Na comunidade**: permite que as pessoas discutam problemas locais e busquem soluções conjuntas.
 - **No ambiente familiar**: ajuda a melhorar a comunicação e a resolver mal-entendidos entre familiares ou amigos.
 - **No ambiente de trabalho**: facilita a resolução de conflitos entre colegas de trabalho.
 
-#### Quem foi Sócrates?
+#### II. Quem foi Sócrates?
 
 Sócrates é um dos filósofos mais importantes da história da filosofia ocidental. Ele nasceu em Atenas, na Grécia, no ano 469 a.C., ou seja, há quase 2.500 anos. Embora se saiba pouco sobre sua infância e juventude, acredita-se que seu pai fosse escultor e sua mãe parteira. Sócrates não deixou nenhum livro escrito, portanto, a maior parte do que sabemos sobre ele vem das obras de seus discípulos, especialmente Platão.
 
@@ -154,11 +154,11 @@ Diferente de muitos filósofos de sua época, Sócrates não focava no estudo da
 
 Sócrates teve muitos discípulos e seguidores, mas também inimigos. Suas ideias e ensinamentos questionavam as realidades de sua época, razão pela qual ele foi condenado à morte por blasfêmia e por corromper a juventude de Atenas. Seus acusadores acreditavam que ele estava introduzindo novos deuses e afastando os jovens da democracia. Sócrates foi forçado a beber uma taça de cicuta, uma bebida venenosa que o levou à morte em 399 a.C. Apesar dessas acusações injustas, a vida e os ensinamentos de Sócrates influenciaram muitos filósofos e pensadores posteriores. Sua visão sobre ética e a importância do conhecimento e da sabedoria continuam sendo relevantes até hoje.
 
-#### O que é o método socrático?
+#### III. O que é o método socrático?
 
 O método socrático é um processo de diálogo e raciocínio que se baseia na confrontação de ideias através de perguntas e respostas. Em vez de chegar rapidamente a uma conclusão, o objetivo é aprofundar a análise de um tema por meio da troca de diferentes perspectivas. Esse método promove a escuta ativa, a reflexão crítica e o respeito pelas opiniões alheias. Através desse processo, os participantes questionam suas próprias ideias e as dos outros, o que permite construir consensos e chegar a soluções que integrem a diversidade de opiniões.
 
-#### Como podemos aplicar o método socrático para a resolução de conflitos?
+#### IV. Como podemos aplicar o método socrático para a resolução de conflitos?
 
 Antes de iniciar a discussão, é importante estar preparado para ouvir sem preconceitos. Muitas vezes, não concordamos com as opiniões dos outros, mas como temos tanta certeza de que essa pessoa está errada? Já me preocupei em analisar seus argumentos alguma vez? São minhas emoções ou meu raciocínio que me indicam que ela está errada? O primeiro passo é questionar nossas próprias suposições e nos abrir ao diálogo. O método socrático não se baseia em alguém ganhar ou perder uma discussão, mas sim em enriquecer o entendimento mútuo. Durante a atividade, todos devem respeitar as seguintes normas:
 
@@ -177,6 +177,6 @@ d. Reelaboração: Com base nos pontos fortes das afirmações, tentaremos const
 
 e. Se não chegarmos a um consenso, repetiremos os passos b) Opiniões, c) Validação e refutação e d) Reelaboração.
 
-#### Reflexão final
+#### V. Reflexão final
 
 É possível que tenhamos que repetir os passos várias vezes, até mesmo em outras sessões, pois há temas que são muito difíceis de tratar. No entanto, o diálogo nos permitirá entender por que é tão difícil e, ao mesmo tempo, reconhecer o valor das opiniões dos outros e as falhas das nossas próprias opiniões. Finalizamos respondendo a estas perguntas: Como você se sentiu durante o processo de discussão? Como descreveria o processo de tentar chegar a um consenso? Achou útil?
