@@ -1,5 +1,6 @@
 const eleventyPostcss = require("@jgarber/eleventy-plugin-postcss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const htmlmin = require("html-minifier-terser");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyPostcss);
