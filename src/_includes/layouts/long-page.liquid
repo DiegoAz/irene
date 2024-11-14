@@ -1,0 +1,20 @@
+{% include "components/head.liquid" %}
+<body class="no-transition">
+    {% include "components/header.liquid" %}
+
+    <div class="layout-sidebar">
+        {% include "components/sidebar.liquid" %}
+
+        <main class="non-sidebar">
+            <div class="center">
+                <h1>{{ title }}</h1>
+                {% include "components/in-this-page.liquid" %}
+                {{ content }}
+            </div>
+        </main>
+    </div>
+
+    {% include "components/overlay.liquid" %}
+    {% include "components/scripts.liquid" %}
+</body>
+</html>
