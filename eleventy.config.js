@@ -2,12 +2,14 @@ const eleventyPostcss = require("@jgarber/eleventy-plugin-postcss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const htmlmin = require("html-minifier-terser");
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyPostcss);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPassthroughCopy("src/img");
     eleventyConfig.addPassthroughCopy("src/videos");
+    const { EleventyRenderPlugin } = await import("@11ty/eleventy");
+    eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.setServerOptions({
         showAllHosts: true,
     });
