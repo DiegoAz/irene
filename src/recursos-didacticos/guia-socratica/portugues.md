@@ -1,6 +1,9 @@
 ---
 title: "Guia prático para a resolução de conflitos baseado no método socrático"
 layout: "layouts/long-page.liquid"
+button:
+  href: "/assets/Guia prático para a resolução de conflitos - Irene.pdf"
+  text: "Baixe o guia em pdf"
 basePath: "src/_includes/recursos-didacticos/guia-socratica/portugues/"
 sections:
   - id: "apresentacao"
