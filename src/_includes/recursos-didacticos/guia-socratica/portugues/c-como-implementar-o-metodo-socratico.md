@@ -14,12 +14,19 @@ I.  **Atividade preparatória**
     *O método socrático é uma forma de aprender a alcançar consensos por meio do diálogo. Não é uma tarefa fácil, mas se praticarmos a escuta ativa, respeitarmos os outros além de suas opiniões, analisarmos antes de emitir julgamentos com base nas emoções do momento, e nos expressarmos com argumentos bem fundamentados, os resultados podem nos surpreender.*
 
     **Acordos de convivência**: Para que o diálogo socrático seja eficaz, é fundamental estabelecer uma série de normas de participação que garantam o respeito mútuo e a fluidez da troca de ideias. As normas permitem que todos os participantes se sintam à vontade ao expressar suas opiniões e asseguram que o processo seja construtivo e colaborativo. A seguir, são sugeridas algumas normas básicas que podem ser adaptadas conforme o contexto:
+
     1. **Levantar a mão para intervir**: Todos os participantes devem levantar a mão para pedir a palavra antes de falar, o que garante que a ordem seja mantida na discussão e que todas as vozes tenham a oportunidade de ser ouvidas sem interrupções.
+
     2. **Intervenções breves e claras**: As intervenções devem ser concisas e bem fundamentadas. Deve-se evitar falar por muito tempo para permitir que outros também tenham a oportunidade de participar. Uma boa intervenção inclui um argumento claro e, se possível, evidências que o sustentem.
+
     3. **Respeito pelas opiniões alheias**: É essencial que cada participante ouça ativamente e respeite as opiniões dos outros, mesmo que não concorde com elas. As discordâncias devem ser expressas de forma respeitosa, usando expressões como “na minha opinião, acredito que…” ou “considero que há outra perspectiva…”.
+
     4. **Evitar interrupções**: Não se deve interromper quem está falando. Todas as opiniões são importantes. Esperar a vez para falar demonstra respeito pelos outros e por suas ideias.
+
     5. **Uso adequado da linguagem**: A linguagem deve ser respeitosa e adequada para o ambiente. Deve-se evitar levantar a voz ou usar insultos, ataques pessoais ou expressões que possam ofender os outros. O objetivo é promover um diálogo construtivo, não uma confrontação.
+
     6. **Focar nos argumentos, não nas pessoas**: As discussões devem girar em torno dos argumentos e não na pessoa que os emite. Deve-se evitar personalizar as críticas ou fazer comentários que ataquem os colegas em vez de suas ideias.
+
     7. **Manter uma atitude aberta**: Os participantes devem estar dispostos a reconsiderar seus próprios pontos de vista à luz dos argumentos apresentados pelos outros. O método socrático é um processo de análise coletiva, onde todos podem aprender e contribuir para o entendimento mútuo.
 
 II. **Explicação do método socrático**
