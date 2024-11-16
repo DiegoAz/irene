@@ -1,0 +1,24 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xs);
+    text-decoration: none;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    max-width: 14rem;
+    height: 32px;
+    padding-inline: var(--space-3xs);
+    background-color: var(--button-bg);
+    color: var(--buton-color);
+    font-size: var(--step--1);
+    border: 1px solid var(--button-border);
+    margin: var(--space-xs) 0;
+    
+    &:hover {
+        background-color: var(--button-hv-bg);
+    }
+
+}
