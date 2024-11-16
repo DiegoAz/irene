@@ -5,6 +5,25 @@ nav {
         list-style: none;
         padding: 0;
 
+            li {
+                margin-top: 4px;
+                
+                a {
+                    text-decoration: none;
+                    padding: 8px 12px;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 8px;
+                    color: var(--nav-link-fg);
+                    &:hover {
+                        background: var(--nav-link-hv-bg);
+                    }
+                    &.active {
+                        background: var(--nav-link-active-bg);
+                    }
+                }
+            }
+
         &.parent {
             .title button {
                 position: relative;
@@ -52,25 +71,6 @@ nav {
 
             li a {
                 margin-left: var(--space-xs);
-            }
-        }
-    }
-
-    li {
-        margin-top: 4px;
-        
-        a {
-            text-decoration: none;
-            padding: 8px 12px;
-            display: flex;
-            align-items: center;
-            border-radius: 8px;
-            color: var(--nav-link-fg);
-            &:hover {
-                background: var(--nav-link-hv-bg);
-            }
-            &.active {
-                background: var(--nav-link-active-bg);
             }
         }
     }
