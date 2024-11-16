@@ -1,0 +1,6 @@
+.long-page {
+    ol,
+    ul {
+        margin-top: var(--space-xs);
+    }
+}
