@@ -16,6 +16,10 @@
     color-scheme: light dark;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--font-base);
     font-size: var(--text-size-base);
@@ -81,4 +85,9 @@ a.internal-link {
 
 ul {
     list-style-type: disc;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: calc(var(--header-height)+ 2ex);
 }
