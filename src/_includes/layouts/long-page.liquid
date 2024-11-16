@@ -8,6 +8,12 @@
         <main class="non-sidebar">
             <div class="center">
                 <h1>{{ title }}</h1>
+                {% if button and button.href and button.text %}
+                <a href="{{ button.href }}" class="button" download>
+                {% include "components/download-icon.liquid" %}
+                <span>{{ button.text }}</span>  
+                </a>
+                {% endif %}
                 {% include "components/in-this-page.liquid" %}
                 <article class="long-page">
                     {{ content }}
