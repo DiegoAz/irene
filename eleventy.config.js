@@ -10,6 +10,7 @@ module.exports = async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPassthroughCopy("src/img");
     eleventyConfig.addPassthroughCopy("src/videos");
+    eleventyConfig.addPassthroughCopy("src/assets");
     const { EleventyRenderPlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItFancyLists));
