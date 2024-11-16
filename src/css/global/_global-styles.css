@@ -18,6 +18,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--header-height)+ 5ex);
 }
 
 body {
@@ -88,6 +89,6 @@ ul {
 }
 
 /* Anything that has been anchored to should have extra scroll margin */
-:target {
+/* :target {
     scroll-margin-block: calc(var(--header-height)+ 2ex);
-}
+} */
