@@ -49,9 +49,11 @@ body.menu-open {
 }
 
 @media (max-width: 51.25em) {
+
     /* 820px / 16px = 51.25em */
     .sidebar {
-        -webkit-overflow-scrolling: touch; /* Para un scroll suave en iOS */
+        -webkit-overflow-scrolling: touch;
+        /* Para un scroll suave en iOS */
     }
 }
 
@@ -92,3 +94,11 @@ ul {
 /* :target {
     scroll-margin-block: calc(var(--header-height)+ 2ex);
 } */
+
+.svg-icon {
+    width: 1.5em;
+
+    g {
+        fill: currentColor
+    }
+}
