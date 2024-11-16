@@ -83,3 +83,7 @@ a.external-link,
 a.internal-link {
     color: var(--link-color);
 }
+
+ul {
+    list-style-type: disc;
+}
