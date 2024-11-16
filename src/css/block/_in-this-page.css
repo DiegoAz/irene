@@ -1,0 +1,22 @@
+nav.in-this-page {
+    margin-bottom: var(--space-m);
+
+    li:first-child a {
+        margin-left: var(--space-s);
+    }
+
+    ol {
+        padding-left: var(--space-2xs);
+        border-inline-start: 1px solid var(--border-color);
+        list-style-type: none;
+    }
+
+    li {
+        margin: var(--space-3xs);
+
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+    }
+}
