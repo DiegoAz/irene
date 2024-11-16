@@ -70,6 +70,10 @@
     --nav-link-active-bg: var(--light-gray);
     --meta-text-color: var(--meta-light);
     --link-color: var(--light-blue);
+    --button-bg: hsl(0 0% 90%);
+    --buton-color: hsl(240 3% 26%);
+    --button-border: hsl(30 6% 75%);
+    --button-hv-bg: hsl(0 0% 87%);
 }
 
 [color-scheme="dark"] {
@@ -80,4 +84,8 @@
     --nav-link-active-bg: var(--dark-gray);
     --meta-text-color: var(--meta-dark);
     --link-color: var(--dark-blue);
+    --button-bg: var(--dark-gray);
+    --buton-color: hsl(0 0% 88%);
+    --button-border: var(--meta-light);
+    --button-hv-bg: hsl(240 3.5% 24%);
 }
