@@ -79,6 +79,7 @@ img {
     margin-block: var(--space-s);
 }
 
-a.external-link {
+a.external-link,
+a.internal-link {
     color: var(--link-color);
 }
