@@ -1,24 +1,30 @@
-.button {
-    display: flex;
+.btn {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
     align-items: center;
-    justify-content: center;
     gap: var(--space-xs);
     text-decoration: none;
     outline: 0;
     text-align: center;
     cursor: pointer;
     border-radius: 4px;
-    max-width: 14rem;
-    height: 32px;
-    padding-inline: var(--space-3xs);
+    height: var(--space-l);
+    padding-inline: var(--space-xs);
     background-color: var(--button-bg);
     color: var(--buton-color);
     font-size: var(--step--1);
     border: 1px solid var(--button-border);
-    margin: var(--space-xs) 0;
+    margin: var(--space-2xs) 0;
     
     &:hover {
         background-color: var(--button-hv-bg);
     }
 
+}
+
+
+.btn-download {
+    .text {
+        justify-self: start;
+    }
 }
