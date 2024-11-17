@@ -3,6 +3,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const htmlmin = require("html-minifier-terser");
 const markdownItFancyLists =
     require("markdown-it-fancy-lists").markdownItFancyListPlugin;
+const markdownItAttrs = require('markdown-it-attrs')
 
 module.exports = async function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyPostcss);
@@ -13,7 +14,10 @@ module.exports = async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets");
     const { EleventyRenderPlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(EleventyRenderPlugin);
-    eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItFancyLists));
+    eleventyConfig.amendLibrary("md", (mdLib) =>  mdLib
+        .use(markdownItFancyLists)
+        .use(markdownItAttrs)
+    );
     eleventyConfig.setServerOptions({
         showAllHosts: true,
     });
