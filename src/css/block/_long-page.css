@@ -2,5 +2,13 @@
     ol,
     ul {
         margin-top: var(--space-xs);
+        list-style-position: inside;
+        padding-left: var(--space-xs)
+    }
+    @media (max-width: 768px) {
+        ol, ul {
+           padding-left: var(--space-2xs)
+        }
+
     }
 }
