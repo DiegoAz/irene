@@ -107,6 +107,10 @@ p, h1, h2 {
     margin-block-start: var(--space-s)
 }
 
+p.meta {
+    margin-block-start: var(--space-2xs)
+}
+
 hr {
     border:0;
 }
