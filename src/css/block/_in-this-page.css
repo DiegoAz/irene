@@ -1,9 +1,9 @@
 nav.in-this-page {
     margin-bottom: var(--space-m);
 
-    li:first-child a {
+    /* li:first-child a {
         margin-left: var(--space-s);
-    }
+    } */
 
     ol {
         padding-left: var(--space-2xs);
@@ -12,11 +12,16 @@ nav.in-this-page {
     }
 
     li {
-        margin: var(--space-3xs);
+        margin-left: var(--space-xs);
+        margin-block: var(--space-3xs);
 
         a {
             color: var(--link-color);
             text-decoration: none;
+        }
+
+        &:first-child {
+            margin-left: var(--space-2xs)
         }
     }
 }
