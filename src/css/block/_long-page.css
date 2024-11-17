@@ -1,14 +1,37 @@
 .long-page {
     ol,
     ul {
-        margin-top: var(--space-xs);
+        margin-top: var(--space-s);
+        margin-bottom: var(--space-s);
         list-style-position: inside;
-        padding-left: var(--space-xs)
-    }
-    @media (max-width: 768px) {
-        ol, ul {
-           padding-left: var(--space-2xs)
+        padding-left: var(--space-3xs);
+
+         li.inline{
+            margin-bottom: var(--space-s);
+
+            p {
+                display: inline;
+            }
+
+            ol[type="a"] li {
+                margin-bottom: var(--space-s);
+            }
+
+            p.block {
+                display: block;
+                margin-bottom: var(--space-s);
+            }
         }
 
     }
+
+
+    
+
+    /* @media (max-width: 768px) {
+        ol, ul {
+           padding-left: var(--space-xs)
+        }
+
+    } */
 }
