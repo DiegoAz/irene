@@ -5,9 +5,10 @@
         gap: var(--space-xs);
         margin-block: var(--space-2xs)
     }
+    
     .buttons {
         display: flex;
-        padding-inline: var(--space-s);
+        padding-inline: var(--space-xs);
         gap: var(--space-xs);
         margin-block: var(--space-2xs);
 

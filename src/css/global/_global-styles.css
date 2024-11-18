@@ -96,7 +96,7 @@ ul {
 } */
 
 .svg-icon {
-    width: 1.5em;
+    width: 1.2em;
 
     g {
         fill: var(--meta-text-color);
@@ -116,5 +116,5 @@ hr {
 }
 
 hr.dashed {
-    border-top: 1px solid var(--border-color);
+    border-top: 1px dashed var(--border-color);
 }

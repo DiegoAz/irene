@@ -9,19 +9,19 @@
             <div class="center">
                 <h1>{{ title }}</h1>
                 {% if buttons %}
-                <hr class="dashed">
+                {% comment %} <hr class="dashed"> {% endcomment %}
                 <section class="section">
-                    <div class="heading">
+                    {% comment %} <div class="heading">
                         {% include "components/download-icon.liquid" %}
                         <span>Baixar guias</span>
-                    </div>
+                    </div> {% endcomment %}
                     <div class="buttons">
                         {% for button in buttons %}
                         {% include "components/button.liquid"%}
                         {% endfor %}
                     </div>
                 </section>
-                <hr class="dashed">
+                {% comment %} <hr class="dashed"> {% endcomment %}
                 {% endif %}
                 {% include "components/in-this-page.liquid" %}
                 <article class="long-page">
@@ -33,7 +33,7 @@
                         <section class="section">
                             <div class="heading">
                                 {% include "components/download-icon.liquid" %}
-                                <span>Baixar guias</span>
+                                <span>Baixar guia</span>
                             </div>
                             <div class="buttons">
                                 {% for button in buttons %}

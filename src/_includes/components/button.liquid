@@ -1,4 +1,5 @@
 <a href="{{ button.href }}" class="btn btn-download" download>
-    <span class="text-size-small meta-text-color ext">pdf</span>
+    {% comment %} {% include "components/download-icon.liquid" %} {% endcomment %}
     <span class="text">{{ button.text }}</span>
+    <span class="text-size-small meta-text-color ext">pdf</span>
 </a>

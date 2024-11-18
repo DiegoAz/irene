@@ -21,7 +21,11 @@ nav.in-this-page {
         }
 
         &:first-child {
-            margin-left: var(--space-2xs)
+            margin-bottom: var(--space-2xs);
+        }
+
+         &:last-child {
+            margin-top: var(--space-2xs);
         }
     }
 }

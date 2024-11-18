@@ -1,13 +1,14 @@
 ## F. Guia para os participantes
 {% include "components/go-back.liquid" %}
-<a href="#" class="btn btn-download btn-s" download>
-    <span class="text-size-small meta-text-color ext">pdf</span>
-    <span class="text">Baixe o guia</span>
-</a>
 
 ## Podemos chegar a consensos?
 
 ## Guia prático de diálogo para a resolução de conflitos baseado no método socrático
+
+<a href="#" class="btn btn-download btn-s" download>
+    <span class="text">Baixe o guia</span>
+    <span class="text-size-small meta-text-color ext">pdf</span>
+</a>
 
 
 I.  **Introdução** {.inline}
