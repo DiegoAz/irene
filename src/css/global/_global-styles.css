@@ -99,7 +99,7 @@ ul {
     width: 1.2em;
 
     g {
-        fill: var(--meta-text-color);
+        fill: currentColor;
     }
 }
 
