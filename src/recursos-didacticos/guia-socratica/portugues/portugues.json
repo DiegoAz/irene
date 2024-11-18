@@ -1,5 +1,6 @@
 {
     "layout": "layouts/long-page.liquid",
+    "hyperlink": "Baixar guia",
     "sections": [
         {
             "id": "apresentacao",
