@@ -14,3 +14,21 @@ header {
     right: 0;
     z-index: var(--z-index-header);
 }
+
+
+
+a.logo {
+    display: flex;
+    line-height: 1;
+
+    @media (min-width: 51.25em) {
+        padding-left: var(--space-xs)
+    }
+
+    svg {
+        height: 100%;
+        path {
+            fill: var(--text-color);
+        }
+    }
+}
