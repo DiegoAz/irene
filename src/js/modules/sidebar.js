@@ -1,5 +1,5 @@
 const SELECTORS = {
-    menuToggle: ".menu-toggle",
+    menuToggle: ".hamburger",
     sidebar: ".sidebar",
     overlay: ".overlay",
     parent: ".parent",
@@ -88,6 +88,7 @@ class SidebarManager {
             "aria-expanded",
             this.sidebar?.classList.contains("active"),
         );
+        this.menuToggle.classList.toggle('is-active');
 
         if (this.sidebar?.classList.contains("active")) {
             this.disableScroll();
@@ -95,20 +96,20 @@ class SidebarManager {
             this.enableScroll();
         }
 
-        this.animateIcon();
+        // this.animateIcon();
     }
 
-    animateIcon() {
-        const path = this.menuToggle?.querySelector("path");
-        if (!path) return;
+    // animateIcon() {
+    //     const path = this.menuToggle?.querySelector("path");
+    //     if (!path) return;
 
-        path.dispatchEvent(new Event("click"));
-        if (!this.sidebar?.classList.contains("active")) {
-            setTimeout(() => {
-                document.getElementById("reverse")?.beginElement();
-            }, 50);
-        }
-    }
+    //     path.dispatchEvent(new Event("click"));
+    //     if (!this.sidebar?.classList.contains("active")) {
+    //         setTimeout(() => {
+    //             document.getElementById("reverse")?.beginElement();
+    //         }, 50);
+    //     }
+    // }
 
     disableScroll() {
         this.scrollPosition = window.scrollY;
