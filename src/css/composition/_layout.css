@@ -22,7 +22,7 @@ EXCEPTIONS
     display: flex;
     flex-wrap: wrap;
     gap: var(--gutter, var(--space-s-l));
-    padding-top: var(--header-height);
+    margin-top: var(--header-height);
 }
 
 @media (max-width: 51.25em) {
