@@ -18,7 +18,6 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 12ex;
 }
 
 body {
@@ -95,9 +94,9 @@ ul {
 }
 
 /* Anything that has been anchored to should have extra scroll margin */
-/* :target {
-    scroll-margin-block: calc(var(--header-height)+ 2ex);
-} */
+:target {
+    scroll-margin-top: calc(var(--header-height) + 5ex);
+}
 
 .svg-icon {
     width: 1.2em;
