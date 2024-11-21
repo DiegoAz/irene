@@ -20,16 +20,14 @@ header {
 a.logo {
     display: flex;
     line-height: 1;
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: var(--step-2);
 
     @media (min-width: 51.25em) {
         padding-left: var(--space-xs)
-    }
-
-    svg {
-        width:4rem;
-        height: 100%;
-        path {
-            fill: var(--text-color);
-        }
     }
 }
