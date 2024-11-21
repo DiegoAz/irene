@@ -120,11 +120,17 @@ class SidebarManager {
     }
 
     enableScroll() {
+        document.documentElement.style.scrollBehavior = 'auto';
+
         this.body.style.removeProperty("overflow");
         this.body.style.removeProperty("position");
         this.body.style.removeProperty("top");
         this.body.style.removeProperty("width");
         window.scrollTo(0, this.scrollPosition);
+
+        setTimeout(() => {
+            document.documentElement.style.scrollBehavior = 'smooth';
+        }, 0);
     }
 
     saveMenuState() {
