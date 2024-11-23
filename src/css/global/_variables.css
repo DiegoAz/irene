@@ -37,7 +37,7 @@
     --leading-fine: 1.2;
 
     --breakpoint: 820px;
-    --header-height: var(--space-2xl);
+    --header-height: 4.5rem;
     --sidebar-width: 20rem;
     --sidebar-width-mobile: 80vw;
     --transition-base: 250ms ease;
