@@ -2,11 +2,11 @@
     @utopia typeScale({
         minWidth: 320,          /* Defaults to plugin minWidth */
         maxWidth: 1240,         /* Defaults to plugin maxWidth */
-        minFontSize: 18,
-        maxFontSize: 20,
-        minTypeScale: 1.2,
-        maxTypeScale: 1.25,
-        positiveSteps: 5,
+        minFontSize: 16,
+        maxFontSize: 17,
+        minTypeScale: 1.076,
+        maxTypeScale: 1.076,
+        positiveSteps: 6,
         negativeSteps: 2,
         relativeTo: 'viewport', /* Optional */
         prefix: 'step'          /* Optional */
@@ -28,10 +28,10 @@
     /* semantic variables */
     --gutter: var(--space-s-m);
     --text-size-small: var(--step--2);
-    --text-size-base: var(--step--1);
-    --text-size-heading-1: var(--step-1);
-    --text-size-heading-2: var(--step-0);
-    --text-size-heading-3: var(--step--1);
+    --text-size-base: var(--step-0);
+    --text-size-heading-1: var(--step-4);
+    --text-size-heading-2: var(--step-3);
+    --text-size-heading-3: var(--step-2);
     --font-base: Inter, sans-serif;
     --leading: 1.5;
     --leading-fine: 1.2;
