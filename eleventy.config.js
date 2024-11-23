@@ -27,6 +27,7 @@ module.exports = async function (eleventyConfig) {
                 useShortDoctype: true,
                 removeComments: true,
                 collapseWhitespace: true,
+                minifyJS: true
             });
 
             return minified;
