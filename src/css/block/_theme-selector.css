@@ -1,5 +1,4 @@
 .theme-selector {
-  position: relative;
   display: flex;
   align-items: center;
   gap: var(--space-3xs);
@@ -45,9 +44,6 @@
 
 /* Estilos para móvil */
 @media (max-width: 767px) {
-  .theme-selector {
-    position: relative;
-  }
 
   .theme-toggle.mobile-only {
     display: block; /* Asegurarnos que el botón es visible */
