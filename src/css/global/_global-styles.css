@@ -47,9 +47,7 @@ body.menu-open {
     transition: none !important;
 }
 
-@media (max-width: 51.25em) {
-
-    /* 820px / 16px = 51.25em */
+@media (max-width: 51.25rem) {
     .sidebar {
         -webkit-overflow-scrolling: touch;
         /* Para un scroll suave en iOS */
