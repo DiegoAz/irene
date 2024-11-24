@@ -12,7 +12,7 @@
         gap: var(--space-xs);
         margin-block: var(--space-2xs);
 
-        @media (max-width: 903px) {
+        @media (max-width: 56.4375rem) {
             flex-direction: column;
             gap: 0;
         }
