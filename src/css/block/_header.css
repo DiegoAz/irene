@@ -27,7 +27,7 @@ a.logo {
     text-decoration: none;
     font-size: var(--step-2);
 
-    @media (min-width: 51.25em) {
+    @media (min-width: 51.25rem) {
         padding-left: var(--space-xs)
     }
 }
