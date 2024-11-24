@@ -10,6 +10,10 @@ const SELECTORS = {
 const STORAGE_KEY = "menuState";
 const BREAKPOINT = 820;
 
+function isMobileDevice() {
+    return /Mobi|Android/i.test(navigator.userAgent);
+}
+
 class SidebarManager {
     constructor() {
         this.menuToggle = document.querySelector(
@@ -34,7 +38,6 @@ class SidebarManager {
         this.loadMenuState();
         this.setupActiveParents();
 
-        // Remover la clase no-transition después de un breve retraso
         setTimeout(() => {
             this.body.classList.remove("no-transition");
         }, 20);
@@ -68,7 +71,6 @@ class SidebarManager {
             { passive: false },
         );
 
-        // Parent elements click events
         this.parentElements.forEach((parentElement) => {
             const toggleButton = parentElement.querySelector(
                 SELECTORS.toggleButton,
@@ -95,37 +97,32 @@ class SidebarManager {
         } else {
             this.enableScroll();
         }
-
-        // this.animateIcon();
     }
 
-    // animateIcon() {
-    //     const path = this.menuToggle?.querySelector("path");
-    //     if (!path) return;
-
-    //     path.dispatchEvent(new Event("click"));
-    //     if (!this.sidebar?.classList.contains("active")) {
-    //         setTimeout(() => {
-    //             document.getElementById("reverse")?.beginElement();
-    //         }, 50);
-    //     }
-    // }
 
     disableScroll() {
         this.scrollPosition = window.scrollY;
-        this.body.style.overflow = "hidden";
-        this.body.style.position = "fixed";
-        this.body.style.top = `-${this.scrollPosition}px`;
-        this.body.style.width = "100%";
+        if (isMobileDevice()) {
+            this.body.style.position = "fixed";
+            this.body.style.top = `-${this.scrollPosition}px`;
+            this.body.style.width = "100%";
+            this.body.style.overflow = "hidden";
+        } else { 
+            this.sidebar.style.overflowY = "auto"; 
+        }
     }
 
     enableScroll() {
-        document.documentElement.style.scrollBehavior = 'auto';
-
-        this.body.style.removeProperty("overflow");
-        this.body.style.removeProperty("position");
-        this.body.style.removeProperty("top");
-        this.body.style.removeProperty("width");
+        if (isMobileDevice()) { 
+            document.documentElement.style.scrollBehavior = 'auto';
+            this.body.style.removeProperty("position");
+            this.body.style.removeProperty("top");
+            this.body.style.removeProperty("width");
+            this.body.style.removeProperty("overflow");
+            window.scrollTo(0, this.scrollPosition);
+        } else { 
+            this.sidebar.style.overflowY = "";
+        }
         window.scrollTo(0, this.scrollPosition);
 
         setTimeout(() => {
