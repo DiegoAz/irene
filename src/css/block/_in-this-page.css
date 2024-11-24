@@ -1,9 +1,5 @@
 nav.in-this-page {
-    margin-bottom: var(--space-m);
-
-    /* li:first-child a {
-        margin-left: var(--space-s);
-    } */
+    margin-block: var(--space-s);
 
     ol {
         padding-left: var(--space-2xs);
