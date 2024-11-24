@@ -18,7 +18,7 @@
   --plyr-video-control-color: var(--white);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 51.25rem) {
   .video-grid {
     grid-template-columns: 1fr;
   }
