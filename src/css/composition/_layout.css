@@ -25,21 +25,21 @@ EXCEPTIONS
     margin-top: var(--header-height);
 }
 
-@media (max-width: 51.25em) {
+@media (max-width: 51.25rem) {
     .layout-sidebar > .non-sidebar {
         flex-basis: 100%;
     }
 }
 
 .layout-sidebar > .sidebar {
-    flex-basis: var(--sidebar-target-width, 20rem);
+    flex-basis: var(--sidebar-width, 20rem);
     flex-grow: 1;
 }
 
 .layout-sidebar > .non-sidebar {
     flex-basis: 0;
     flex-grow: 999;
-    min-width: var(--sidebar-content-min-width, 50%);
+    /* min-inline-size: 50%; */
 }
 
 /* CENTER */
