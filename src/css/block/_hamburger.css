@@ -13,7 +13,7 @@
   border: 0;
   display: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 51.25rem) {
   .hamburger {
     display: flex;
     flex-direction: column;
