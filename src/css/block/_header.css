@@ -1,18 +1,17 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    position: sticky;
+    height: var(--header-height);
+    top:0;
+    width: 100%;
+    z-index: var(--z-index-header);
     padding-inline: var(--space-xs);
-    block-size: var(--header-height);
+    padding-block: var(--space-xs); 
     background-color: var(--background-color);
     color: var(--text-color);
     border-block-end: 1px dashed var(--border-color);
-    /* added for toggle */
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: var(--z-index-header);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 

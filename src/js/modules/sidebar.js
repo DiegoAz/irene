@@ -10,10 +10,6 @@ const SELECTORS = {
 const STORAGE_KEY = "menuState";
 const BREAKPOINT = 820;
 
-function isMobileDevice() {
-    return /Mobi|Android/i.test(navigator.userAgent);
-}
-
 class SidebarManager {
     constructor() {
         this.menuToggle = document.querySelector(
@@ -38,6 +34,7 @@ class SidebarManager {
         this.loadMenuState();
         this.setupActiveParents();
 
+        // Remover la clase no-transition después de un breve retraso
         setTimeout(() => {
             this.body.classList.remove("no-transition");
         }, 20);
@@ -71,6 +68,7 @@ class SidebarManager {
             { passive: false },
         );
 
+        // Parent elements click events
         this.parentElements.forEach((parentElement) => {
             const toggleButton = parentElement.querySelector(
                 SELECTORS.toggleButton,
@@ -97,32 +95,25 @@ class SidebarManager {
         } else {
             this.enableScroll();
         }
+
     }
 
 
     disableScroll() {
         this.scrollPosition = window.scrollY;
-        if (isMobileDevice()) {
-            this.body.style.position = "fixed";
-            this.body.style.top = `-${this.scrollPosition}px`;
-            this.body.style.width = "100%";
-            this.body.style.overflow = "hidden";
-        } else { 
-            this.sidebar.style.overflowY = "auto"; 
-        }
+        this.body.style.overflow = "hidden";
+        this.body.style.position = "fixed";
+        this.body.style.top = `-${this.scrollPosition}px`;
+        this.body.style.width = "100%";
     }
 
     enableScroll() {
-        if (isMobileDevice()) { 
-            document.documentElement.style.scrollBehavior = 'auto';
-            this.body.style.removeProperty("position");
-            this.body.style.removeProperty("top");
-            this.body.style.removeProperty("width");
-            this.body.style.removeProperty("overflow");
-            window.scrollTo(0, this.scrollPosition);
-        } else { 
-            this.sidebar.style.overflowY = "";
-        }
+        document.documentElement.style.scrollBehavior = 'auto';
+
+        this.body.style.removeProperty("overflow");
+        this.body.style.removeProperty("position");
+        this.body.style.removeProperty("top");
+        this.body.style.removeProperty("width");
         window.scrollTo(0, this.scrollPosition);
 
         setTimeout(() => {

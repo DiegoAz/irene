@@ -3,22 +3,22 @@
     inset-inline-end: 0;
     inset-block-start: var(--header-height);
     inset-block-end: 0;
+    width: var(--sidebar-width);
     block-size: calc(100vh - var(--header-height));
     border-inline-end: 1px dashed var(--border-color);
     padding-inline: var(--space-xs);
     padding-block-end: var(--space-s);
     background-color: var(--background-color);
-    overflow-y: auto;
 }
 
 @media (max-width: 51.25rem) {
-
     .sidebar {
         position: fixed;
         top: var(--header-height);
         left: -100%;
         width: var(--sidebar-width-mobile);
         height: calc(100% - var(--header-height));
+        
         transition: left var(--transition-base);
         overflow-y: auto;
         z-index: var(--z-index-sidebar);

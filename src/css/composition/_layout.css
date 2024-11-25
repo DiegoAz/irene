@@ -22,7 +22,6 @@ EXCEPTIONS
     display: flex;
     flex-wrap: wrap;
     gap: var(--gutter, var(--space-s-l));
-    margin-top: var(--header-height);
 }
 
 @media (max-width: 51.25rem) {
@@ -32,19 +31,16 @@ EXCEPTIONS
 }
 
 .layout-sidebar > .sidebar {
-    flex-basis: var(--sidebar-width, 20rem);
+    flex-basis: 20rem;
     flex-grow: 1;
 }
 
 .layout-sidebar > .non-sidebar {
     flex-basis: 0;
     flex-grow: 999;
-    /* min-inline-size: 50%; */
 }
 
-/* CENTER */
 .center {
-    position: relative;
     max-inline-size: 65ch;
     margin-inline: auto;
     padding-block-end: 4rem;
