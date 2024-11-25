@@ -1,8 +1,12 @@
 <nav class="in-this-page" id="toc">
   <span>Conteúdo:</span>
     <ol>
-    {% for section in sections %}
-        <li><a href="#{{ section.id}}" class="internal-link">{{ section.title }}</a></li>
-    {% endfor %}
+      {% for section in sections %}
+        <li>
+          <a href="#{{ section.id}}" class="internal-link">
+            {{ section.title }}
+          </a>
+        </li>
+      {% endfor %}
     </ol>
 </nav>
