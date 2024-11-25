@@ -13,7 +13,13 @@
                     <span>{{ hyperlink }}</span>
                     
                 </a>
-                {% include "components/in-this-page.liquid" %}
+                
+                    <div class="img-container">
+                        <img src="/img/recursos-didacticos/guia-socratica/socrates-portada.png" alt="Busto de Sócrates pensativo"
+                            class="guide-image" id="portada">
+                        {% include "components/in-this-page.liquid" %}
+                    </div>
+              
                 <article class="long-page">
                     {{ content }}
                     </article>

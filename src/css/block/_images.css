@@ -1,0 +1,67 @@
+.img-container {
+    display: flow-root;
+}
+
+#portada {
+    width: 50%;
+    height: auto;
+    float: right;
+    /* shape-outside: circle(60%); */
+    /* shape-outside: polygon(0 100%, 50% 0, 100% 100%) border-box; */
+    /* shape-outside: polygon(0px 99.68%, 3.57% 51.92%, 20.00% 161px, 26.17% 27.75%, 26.49% 13.06%, 43.42% 6.52%, 98.81% 6.58%, 100% 100%) border-box; */
+    shape-outside: url("/img/recursos-didacticos/guia-socratica/socrates-portada.png");
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    /* shape-margin: var(--space-xs); */
+    /* height: auto; */
+}
+
+
+#tech {
+    float: left;
+    shape-outside: url("/img/recursos-didacticos/guia-socratica/socrates-tech.png");
+    shape-margin: var(--space-xs);
+}
+
+#thinking {
+    shape-outside: url("/img/recursos-didacticos/guia-socratica/chica-pensando-cropped.png");
+    shape-margin: var(--space-xs);
+}
+
+#reflexao {
+    shape-outside: url("/img/recursos-didacticos/guia-socratica/socri2.png");
+    shape-margin: var(--space-2xs);
+}
+
+.li-block {
+    margin-bottom: var(--space-xs);
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.f-right{
+    float: right;
+}
+
+.f-left {
+    float: left;
+}
+
+.m-right {
+    margin-right: var(--space-xs)
+}
+
+.centered {
+    margin: 0 auto;
+}

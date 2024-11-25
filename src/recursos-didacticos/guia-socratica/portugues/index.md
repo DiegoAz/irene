@@ -6,6 +6,7 @@ page:
   lang: "pt"
 ---
 
+
 {% for section in sections %}
 {% assign file = basePath | append: section.id | append:".md" %}
 <section id="{{ section.id }}">

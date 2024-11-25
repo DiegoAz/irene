@@ -13,6 +13,8 @@ I.  **Atividade preparatória** {.inline}
 
     *O método socrático é uma forma de aprender a alcançar consensos por meio do diálogo. Não é uma tarefa fácil, mas se praticarmos a escuta ativa, respeitarmos os outros além de suas opiniões, analisarmos antes de emitir julgamentos com base nas emoções do momento, e nos expressarmos com argumentos bem fundamentados, os resultados podem nos surpreender.* {.block}
 
+    <img src="/img/recursos-didacticos/guia-socratica/la-escuela-de-atenas.png" alt="Busto de Sócrates pensativo" class="guide-image">
+
     **Acordos de convivência**: Para que o diálogo socrático seja eficaz, é fundamental estabelecer uma série de normas de participação que garantam o respeito mútuo e a fluidez da troca de ideias. As normas permitem que todos os participantes se sintam à vontade ao expressar suas opiniões e asseguram que o processo seja construtivo e colaborativo. A seguir, são sugeridas algumas normas básicas que podem ser adaptadas conforme o contexto: {.block}
 
     1. **Levantar a mão para intervir**: Todos os participantes devem levantar a mão para pedir a palavra antes de falar, o que garante que a ordem seja mantida na discussão e que todas as vozes tenham a oportunidade de ser ouvidas sem interrupções. {.inline}
@@ -31,7 +33,11 @@ I.  **Atividade preparatória** {.inline}
 
 II. **Explicação do método socrático** {.inline}
 
+    <img src="/img/recursos-didacticos/guia-socratica/busto-de-socrates-explicacion.png" alt="Busto de Sócrates pensativo" class="guide-image w-50 f-right">
+    
     No guia dos participantes, que está anexado a este documento, inclui-se uma breve biografia de Sócrates e uma explicação simples do método socrático. Recomenda-se que essa parte do guia seja lida por turnos entre os participantes, o que permitirá uma melhor compreensão do método e fomentará a discussão desde o início. Ao ler a história de Sócrates, os participantes poderão fazer perguntas, compreender o propósito do diálogo socrático e como aplicá-lo no processo de reflexão e resolução de conflitos. {.block}
+
+    
 
 III.  **Implementação da adaptação do método socrático** {.inline}
 
@@ -42,6 +48,8 @@ III.  **Implementação da adaptação do método socrático** {.inline}
           A afirmação deve ser incompleta, ambígua ou levar a uma conclusão errada, o que se denomina ‘falácia’. O propósito dessa escolha é gerar um ponto de partida polarizador, de modo que os participantes, através de suas intervenções, sejam motivados a suavizar, matizar ou questionar a contundência da afirmação. Isso impulsiona os participantes a examinar diferentes perspectivas e trabalhar na busca de consensos à medida que o diálogo se desenvolve. {.block}
 
           Por exemplo, pode-se utilizar uma afirmação como: “Para alcançar a paz, um lado deve ceder aos interesses do outro.” Nesse caso, a formulação da ideia convida os participantes a trazerem outros pontos de vista, a contrastar com experiências pessoais ou a buscar exemplos que questionem ou modifiquem a afirmação inicial, promovendo assim uma discussão dinâmica e reflexiva. A afirmação pode ser proposta pelo professor, facilitador, orientador ou, idealmente, por um dos participantes. Outros exemplos de afirmações provocadoras são: {.block}
+
+          <img src="/img/recursos-didacticos/guia-socratica/publico.png" alt="Busto de Sócrates pensativo" class="guide-image .w-50">
 
           - A inteligência é algo inato e não pode ser desenvolvida.
           A felicidade está relacionada à quantidade de dinheiro que uma pessoa - tem.
@@ -81,12 +89,20 @@ III.  **Implementação da adaptação do método socrático** {.inline}
       3. **Validação e refutação** 
 
           Uma vez que todas as opiniões tenham sido expressas, começa o processo de validação e refutação. Cada participante, por turnos, avaliará os pontos fortes e fracos das opiniões anteriores. É essencial que se explique que todas as opiniões têm, pelo menos, uma fraqueza e uma força. Também deve ser explicado que a linguagem utilizada deve ser cuidadosa para evitar ferir os sentimentos dos outros. Pode-se aconselhar os participantes a usarem expressões como: {.block}
-          - Infelizmente, não posso concordar com sua opinião, porque…
-          - Respeitosamente, discordo dessa postura, pois…
-          - Encontro alguns problemas com essa ideia, no sentido de que…
-          - Considero que há melhores alternativas, como…
-          - Compreendo o que você disse, mas me parece que… 
           
+          <div class="img-container">
+          <img src="/img/recursos-didacticos/guia-socratica/chica-pensando-cropped.png" alt="Busto de Sócrates pensativo" class="guide-image w-50 f-left m-right" id="thinking">
+
+          - Infelizmente, não posso concordar com sua opinião, porque… {.li-block}
+
+          - Respeitosamente, discordo dessa postura, pois… {.li-block}
+
+          - Encontro alguns problemas com essa ideia, no sentido de que… {.li-block}
+
+          - Considero que há melhores alternativas, como… {.li-block}
+
+          - Compreendo o que você disse, mas me parece que… {.li-block}
+          </div>
 
       4. **Reformulação**
 
