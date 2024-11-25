@@ -14,8 +14,9 @@
 
 .theme-circle {
   display: block;
-  width: 1.7em;
-  height: 1.7em;
+  width: 1.875rem;
+  height: 1.875rem;
+
 
   circle {
     stroke: var(--dark-gray);
@@ -45,11 +46,12 @@
 
   .theme-toggle.mobile-only {
     display: block;
+
   }
 
   .theme-options-tooltip {
     position: absolute;
-    top: calc(100% + 8px);
+    top: 3.5rem;
     right: var(--space-3xs);
     background: var(--background-color);
     border: 1px solid var(--border-color);
@@ -60,7 +62,7 @@
     gap: var(--space-2xs);
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     z-index: 1000;
-    min-width: 40px; 
+    min-width: 40px;
   }
 
   .theme-options-tooltip.active {
@@ -70,27 +72,27 @@
   
   .theme-options-tooltip .theme-option {
     display: block;
-    width: 27px;
-    height: 27px;
   }
 }
 
 /* Estilos para desktop */
-@media (min-width: 51.25rem) {
+@media (min-width: 51.3125rem) {
   .theme-toggle.mobile-only {
     display: none;
   }
   
   .theme-options-tooltip {
     display: flex;
+    /* background: red; */
     gap: var(--space-3xs);
   }
 }
 
+
 .theme-option.active .theme-circle circle {
   stroke: var(--theme-active-border, #007AFF);
   stroke-width: 1;
-}
+} 
 
 @media (hover: hover) {
   .theme-option:hover {
