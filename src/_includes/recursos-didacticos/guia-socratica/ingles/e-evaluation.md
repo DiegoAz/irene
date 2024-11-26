@@ -1,4 +1,5 @@
 ## E. Evaluation
+{% include "components/go-back.liquid" %}
 
 The evaluation of the Socratic method application can be adapted to the needs and goals of the participants. Below are several evaluation options:
 
