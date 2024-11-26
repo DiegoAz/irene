@@ -13,7 +13,7 @@ I.  **Atividade preparatória** {.inline}
 
     *O método socrático é uma forma de aprender a alcançar consensos por meio do diálogo. Não é uma tarefa fácil, mas se praticarmos a escuta ativa, respeitarmos os outros além de suas opiniões, analisarmos antes de emitir julgamentos com base nas emoções do momento, e nos expressarmos com argumentos bem fundamentados, os resultados podem nos surpreender.* {.block}
 
-    <img src="/img/recursos-didacticos/guia-socratica/la-escuela-de-atenas.png" alt="Busto de Sócrates pensativo" class="guide-image" id="escuela">
+    <img src="/img/recursos-didacticos/guia-socratica/la-scuola-di-atene-1.png" alt="Busto de Sócrates pensativo" class="guide-image" id="escuela">
 
     **Acordos de convivência**: Para que o diálogo socrático seja eficaz, é fundamental estabelecer uma série de normas de participação que garantam o respeito mútuo e a fluidez da troca de ideias. As normas permitem que todos os participantes se sintam à vontade ao expressar suas opiniões e asseguram que o processo seja construtivo e colaborativo. A seguir, são sugeridas algumas normas básicas que podem ser adaptadas conforme o contexto: {.block}
 
@@ -33,10 +33,12 @@ I.  **Atividade preparatória** {.inline}
 
 II. **Explicação do método socrático** {.inline}
 
-    <img src="/img/recursos-didacticos/guia-socratica/busto-de-socrates-explicacion.png" alt="Busto de Sócrates pensativo" class="guide-image w-50 f-right" id="busto"/>
+    <div class="img-container">
+    <img src="/img/recursos-didacticos/guia-socratica/busto-de-socrates-explicacion.png" alt="Busto de Sócrates pensativo" class="guide-image w-40 f-right m-left" id="busto"/>
     
     No guia dos participantes, que está anexado a este documento, inclui-se uma breve biografia de Sócrates e uma explicação simples do método socrático. Recomenda-se que essa parte do guia seja lida por turnos entre os participantes, o que permitirá uma melhor compreensão do método e fomentará a discussão desde o início. Ao ler a história de Sócrates, os participantes poderão fazer perguntas, compreender o propósito do diálogo socrático e como aplicá-lo no processo de reflexão e resolução de conflitos. {.block}
 
+    </div>
     
 
 III.  **Implementação da adaptação do método socrático** {.inline}

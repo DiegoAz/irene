@@ -2,12 +2,20 @@
     display: flow-root;
 }
 
+.guide-image {
+    border: 1px solid var(--light-gray);
+    padding: var(--space-2xs);
+    height: auto;
+    /* margin-left: var(--space-s) */
+}
+
 #portada {
-    width: 65%;
+    /* margin-top: 5rem; */
+    width: 75%;
     height: auto;
 
     @media (max-width: 468px) {
-        width: 100%;
+        width: 70%;
     }
 }
 
@@ -16,7 +24,7 @@
     grid-template-columns: 1fr 1fr;
     align-items: end;
 
-    nav {
+    /* nav {
         grid-column: -1/1;
         grid-row: 1/2;
         position: relative;
@@ -28,49 +36,41 @@
         grid-row: 1/2;
         mix-blend-mode: multiply;
         justify-self: end;
-    }
+    } */
 }
 
 
 #busto {
-
-    @media (min-width: 40rem) {
-        max-width: 40%;
+    width: 30%;
+    @media (max-width: 40rem) {
+        width: 50%;
     }
 }
 
 
-#tech {
-    shape-outside: url("/img/recursos-didacticos/guia-socratica/socrates-tech-1.png");
-    shape-margin: var(--space-xs);
-}
-
 #thinking {
-    shape-outside: url("/img/recursos-didacticos/guia-socratica/chica-pensando.png");
-    shape-margin: var(--space-xs);
+    /* shape-outside: url("/img/recursos-didacticos/guia-socratica/chica-pensando.png");
+    shape-margin: var(--space-xs); */
     /* width: 48%; */
 }
 
 #reflexao {
     width: 65%;
-    shape-outside: url("/img/recursos-didacticos/guia-socratica/socri2-1.png");
-    shape-margin: var(--space-2xs);
+    /* shape-outside: url("/img/recursos-didacticos/guia-socratica/socri2-1.png");
+    shape-margin: var(--space-2xs); */
 
-     @media (max-width: 468px) {
+    @media (max-width: 468px) {
         width: 70%;
     }
 }
 
 #head {
-    width: 25%;
-}
-
-#iv {
-    /* shape-outside: url("/img/recursos-didacticos/guia-socratica/grafica-de-introduccion-sin-palabras.png"); */
-    shape-outside: ellipse(60% 50%);
-    shape-margin: var(--space-xs);
-
-
+    width: 30%;
+    margin-top: var(--space-m);
+    /* height: auto; */
+    @media (max-width: 468px) {
+        width: 50%;
+    }
 }
 
 .li-block {
@@ -103,6 +103,10 @@
 
 .m-right {
     margin-right: var(--space-xs)
+}
+
+.m-left {
+    margin-left: var(--space-xs)
 }
 
 .centered {
