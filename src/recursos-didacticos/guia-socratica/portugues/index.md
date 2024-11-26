@@ -4,6 +4,8 @@ basePath: "src/_includes/recursos-didacticos/guia-socratica/portugues/"
 href: "#links-de-download"
 page:
   lang: "pt"
+toc:
+  heading: "Conteúdo"
 ---
 
 
