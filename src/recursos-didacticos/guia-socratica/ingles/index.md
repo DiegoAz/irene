@@ -5,7 +5,7 @@ href: "#links-de-download"
 page:
   lang: "en"
 toc:
-  title: "Contents"
+  heading: "Contents"
 ---
 
 {% for section in sections %}
