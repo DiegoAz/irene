@@ -3,7 +3,7 @@
 }
 
 #portada {
-    width: 75%;
+    width: 65%;
     height: auto;
 
     @media (max-width: 468px) {
@@ -14,8 +14,23 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-items: end;
+
+    nav {
+        grid-column: -1/1;
+        grid-row: 1/2;
+        position: relative;
+        z-indez: 1;
+    }
+    
+    img {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        mix-blend-mode: multiply;
+        justify-self: end;
+    }
 }
+
 
 #busto {
 
@@ -44,6 +59,18 @@
      @media (max-width: 468px) {
         width: 70%;
     }
+}
+
+#head {
+    width: 25%;
+}
+
+#iv {
+    /* shape-outside: url("/img/recursos-didacticos/guia-socratica/grafica-de-introduccion-sin-palabras.png"); */
+    shape-outside: ellipse(60% 50%);
+    shape-margin: var(--space-xs);
+
+
 }
 
 .li-block {

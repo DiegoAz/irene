@@ -13,7 +13,7 @@ I.  **Atividade preparatória** {.inline}
 
     *O método socrático é uma forma de aprender a alcançar consensos por meio do diálogo. Não é uma tarefa fácil, mas se praticarmos a escuta ativa, respeitarmos os outros além de suas opiniões, analisarmos antes de emitir julgamentos com base nas emoções do momento, e nos expressarmos com argumentos bem fundamentados, os resultados podem nos surpreender.* {.block}
 
-    <img src="/img/recursos-didacticos/guia-socratica/la-scuola-di-atene-1.png" alt="Busto de Sócrates pensativo" class="guide-image">
+    <img src="/img/recursos-didacticos/guia-socratica/la-escuela-de-atenas.png" alt="Busto de Sócrates pensativo" class="guide-image" id="escuela">
 
     **Acordos de convivência**: Para que o diálogo socrático seja eficaz, é fundamental estabelecer uma série de normas de participação que garantam o respeito mútuo e a fluidez da troca de ideias. As normas permitem que todos os participantes se sintam à vontade ao expressar suas opiniões e asseguram que o processo seja construtivo e colaborativo. A seguir, são sugeridas algumas normas básicas que podem ser adaptadas conforme o contexto: {.block}
 

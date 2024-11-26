@@ -9,15 +9,17 @@
 
 I.  **Introdução** {.inline}
 
-    <img src="/img/recursos-didacticos/guia-socratica/soc-busto-frente-cabeza.png" alt="Busto de Sócrates pensativo" class="guide-image w-30 f-right">
+    <div class="img-container">
+    <img src="/img/recursos-didacticos/guia-socratica/soc-busto-frente-cabeza.png" alt="Busto de Sócrates pensativo" class="guide-image w-40 f-right" id="head">
 
     Apresentamos neste guia uma adaptação do método socrático para a resolução de conflitos. Seu objetivo principal é conscientizar as pessoas sobre a necessidade do diálogo construtivo, da análise crítica e da busca por consensos. O guia também visa motivar as pessoas a criar espaços de troca de ideias, onde os participantes possam questionar suas próprias suposições e as dos outros. O processo dialógico busca construir uma compreensão coletiva que respeite a diversidade de perspectivas e se afaste da imposição de opiniões. Espera-se que os participantes não apenas aprendam a dialogar, mas também a negociar e chegar a consensos, habilidades essenciais para uma convivência harmoniosa. O guia é destinado a qualquer grupo de pessoas interessadas em facilitar o diálogo, podendo ser aplicado em diferentes contextos: {.block}
+    </div>
 
     - **Na comunidade**: permite que as pessoas discutam problemas locais e busquem soluções conjuntas.
     - **No ambiente familiar**: ajuda a melhorar a comunicação e a resolver mal-entendidos entre familiares ou amigos.
     - **No ambiente de trabalho**: facilita a resolução de conflitos entre colegas de trabalho.
 
-    <img src="/img/recursos-didacticos/guia-socratica/grafica-de-introduccion-sin-palabras.png" alt="Busto de Sócrates pensativo" class="guide-image centered w-60">
+    
 
 
 II. **Quem foi Sócrates?** {.inline}
@@ -39,7 +41,11 @@ III.    **O que é o método socrático?** {.inline}
 
 IV. **Como podemos aplicar o método socrático para a resolução de conflitos?** {.inline}
 
+    <div class="img-container">
+    <img src="/img/recursos-didacticos/guia-socratica/grafica-de-introduccion-sin-palabras.png" alt="Busto de Sócrates pensativo" class="guide-image f-right w-50" id="iv">
+
     Antes de iniciar a discussão, é importante estar preparado para ouvir sem preconceitos. Muitas vezes, não concordamos com as opiniões dos outros, mas como temos tanta certeza de que essa pessoa está errada? Já me preocupei em analisar seus argumentos alguma vez? São minhas emoções ou meu raciocínio que me indicam que ela está errada? O primeiro passo é questionar nossas próprias suposições e nos abrir ao diálogo. O método socrático não se baseia em alguém ganhar ou perder uma discussão, mas sim em enriquecer o entendimento mútuo. Durante a atividade, todos devem respeitar as seguintes normas: {.block}
+    </div>
 
     - **Escuta ativa**: Preste atenção sem interromper os outros.
     - **Intervenções breves e claras**: Expresse suas ideias de maneira concisa e respeitosa.
@@ -57,10 +63,9 @@ IV. **Como podemos aplicar o método socrático para a resolução de conflitos?
 
     e. Se não chegarmos a um consenso, repetiremos os passos **b) Opiniões**, **c) Validação e refutação** e **d) Reelaboração**.
 
+    <img src="/img/recursos-didacticos/guia-socratica/socri2-1.png" alt="Busto de Sócrates pensativo" class="guide-image centered" id="reflexao">
+
 V.  **Reflexão final** {.inline}
-    
-    <div class="img-container">
-    <img src="/img/recursos-didacticos/guia-socratica/socri2-1.png" alt="Busto de Sócrates pensativo" class="guide-image f-right" id="reflexao"/>
 
     É possível que tenhamos que repetir os passos várias vezes, até mesmo em outras sessões, pois há temas que são muito difíceis de tratar. No entanto, o diálogo nos permitirá entender por que é tão difícil e, ao mesmo tempo, reconhecer o valor das opiniões dos outros e as falhas das nossas próprias opiniões. Finalizamos respondendo a estas perguntas: Como você se sentiu durante o processo de discussão? Como descreveria o processo de tentar chegar a um consenso? Achou útil? {.block}
-    </div>
+    
