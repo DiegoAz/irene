@@ -11,5 +11,13 @@ module.exports = {
   url: "https://proyectoirene.pages.dev", // URL de producción
   
   // Año actual para el copyright
-  currentYear: new Date().getFullYear()
+  currentYear: new Date().getFullYear(),
+
+  hyperlinks: {
+    goToTop: {
+      en: "Go to top",
+      es: "Ir arriba",
+      pt: "Voltar ao topo"
+    },
+  }
 }; 
