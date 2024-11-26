@@ -5,9 +5,11 @@
 # Podemos chegar a consensos?
 # Guia prático de diálogo para a resolução de conflitos baseado no método socrático
 
-<img src="/img/recursos-didacticos/guia-socratica/soc-busto-frente-cabeza.png" alt="Busto de Sócrates pensativo" class="guide-image w-40 centered">
+
 
 I.  **Introdução** {.inline}
+
+    <img src="/img/recursos-didacticos/guia-socratica/soc-busto-frente-cabeza.png" alt="Busto de Sócrates pensativo" class="guide-image w-30 f-right">
 
     Apresentamos neste guia uma adaptação do método socrático para a resolução de conflitos. Seu objetivo principal é conscientizar as pessoas sobre a necessidade do diálogo construtivo, da análise crítica e da busca por consensos. O guia também visa motivar as pessoas a criar espaços de troca de ideias, onde os participantes possam questionar suas próprias suposições e as dos outros. O processo dialógico busca construir uma compreensão coletiva que respeite a diversidade de perspectivas e se afaste da imposição de opiniões. Espera-se que os participantes não apenas aprendam a dialogar, mas também a negociar e chegar a consensos, habilidades essenciais para uma convivência harmoniosa. O guia é destinado a qualquer grupo de pessoas interessadas em facilitar o diálogo, podendo ser aplicado em diferentes contextos: {.block}
 
@@ -25,7 +27,7 @@ II. **Quem foi Sócrates?** {.inline}
     Diferente de muitos filósofos de sua época, Sócrates não focava no estudo da natureza ou do universo, mas nas questões morais e éticas. Ele acreditava que o conhecimento e a sabedoria eram a chave para viver uma vida boa e virtuosa. Sócrates era conhecido por seu estilo de ensino. Em vez de dar respostas diretas aos seus interlocutores, ele fazia perguntas para que eles refletissem e chegassem às suas próprias conclusões. {.block}
 
     <div class="img-container">
-    <img src="/img/recursos-didacticos/guia-socratica/socrates-tech.png" alt="Busto de Sócrates pensativo" class="guide-image f-left w-60" id="tech">
+    <img src="/img/recursos-didacticos/guia-socratica/socrates-tech-1.png" alt="Busto de Sócrates pensativo" class="guide-image f-right w-60" id="tech">
 
     Sócrates teve muitos discípulos e seguidores, mas também inimigos. Suas ideias e ensinamentos questionavam as realidades de sua época, razão pela qual ele foi condenado à morte por blasfêmia e por corromper a juventude de Atenas. Seus acusadores acreditavam que ele estava introduzindo novos deuses e afastando os jovens da democracia. Sócrates foi forçado a beber uma taça de cicuta, uma bebida venenosa que o levou à morte em 399 a.C. Apesar dessas acusações injustas, a vida e os ensinamentos de Sócrates influenciaram muitos filósofos e pensadores posteriores. Sua visão sobre ética e a importância do conhecimento e da sabedoria continuam sendo relevantes até hoje. 
     
@@ -58,7 +60,7 @@ IV. **Como podemos aplicar o método socrático para a resolução de conflitos?
 V.  **Reflexão final** {.inline}
     
     <div class="img-container">
-    <img src="/img/recursos-didacticos/guia-socratica/socri2.png" alt="Busto de Sócrates pensativo" class="guide-image w-60 f-right" id="reflexao"/>
+    <img src="/img/recursos-didacticos/guia-socratica/socri2-1.png" alt="Busto de Sócrates pensativo" class="guide-image f-right" id="reflexao"/>
 
     É possível que tenhamos que repetir os passos várias vezes, até mesmo em outras sessões, pois há temas que são muito difíceis de tratar. No entanto, o diálogo nos permitirá entender por que é tão difícil e, ao mesmo tempo, reconhecer o valor das opiniões dos outros e as falhas das nossas próprias opiniões. Finalizamos respondendo a estas perguntas: Como você se sentiu durante o processo de discussão? Como descreveria o processo de tentar chegar a um consenso? Achou útil? {.block}
     </div>
