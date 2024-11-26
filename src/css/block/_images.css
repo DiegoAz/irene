@@ -3,7 +3,7 @@
 }
 
 .guide-image {
-    border: 1px solid var(--light-gray);
+    border: 1px solid var(--border-color);
     padding: var(--space-3xs);
     height: auto;
     /* margin-left: var(--space-s) */
