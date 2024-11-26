@@ -12,6 +12,6 @@ toc:
 {% for section in sections %}
 {% assign file = basePath | append: section.id | append:".md" %}
 <section id="{{ section.id }}">
-  {% renderFile file %}
+  {% renderFile file, hyperlinks %}
 </section>
 {% endfor %}
