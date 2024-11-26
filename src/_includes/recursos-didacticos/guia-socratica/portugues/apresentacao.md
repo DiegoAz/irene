@@ -1,6 +1,5 @@
 ## Apresentação
 
-
 ![Busto de Sócrates, filósofo grego, em uma pose pensativa.](/img/recursos-didacticos/guia-socratica/socrates-portada.png){.guide-image .f-right .m-left #cover}
 
 O guia didático que apresentamos a seguir é um dos produtos do projeto de pesquisa “Irene: um livro de trabalho baseado na literatura clássica para a resolução de conflitos”. Esse projeto foi desenvolvido por uma equipe interdisciplinar com o objetivo de integrar o ensino da Cátedra de Paz nas instituições de ensino secundário na Colômbia. O projeto Irene utiliza textos clássicos da literatura grega e romana como ferramentas didáticas que promovem a reflexão crítica, o diálogo construtivo e a resolução pacífica de conflitos. Tal guia se concentra em uma adaptação do método socrático para ser aplicada em diversos contextos. A proposta é uma metodologia de debate que não se foca em determinar quem está certo, mas sim na busca de consensos, em um ambiente que fomente o respeito pela diversidade de opiniões e a construção coletiva de soluções.
