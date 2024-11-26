@@ -63,9 +63,10 @@ IV. **Como podemos aplicar o método socrático para a resolução de conflitos?
 
     e. Se não chegarmos a um consenso, repetiremos os passos **b) Opiniões**, **c) Validação e refutação** e **d) Reelaboração**.
 
-    <img src="/img/recursos-didacticos/guia-socratica/socri2-1.png" alt="Busto de Sócrates pensativo" class="guide-image centered" id="reflexao">
 
 V.  **Reflexão final** {.inline}
+
+    <img src="/img/recursos-didacticos/guia-socratica/socri2-1.png" alt="Busto de Sócrates pensativo" class="guide-image centered" id="reflexao">
 
     É possível que tenhamos que repetir os passos várias vezes, até mesmo em outras sessões, pois há temas que são muito difíceis de tratar. No entanto, o diálogo nos permitirá entender por que é tão difícil e, ao mesmo tempo, reconhecer o valor das opiniões dos outros e as falhas das nossas próprias opiniões. Finalizamos respondendo a estas perguntas: Como você se sentiu durante o processo de discussão? Como descreveria o processo de tentar chegar a um consenso? Achou útil? {.block}
     

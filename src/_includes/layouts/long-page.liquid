@@ -11,14 +11,10 @@
                 <a class="hyperlink internal-link" href="{{ href }}">
                     {% include "components/download-icon.liquid" %}
                     <span>{{ hyperlink }}</span>
-                    
                 </a>
+               
+                    {% include "components/in-this-page.liquid" %}
                 
-                    <div class="grid-container">
-                        {% include "components/in-this-page.liquid" %}
-                        <img src="/img/recursos-didacticos/guia-socratica/socrates-portada.png" alt="Busto de Sócrates pensativo"
-                            class="guide-image" id="portada">
-                    </div>
               
                 <article class="long-page">
                     {{ content }}

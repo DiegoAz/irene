@@ -4,61 +4,46 @@
 
 .guide-image {
     border: 1px solid var(--light-gray);
-    padding: var(--space-2xs);
+    padding: var(--space-3xs);
     height: auto;
     /* margin-left: var(--space-s) */
 }
 
 #portada {
-    /* margin-top: 5rem; */
-    width: 75%;
+    margin-top: 0;
+    width: 40%;
     height: auto;
 
     @media (max-width: 468px) {
-        width: 70%;
-    }
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: end;
-
-    /* nav {
-        grid-column: -1/1;
-        grid-row: 1/2;
-        position: relative;
-        z-indez: 1;
+        width: 46%;
     }
     
-    img {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        mix-blend-mode: multiply;
-        justify-self: end;
-    } */
 }
 
+#tech {
+    margin-top: 0;
+}
 
 #busto {
-    width: 30%;
-    @media (max-width: 40rem) {
-        width: 50%;
+    margin-top: 0;
+    width: 32%;
+    @media (max-width: 39.375rem) {
+        width: 40%;
+    }
+    @media (max-width: 20rem) {
+        width: 56%;
     }
 }
 
 
 #thinking {
-    /* shape-outside: url("/img/recursos-didacticos/guia-socratica/chica-pensando.png");
-    shape-margin: var(--space-xs); */
-    /* width: 48%; */
+    @media (max-width: 20rem) {
+        width: 41%;
+    }
 }
 
 #reflexao {
     width: 65%;
-    /* shape-outside: url("/img/recursos-didacticos/guia-socratica/socri2-1.png");
-    shape-margin: var(--space-2xs); */
-
     @media (max-width: 468px) {
         width: 70%;
     }
@@ -68,8 +53,9 @@
     width: 30%;
     margin-top: var(--space-m);
     /* height: auto; */
-    @media (max-width: 468px) {
+    @media (max-width: 500px) {
         width: 50%;
+        
     }
 }
 
@@ -101,6 +87,18 @@
     float: left;
 }
 
+.clearfix {
+    clear: both;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
 .m-right {
     margin-right: var(--space-xs)
 }
@@ -110,5 +108,6 @@
 }
 
 .centered {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }

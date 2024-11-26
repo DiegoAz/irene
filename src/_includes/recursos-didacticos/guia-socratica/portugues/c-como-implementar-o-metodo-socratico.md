@@ -33,15 +33,14 @@ I.  **Atividade preparatória** {.inline}
 
 II. **Explicação do método socrático** {.inline}
 
-    <div class="img-container">
-    <img src="/img/recursos-didacticos/guia-socratica/busto-de-socrates-explicacion.png" alt="Busto de Sócrates pensativo" class="guide-image w-40 f-right m-left" id="busto"/>
+    <p class="block clearfix">
+        <img src="/img/recursos-didacticos/guia-socratica/busto-de-socrates-explicacion.png" alt="Busto de Sócrates pensativo" class="guide-image m-left f-right" id="busto">
+        No guia dos participantes, que está anexado a este documento, inclui-se uma breve biografia de Sócrates e uma explicação simples do método socrático. Recomenda-se que essa parte do guia seja lida por turnos entre os participantes, o que permitirá uma melhor compreensão do método e fomentará a discussão desde o início. Ao ler a história de Sócrates, os participantes poderão fazer perguntas, compreender o propósito do diálogo socrático e como aplicá-lo no processo de reflexão e resolução de conflitos.
+    </p>
+    <!-- </div> -->
     
-    No guia dos participantes, que está anexado a este documento, inclui-se uma breve biografia de Sócrates e uma explicação simples do método socrático. Recomenda-se que essa parte do guia seja lida por turnos entre os participantes, o que permitirá uma melhor compreensão do método e fomentará a discussão desde o início. Ao ler a história de Sócrates, os participantes poderão fazer perguntas, compreender o propósito do diálogo socrático e como aplicá-lo no processo de reflexão e resolução de conflitos. {.block}
 
-    </div>
-    
-
-III.  **Implementação da adaptação do método socrático** {.inline}
+III.  **Implementação da adaptação do método socrático** {.inline .clearfix}
 
       1. **Questão inicial**
         
@@ -91,19 +90,15 @@ III.  **Implementação da adaptação do método socrático** {.inline}
       3. **Validação e refutação** 
 
           Uma vez que todas as opiniões tenham sido expressas, começa o processo de validação e refutação. Cada participante, por turnos, avaliará os pontos fortes e fracos das opiniões anteriores. É essencial que se explique que todas as opiniões têm, pelo menos, uma fraqueza e uma força. Também deve ser explicado que a linguagem utilizada deve ser cuidadosa para evitar ferir os sentimentos dos outros. Pode-se aconselhar os participantes a usarem expressões como: {.block}
-          
           <div class="img-container">
-
-          <img src="/img/recursos-didacticos/guia-socratica/chica-pensando.png" alt="Busto de Sócrates pensativo" class="guide-image w-40 f-right" id="thinking">
+          <img src="/img/recursos-didacticos/guia-socratica/chica-pensando-2.png" alt="Busto de Sócrates pensativo" class="guide-image w-40 f-right m-left" id="thinking">
 
           - Infelizmente, não posso concordar com sua opinião, porque… {.li-block}
           - Respeitosamente, discordo dessa postura, pois… {.li-block}
           - Encontro alguns problemas com essa ideia, no sentido de que… {.li-block}
           - Considero que há melhores alternativas, como… {.li-block}
           - Compreendo o que você disse, mas me parece que… {.li-block}
-
-          
-          </div>
+        
 
       4. **Reformulação**
 
