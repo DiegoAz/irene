@@ -51,9 +51,9 @@ module.exports = {
                     children: [
                         {
                             title: "Português",
-                            url: "/recursos-didacticos/guia-socratica/portugues/",
+                            url: "/recursos-didacticos/guia-socratica/pt/",
                             activePattern:
-                                "/recursos-didacticos/guia-socratica/portugues/",
+                                "/recursos-didacticos/guia-socratica/pt/",
                         },
                         {
                             title: "Inglés",

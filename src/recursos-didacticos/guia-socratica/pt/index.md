@@ -1,6 +1,6 @@
 ---
 title: "Guia prático para a resolução de conflitos baseado no método socrático"
-basePath: "src/_includes/recursos-didacticos/guia-socratica/portugues/"
+basePath: "src/_includes/recursos-didacticos/guia-socratica/pt/"
 href: "#links-de-download"
 page:
   lang: "pt"
