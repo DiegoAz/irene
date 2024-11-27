@@ -57,9 +57,9 @@ module.exports = {
                         },
                         {
                             title: "Inglés",
-                            url: "/recursos-didacticos/guia-socratica/ingles/",
+                            url: "/recursos-didacticos/guia-socratica/en/",
                             activePattern:
-                                "/recursos-didacticos/guia-socratica/ingles/",
+                                "/recursos-didacticos/guia-socratica/en/",
                         },
                     ],
                 },

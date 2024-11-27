@@ -1,6 +1,6 @@
 ---
 title: "Practical guide for conflict resolution based on the socratic method"
-basePath: "src/_includes/recursos-didacticos/guia-socratica/ingles/"
+basePath: "src/_includes/recursos-didacticos/guia-socratica/en/"
 href: "#download-links"
 page:
   lang: "en"
