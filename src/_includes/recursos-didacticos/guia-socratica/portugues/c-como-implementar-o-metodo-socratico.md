@@ -88,7 +88,7 @@ III.  **Implementação da adaptação do método socrático** {.inline .clearfi
       3. **Validação e refutação** 
 
           Uma vez que todas as opiniões tenham sido expressas, começa o processo de validação e refutação. Cada participante, por turnos, avaliará os pontos fortes e fracos das opiniões anteriores. É essencial que se explique que todas as opiniões têm, pelo menos, uma fraqueza e uma força. Também deve ser explicado que a linguagem utilizada deve ser cuidadosa para evitar ferir os sentimentos dos outros. Pode-se aconselhar os participantes a usarem expressões como: {.block}
-          
+
           <img src="{{ images.five.src }}" alt="{{ images.five.alt[page.lang] }}" class="{{ images.five.classes | join: ' ' }}" id="{{ images.five.id }}">
 
           - Infelizmente, não posso concordar com sua opinião, porque…
@@ -99,4 +99,4 @@ III.  **Implementação da adaptação do método socrático** {.inline .clearfi
 
       4. **Reformulação** {.clearfix}
 
-          Após a validação e refutação, o grupo deve reformular a afirmação original, integrando as forças dos diferentes pontos de vista. Se não se chegar a um consenso, repetem-se os passos **2. Opiniões**, **3. Validação e refutação** e **4. Reformulação**. É importante lembrar aos participantes que nem sempre é possível chegar a um acordo imediato e que podem ser necessárias mais sessões para alcançá-lo. Também é importante ressaltar que o valor do exercício reside na reflexão crítica e no processo contínuo de diálogo, pois a troca de opiniões permite avançar na busca de consensos que facilitem uma convivência pacífica, respeitando e valorizando nossas diferenças. {.block}
+          Após a validação e refutação, o grupo deve reformular a afirmação original, integrando as forças dos diferentes pontos de vista. Se não se chegar a um consenso, repetem-se os passos **2. (Opiniões)**, **3. (Validação e refutação)** e **4. (Reformulação)**. É importante lembrar aos participantes que nem sempre é possível chegar a um acordo imediato e que podem ser necessárias mais sessões para alcançá-lo. Também é importante ressaltar que o valor do exercício reside na reflexão crítica e no processo contínuo de diálogo, pois a troca de opiniões permite avançar na busca de consensos que facilitem uma convivência pacífica, respeitando e valorizando nossas diferenças. {.block}
