@@ -12,12 +12,4 @@ module.exports = {
   
   // Año actual para el copyright
   currentYear: new Date().getFullYear(),
-
-  hyperlinks: {
-    goToTop: {
-      en: "Go to top",
-      es: "Ir arriba",
-      pt: "Voltar ao topo"
-    },
-  }
 }; 
