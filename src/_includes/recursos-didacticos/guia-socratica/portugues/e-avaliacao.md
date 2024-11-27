@@ -1,5 +1,5 @@
 ## E. Avaliação
-{% include "components/go-back.liquid"%}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 A avaliação da aplicação do método socrático pode ser adaptada às necessidades e objetivos dos participantes. A seguir, apresentam-se várias possibilidades de avaliação:
 

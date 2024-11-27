@@ -1,5 +1,5 @@
 ## D. Variação
-{% include "components/go-back.liquid"%}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 A atividade pode ser dividida em várias sessões, conforme o professor, facilitador ou orientador julgar adequado. Para enriquecer o diálogo, pode ser designada uma leitura prévia ou um vídeo relacionado com o tema, para que os participantes cheguem à discussão com mais contexto e opiniões mais fundamentadas.
 

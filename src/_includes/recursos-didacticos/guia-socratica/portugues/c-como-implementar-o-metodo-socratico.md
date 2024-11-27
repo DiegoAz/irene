@@ -1,5 +1,5 @@
 ## C. Como implementar o método socrático?
-{% include "components/go-back.liquid"%}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 Implementar o método socrático em ambientes onde se deseja promover o diálogo construtivo requer seguir uma série de etapas que orientam os participantes por meio de um processo de análise e reflexão. O tempo estimado para a atividade é de uma hora. A seguir, apresenta-se uma metodologia simples para colocar em prática essa abordagem.
 
@@ -13,7 +13,7 @@ I.  **Atividade preparatória** {.inline}
 
     *O método socrático é uma forma de aprender a alcançar consensos por meio do diálogo. Não é uma tarefa fácil, mas se praticarmos a escuta ativa, respeitarmos os outros além de suas opiniões, analisarmos antes de emitir julgamentos com base nas emoções do momento, e nos expressarmos com argumentos bem fundamentados, os resultados podem nos surpreender.* {.block}
 
-    <img src="/img/recursos-didacticos/guia-socratica/la-scuola-di-atene-1.png" alt="Busto de Sócrates pensativo" class="guide-image" id="escuela">
+    <img src="{{ images.two.src }}" alt="{{ images.two.alt[page.lang] }}" class="{{ images.two.classes | join: ' ' }}">
 
     **Acordos de convivência**: Para que o diálogo socrático seja eficaz, é fundamental estabelecer uma série de normas de participação que garantam o respeito mútuo e a fluidez da troca de ideias. As normas permitem que todos os participantes se sintam à vontade ao expressar suas opiniões e asseguram que o processo seja construtivo e colaborativo. A seguir, são sugeridas algumas normas básicas que podem ser adaptadas conforme o contexto: {.block}
 
@@ -33,11 +33,10 @@ I.  **Atividade preparatória** {.inline}
 
 II. **Explicação do método socrático** {.inline}
 
-    <p class="block clearfix">
-        <img src="/img/recursos-didacticos/guia-socratica/busto-de-socrates-explicacion.png" alt="Busto de Sócrates pensativo" class="guide-image m-left f-right" id="busto">
+    <p class="block">
+        <img src="{{ images.three.src }}" alt="{{ images.three.alt[page.lang] }}" class="{{ images.three.classes | join: ' ' }}" id="{{ images.three.id }}">
         No guia dos participantes, que está anexado a este documento, inclui-se uma breve biografia de Sócrates e uma explicação simples do método socrático. Recomenda-se que essa parte do guia seja lida por turnos entre os participantes, o que permitirá uma melhor compreensão do método e fomentará a discussão desde o início. Ao ler a história de Sócrates, os participantes poderão fazer perguntas, compreender o propósito do diálogo socrático e como aplicá-lo no processo de reflexão e resolução de conflitos.
     </p>
-    <!-- </div> -->
     
 
 III.  **Implementação da adaptação do método socrático** {.inline .clearfix}
@@ -80,8 +79,7 @@ III.  **Implementação da adaptação do método socrático** {.inline .clearfi
           - As maiorias nunca erram.
           - Se evitar falar sobre o problema, ele desaparecerá por si só.
 
-          <img src="/img/recursos-didacticos/guia-socratica/publico.png" alt="Busto de Sócrates pensativo" class="guide-image .w-50">
-
+          <img src="{{ images.four.src }}" alt="{{ images.four.alt[page.lang] }}" class="{{ images.four.classes | join: ' ' }}">
       
       2. **Opiniões** 
 
@@ -90,16 +88,14 @@ III.  **Implementação da adaptação do método socrático** {.inline .clearfi
       3. **Validação e refutação** 
 
           Uma vez que todas as opiniões tenham sido expressas, começa o processo de validação e refutação. Cada participante, por turnos, avaliará os pontos fortes e fracos das opiniões anteriores. É essencial que se explique que todas as opiniões têm, pelo menos, uma fraqueza e uma força. Também deve ser explicado que a linguagem utilizada deve ser cuidadosa para evitar ferir os sentimentos dos outros. Pode-se aconselhar os participantes a usarem expressões como: {.block}
-          <div class="img-container">
-          <img src="/img/recursos-didacticos/guia-socratica/chica-pensando-2.png" alt="Busto de Sócrates pensativo" class="guide-image w-40 f-right m-left" id="thinking">
+          <img src="{{ images.five.src }}" alt="{{ images.five.alt[page.lang] }}" class="{{ images.five.classes | join: ' ' }}" id="{{ images.five.id }}">
 
-          - Infelizmente, não posso concordar com sua opinião, porque… {.li-block}
-          - Respeitosamente, discordo dessa postura, pois… {.li-block}
-          - Encontro alguns problemas com essa ideia, no sentido de que… {.li-block}
-          - Considero que há melhores alternativas, como… {.li-block}
-          - Compreendo o que você disse, mas me parece que… {.li-block}
-        
+          - Infelizmente, não posso concordar com sua opinião, porque…
+          - Respeitosamente, discordo dessa postura, pois… 
+          - Encontro alguns problemas com essa ideia, no sentido de que… 
+          - Considero que há melhores alternativas, como… 
+          - Compreendo o que você disse, mas me parece que… 
 
-      4. **Reformulação**
+      4. **Reformulação** {.clearfix}
 
           Após a validação e refutação, o grupo deve reformular a afirmação original, integrando as forças dos diferentes pontos de vista. Se não se chegar a um consenso, repetem-se os passos **2. Opiniões**, **3. Validação e refutação** e **4. Reformulação**. É importante lembrar aos participantes que nem sempre é possível chegar a um acordo imediato e que podem ser necessárias mais sessões para alcançá-lo. Também é importante ressaltar que o valor do exercício reside na reflexão crítica e no processo contínuo de diálogo, pois a troca de opiniões permite avançar na busca de consensos que facilitem uma convivência pacífica, respeitando e valorizando nossas diferenças. {.block}

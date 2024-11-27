@@ -1,5 +1,5 @@
 ## B. Quais aprendizados se buscam desenvolver?
-{% include "components/go-back.liquid"%}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 A adaptação do método socrático tem como objetivo desenvolver uma série de aprendizados nos participantes, que vão além da simples memorização de conceitos ou da busca de quem está certo. Esses aprendizados são fundamentais para promover o pensamento crítico e a convivência pacífica. A seguir, detalham-se os principais aprendizados que se buscam desenvolver:
 

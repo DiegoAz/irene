@@ -1,5 +1,5 @@
 ## A. O que é o método socrático?
-{% include "components/go-back.liquid"%}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 O método socrático é um procedimento de diálogo e raciocínio que se baseia na confrontação de ideias opostas através da troca de perguntas e respostas. Na adaptação que apresentamos neste guia, os interlocutores buscam aprofundar-se em um tema, não com a intenção de vencer uma discussão, mas de chegar coletivamente a uma compreensão mais clara e consensual sobre o assunto em debate. Cada pergunta formulada e cada resposta oferecida leva a uma reflexão mais profunda, permitindo que uma conclusão seja construída de forma colaborativa com as contribuições de todos os participantes na discussão.
 
