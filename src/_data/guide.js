@@ -23,7 +23,7 @@ module.exports = {
         ],
         es: [
             {
-                intro: "You can download the full guide and the guide for participants below",
+                intro: "A continuación puede descargar la guía completa y la guía para los participantes:",
                 all: {
                     text: "Guía completa",
                     href: "#"
