@@ -4,7 +4,7 @@ module.exports = {
             en: "Go to top",
             es: "Ir arriba",
             pt: "Voltar",
-            fr: "",
+            fr: "Haut de page",
         },
     },
     download: {
@@ -54,11 +54,11 @@ module.exports = {
                 intro: "Vous pouvez télécharger le guide complet et le guide pour les participants ci-dessous.",
                 all: {
                     text: "Guide complet",
-                    href: ""
+                    href: "#"
                 },
                 participants: {
                     text: "Guide pour les participants",
-                    href: ""
+                    href: "#"
                 }
             }
 

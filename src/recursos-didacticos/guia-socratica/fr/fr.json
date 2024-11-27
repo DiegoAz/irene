@@ -1,0 +1,48 @@
+{
+    "layout": "layouts/long-page.liquid",
+    "hyperlink": "Télécharger le guide",
+    "sections": [
+        {
+            "id": "introduction",
+            "title": "Présentation"
+        },
+        {
+            "id": "a-what-is-the-socratic-method",
+            "title": "Qu'est-ce que la méthode socratique ?"
+        },
+        {
+            "id": "b-what-skills-are-aimed-to-be-developed",
+            "title": "B. Quels apprentissages cherche-t-on à développer ?"
+        },
+        {
+            "id": "c-how-to-implement-the-socratic-method",
+            "title": "C. Comment mettre en œuvre la méthode socratique ?"
+        },
+        {
+            "id": "d-variation",
+            "title": "D. Variation"
+        },
+        {
+            "id": "e-evaluation",
+            "title": "E. Évaluation"
+        },
+        {
+            "id": "f-guide-for-the-participants",
+            "title": "F. Guide pour les participants"
+        },
+        {
+            "id": "download-links",
+            "title": "Liens de téléchargement"
+        }
+    ],
+    "buttons": [
+        {
+            "href": "/assets/Guia prático para a resolução de conflitos - Irene.pdf",
+            "text": "Guia completa"
+        },
+        {
+            "href": "/assets/Guia prático para a resolução de conflitos - Irene.pdf",
+            "text": "Guia para os participantes"
+        }
+    ]
+}
