@@ -32,6 +32,7 @@
 }
 
 #thinking {
+    margin-top: 0;
     @media (max-width: 20rem) {
         width: 41%;
     }

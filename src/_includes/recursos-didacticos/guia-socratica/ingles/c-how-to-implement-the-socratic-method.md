@@ -89,6 +89,7 @@ III.  **Implementation of the Adapted Socratic Method** {.inline .clearfix}
       3. **Validation and Refutation** 
 
           Once all opinions have been expressed, the process of validation and refutation begins. Each participant, in turn, will evaluate the strengths and weaknesses of the previous opinions. It is essential to explain that all opinions have at least one weakness and one strength. Additionally, it should be emphasized that the language used must avoid hurting the  feelings of others. Participants may be advised to use expressions such as: {.block}
+          
           <img src="{{ images.five.src }}" alt="{{ images.five.alt[page.lang] }}" class="{{ images.five.classes | join: ' ' }}" id="{{ images.five.id }}">
 
          
