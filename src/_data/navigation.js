@@ -50,6 +50,12 @@ module.exports = {
                         "/recursos-didacticos/guia-socratica/",
                     children: [
                         {
+                            title: "Español",
+                            url: "/recursos-didacticos/guia-socratica/es/",
+                            activePattern:
+                                "/recursos-didacticos/guia-socratica/es/",
+                        },
+                        {
                             title: "Português",
                             url: "/recursos-didacticos/guia-socratica/pt/",
                             activePattern:
@@ -60,6 +66,12 @@ module.exports = {
                             url: "/recursos-didacticos/guia-socratica/en/",
                             activePattern:
                                 "/recursos-didacticos/guia-socratica/en/",
+                        },
+                        {
+                            title: "Frances",
+                            url: "/recursos-didacticos/guia-socratica/fr/",
+                            activePattern:
+                                "/recursos-didacticos/guia-socratica/fr/",
                         },
                     ],
                 },
