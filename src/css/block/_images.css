@@ -20,11 +20,7 @@
     
 }
 
-#tech {
-    margin-top: 0;
-}
-
-#busto {
+#bust1 {
     margin-top: 0;
     width: 32%;
     @media (max-width: 39.375rem) {
@@ -35,21 +31,13 @@
     }
 }
 
-
 #thinking {
     @media (max-width: 20rem) {
         width: 41%;
     }
 }
 
-#reflexao {
-    width: 65%;
-    @media (max-width: 468px) {
-        width: 70%;
-    }
-}
-
-#head {
+#bust2 {
     width: 30%;
     margin-top: var(--space-m);
     /* height: auto; */
@@ -59,8 +47,16 @@
     }
 }
 
-.li-block {
-    margin-bottom: var(--space-xs);
+#sculpture1 {
+    margin-top: 0;
+}
+
+
+#sculpture2 {
+    width: 65%;
+    @media (max-width: 468px) {
+        width: 70%;
+    }
 }
 
 .w-60 {
