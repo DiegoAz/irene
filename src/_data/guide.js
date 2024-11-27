@@ -3,7 +3,7 @@ module.exports = {
         goToTop: {
             en: "Go to top",
             es: "Ir arriba",
-            pt: "Voltar ao topo"
+            pt: "Voltar"
         },
     },
     download: {
