@@ -1,5 +1,5 @@
 ## C. How to implement the Socratic method?
-{% include "components/go-back.liquid" %}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 Implementing the Socratic method in environments where constructive dialogue is encouraged requires following a series of steps that guide participants through a process of analysis and reflection. The estimated time for the activity is one hour. Below is a simple methodology to apply this approach.
 
@@ -9,11 +9,11 @@ I.  **Preparatory Activity** {.inline}
 
     **Initial reflection**: The teacher, workshop leader, or facilitator should start with a reflection to encourage participants to question how they interact with the opinions of others. The following text may be used: {.block}
 
-    *Often, we do not agree with the opinions of our family, friends, colleagues, or peers. But how can we be so sure that person is wrong? Have we ever asked them why they think that way? Have we taken the time to carefully analyze their arguments? Are our emotions or our reasoning telling us that they are wrong?* {.block}
+    > *Often, we do not agree with the opinions of our family, friends, colleagues, or peers. But how can we be so sure that person is wrong? Have we ever asked them why they think that way? Have we taken the time to carefully analyze their arguments? Are our emotions or our reasoning telling us that they are wrong?* {.block}
+    >
+    > *The Socratic method is a way of learning to find consensus through dialogue. It is not an easy task, but if we use active listening, respect others beyond their opinions, analyze before passing judgment based on fleeting emotions, and express ourselves with well-founded arguments, the results may surprise us.* {.block}
 
-    *The Socratic method is a way of learning to find consensus through dialogue. It is not an easy task, but if we use active listening, respect others beyond their opinions, analyze before passing judgment based on fleeting emotions, and express ourselves with well-founded arguments, the results may surprise us.* {.block}
-
-    <img src="/img/recursos-didacticos/guia-socratica/la-scuola-di-atene-1.png" alt="Busto de Sócrates pensativo" class="guide-image">
+    <img src="{{ images.two.src }}" alt="{{ images.two.alt[page.lang] }}" class="{{ images.two.classes | join: ' ' }}">
 
     **Participation Guidelines**: For the Socratic dialogue to be effective, it is essential to establish a set of participation guidelines that ensure mutual respect and the smooth exchange of ideas. These guidelines help all participants feel comfortable expressing their opinions and ensure the process is constructive and collaborative. Below are some basic rules that can be adapted to each context: {.block}
 
@@ -33,8 +33,8 @@ I.  **Preparatory Activity** {.inline}
 
 II. **Explication of the Socratic Method** {.inline}
 
-    <p class="block clearfix">
-        <img src="/img/recursos-didacticos/guia-socratica/busto-de-socrates-explicacion.png" alt="Busto de Sócrates pensativo" class="guide-image m-left f-right" id="busto">
+    <p class="block">
+        <img src="{{ images.three.src }}" alt="{{ images.three.alt[page.lang] }}" class="{{ images.three.classes | join: ' ' }}" id="{{ images.three.id }}">
         In the participants' guide, which is attached to this document, a brief biography of Socrates and a simple explanation of the Socratic method are included. It is recommended that this part of the guide be read in turns by the participants, which will allow for a better understanding of the method and encourage discussion from the outset. By reading Socrates’ story, participants will be able to ask questions, understand the purpose of Socratic dialogue, and learn how to apply it in the process of reflection and conflict resolution.
     </p>
 
@@ -80,8 +80,7 @@ III.  **Implementation of the Adapted Socratic Method** {.inline .clearfix}
           - Majorities are never wrong.
           - If you avoid talking about the problem, it will eventually disappear on its own.
 
-
-          <img src="/img/recursos-didacticos/guia-socratica/publico.png" alt="Busto de Sócrates pensativo" class="guide-image .w-50">
+          <img src="{{ images.four.src }}" alt="{{ images.four.alt[page.lang] }}" class="{{ images.four.classes | join: ' ' }}">
 
       2. **Opinions** 
 
@@ -90,8 +89,7 @@ III.  **Implementation of the Adapted Socratic Method** {.inline .clearfix}
       3. **Validation and Refutation** 
 
           Once all opinions have been expressed, the process of validation and refutation begins. Each participant, in turn, will evaluate the strengths and weaknesses of the previous opinions. It is essential to explain that all opinions have at least one weakness and one strength. Additionally, it should be emphasized that the language used must avoid hurting the  feelings of others. Participants may be advised to use expressions such as: {.block}
-          <div class="img-container">
-          <img src="/img/recursos-didacticos/guia-socratica/chica-pensando-2.png" alt="Busto de Sócrates pensativo" class="guide-image w-40 f-right m-left" id="thinking">
+          <img src="{{ images.five.src }}" alt="{{ images.five.alt[page.lang] }}" class="{{ images.five.classes | join: ' ' }}" id="{{ images.five.id }}">
 
          
           - Unfortunately, I cannot agree with your opinion because...

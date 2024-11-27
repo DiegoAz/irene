@@ -1,5 +1,5 @@
 ## E. Evaluation
-{% include "components/go-back.liquid" %}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 The evaluation of the Socratic method application can be adapted to the needs and goals of the participants. Below are several evaluation options:
 
@@ -10,3 +10,4 @@ The evaluation of the Socratic method application can be adapted to the needs an
 3. **Action Plan**: After the dialogue, participants may create a collective action plan summarizing the solutions or consensuses reached and how to implement them in their particular context (community, work team, etc.). The plan will allow evaluating of how the Socratic method may lead to concrete actions.
 
 4. **Feedback Surveys**: Participants may complete an anonymous feedback survey to evaluate the effectiveness of the Socratic method in improving mutual understanding and conflict resolution. Questions may be used such as: Did you feel heard? Did your perspective change after the dialogue? How would you rate the quality of the debate? These can help measure the impact of the process.
+

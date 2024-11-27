@@ -1,5 +1,5 @@
 ## D. Variation
-{% include "components/go-back.liquid" %}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 The activity can be divided into several sessions, depending on what the teacher, workshop leader, or facilitator deems appropriate. To enrich the dialogue, participants can be assigned a reading or a video related to the topic, so that they come to the discussion with more context and well-formed opinions.
 

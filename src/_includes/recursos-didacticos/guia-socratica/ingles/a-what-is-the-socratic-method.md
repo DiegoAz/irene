@@ -1,5 +1,5 @@
 ## A. What is the Socratic Method?
-{% include "components/go-back.liquid" %}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 The Socratic method is a process of dialogue and reasoning based on the confrontation of opposing ideas through the exchange of questions and answers. In the adaptation presented in this guide, the participants aim to delve into a topic, not with the intention of winning a debate, but to collectively reach a clearer and more consensual understanding of the issue being discussed. Each question posed and each answer given leads to deeper reflection, allowing a conclusion to be collaboratively constructed with the contributions of all participants in the discussion.
 

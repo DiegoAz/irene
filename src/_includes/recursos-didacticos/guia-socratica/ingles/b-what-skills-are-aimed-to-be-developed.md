@@ -1,5 +1,5 @@
 ## B. What skills are aimed to be developed?
-{% include "components/go-back.liquid" %}
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 The adaptation of the Socratic method aims to develop a series of skills in participants that go beyond the mere memorization of concepts or knowing who is right. These skills are fundamental for fostering critical thinking and peaceful coexistence. Below are the key skills that this method seeks to develop:
 
@@ -10,3 +10,4 @@ The adaptation of the Socratic method aims to develop a series of skills in part
 3. **Assertive communication**: Participants are encouraged to express their thoughts and emotions clearly and respectfully while also learning to listen to and value the opinions of others. As a result, constructive dialogue is strengthened, and an environment of mutual respect and understanding is promoted. {.inline}
 
 4. **Reflection and self-criticism**: The Socratic process encourages participants to reflect on their own beliefs and assumptions. This introspection allows them to assess the scope and limitations of their own opinions, fostering self-criticism and personal growth. {.inline}
+
