@@ -9,6 +9,8 @@
     padding-inline: var(--space-xs);
     padding-block-end: var(--space-s);
     background-color: var(--background-color);
+    overflow: auto;
+    overscroll-behavior: contain;
 }
 
 @media (max-width: 51.25rem) {
