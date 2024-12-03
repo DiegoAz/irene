@@ -3,14 +3,14 @@
 } */
 
 .guide-image {
-    border: 1px solid var(--border-color);
+    border: 3px double var(--border-color);
     padding: var(--space-3xs);
     height: auto;
     /* margin-left: var(--space-s) */
 }
 
 #cover {
-    margin-top: 0;
+    margin-top: var(--space-2xs);
     width: 40%;
     height: auto;
 
