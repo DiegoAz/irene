@@ -1,0 +1,31 @@
+{% include "components/head.liquid" %}
+
+<body class="no-transition">
+    {% include "components/header.liquid" %}
+
+    <div class="layout-sidebar">
+        {% include "components/sidebar.liquid" %}
+
+        <main class="non-sidebar">
+            <div class="center">
+                <h1>{{ title }}</h1>
+                <a class="hyperlink internal-link" href="{{ href }}">
+                    {% include "components/download-icon.liquid" %}
+                    <span>{{ hyperlink }}</span>
+                </a>
+
+                {% include "components/in-this-page.liquid" %}
+
+
+                <article class="long-page">
+                    
+                </article>
+            </div>
+        </main>
+    </div>
+
+    {% include "components/overlay.liquid" %}
+    {% include "components/scripts.liquid" %}
+</body>
+
+</html>
