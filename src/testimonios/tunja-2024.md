@@ -15,7 +15,7 @@ images:
 
 <img src="/img/testimonios/tunja-2024/tunja_01_2024.jpg" alt="Dos estudiantes del colegio Gustavo Rojas Pinilla leyendo una de las unidades piloto del libro de trabajo de Irene" class="testimonial-image">
 
-Durante los meses de septiembre y octubre de 2024, se implementaron en la Institución Educativa Gustavo Rojas Pinilla de Tunja dos unidades piloto del libro de trabajo *Irene: un libro de trabajo basado en la literatura clásica para la resolución de conflictos*, bajo la coordinación del profesor Juan Gabriel Santamaría y con el apoyo de Natalia Valentina Méndez López. Las pruebas de las unidades formaron parte del proceso investigativo que se lleva a cabo en el marco del proyecto de investigación Irene, que busca integrar la “Cátedra de la Paz” en el currículo educativo de la enseñanza secundaria. El pilotaje contó con la participación de 50 estudiantes de secundaria, divididos en dos grupos de 25.
+Durante los meses de septiembre y octubre de 2024, se implementaron en la Institución Educativa Gustavo Rojas Pinilla de Tunja dos unidades piloto del libro de trabajo *Irene: un libro de trabajo basado en la literatura clásica para la resolución de conflictos*, bajo la coordinación del profesor Juan Gabriel Santamaría y con el apoyo de Natalia Valentina Méndez López. Las pruebas de las unidades formaron parte del proceso investigativo que se lleva a cabo en el marco del proyecto de investigación *Irene*, que busca integrar la “Cátedra de la Paz” en el currículo educativo de la enseñanza secundaria. El pilotaje contó con la participación de 50 estudiantes de secundaria, divididos en dos grupos de 25.
 
 <img src="/img/testimonios/tunja-2024/tunja_02_2024.jpg" alt="Dos estudiantes del colegio Gustavo Rojas Pinilla leyendo una de las unidades piloto del libro de trabajo de Irene" class="testimonial-image">
 
@@ -31,11 +31,15 @@ Por su parte, la unidad “Voces de mujeres: de la Antigüedad a hoy” brindó 
 
 <img src="/img/testimonios/tunja-2024/tunja_05_2024.jpg" alt="Dos estudiantes del colegio Gustavo Rojas Pinilla leyendo una de las unidades piloto del libro de trabajo de Irene" class="testimonial-image">
 
-La experiencia fue enriquecedora tanto para los estudiantes como para los docentes. Los estudiantes valoraron el contenido de las unidades, que los conectó con situaciones y conflictos de su vida diaria, como los relacionados con la discriminación y las diferencias personales. Una de las estudiantes expresó durante una de las sesiones: “Me ayudó a entender que todos somos diferentes y podemos llegar a acuerdos”. Por su parte, el docente observó un aumento en la participación y en el respeto mutuo durante los diálogos, aunque también señaló que los estudiantes necesitaron más tiempo y esfuerzo para completar los ejercicios de escritura que acompañaron a las discusiones.
+La experiencia fue enriquecedora tanto para los estudiantes como para los docentes. Los estudiantes valoraron el contenido de las unidades, que los conectó con situaciones y conflictos de su vida diaria, como los relacionados con la discriminación y las diferencias personales. Una de las estudiantes expresó durante una de las sesiones:
+
+> “Me ayudó a entender que todos somos diferentes y podemos llegar a acuerdos”
+
+Por su parte, el docente observó un aumento en la participación y en el respeto mutuo durante los diálogos, aunque también señaló que los estudiantes necesitaron más tiempo y esfuerzo para completar los ejercicios de escritura que acompañaron a las discusiones.
 
 El plan curricular y libro de trabajo puede descargarse gratuitamente en la sección “Recursos didácticos” de esta página web.
 
 Conozca más sobre el proyecto Irene en el artículo [Construir paz desde las aulas: un viaje a través de los clásicos griegos y romanos](https://www.unisabana.edu.co/portaldenoticias/paso-en-la-sabana/construir-paz-desde-las-aulas-un-viaje-a-traves-de-los-clasicos-griegos-y-romanos/){.internal-link} publicado en el portal de noticias de la Universidad de La Sabana.
 
-Se encuentra a continuación más fotografías y videos realizados durante las sesiones de prueba.
+Vea a continuación más fotografías y videos captados durante las sesiones de prueba.
 
