@@ -82,16 +82,15 @@ module.exports = {
             key: "testimonials",
             children: [
                 {
+                  title: "Tunja, 2024",
+                  url: "/testimonios/tunja-2024/",
+                  activePattern: "/testimonios/tunja-2024/"
+                },
+                {
                     title: "Fortaleza, 2024",
                     url: "/testimonios/fortaleza-2024/",
                     activePattern: "/testimonios/fortaleza-2024/",
                 },
-                // {
-                //   title: "Tunja, 2023",
-                //   url: "/testimonials/tunja-2023/",
-                //   activePattern: "/testimonials/tunja-2023/"
-                // },
-                // ... más testimonios ...
             ],
         },
         {
