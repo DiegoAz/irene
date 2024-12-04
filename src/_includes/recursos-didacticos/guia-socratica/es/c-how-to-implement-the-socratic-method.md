@@ -9,9 +9,13 @@ I.  **Actividad preparatoria** {.inline}
 
     **Reflexión inicial**: El docente, tallerista u orientador debe comenzar con una reflexión para motivar a los participantes a cuestionarse cómo interactúan con las opiniones de los demás. Se puede usar el siguiente texto: {.block}
 
-    > *En muchas ocasiones no estamos de acuerdo con lo que opinan nuestros familiares, amigos, compañeros o colegas. Pero, ¿cómo estamos tan seguros de que esa persona está equivocada? ¿Alguna vez le hemos preguntado por qué piensa de esa manera? ¿Nos hemos tomado el tiempo de analizar sus argumentos con detenimiento? ¿Son nuestras emociones o nuestros razonamientos los que nos indican que se está equivocando?* {.block}
-    >
-    > *El método socrático es una forma de aprender a encontrar consensos mediante el diálogo. No es una tarea fácil, pero si usamos la escucha activa, respetamos a los demás más allá de sus opiniones, analizamos antes de emitir juicios basados en emociones del momento, y nos expresamos con argumentos bien fundamentados, los resultados pueden sorprendernos.* {.block}
+    <div class=guiding-text>
+    
+    *En muchas ocasiones no estamos de acuerdo con lo que opinan nuestros familiares, amigos, compañeros o colegas. Pero, ¿cómo estamos tan seguros de que esa persona está equivocada? ¿Alguna vez le hemos preguntado por qué piensa de esa manera? ¿Nos hemos tomado el tiempo de analizar sus argumentos con detenimiento? ¿Son nuestras emociones o nuestros razonamientos los que nos indican que se está equivocando?* {.block}
+    
+    *El método socrático es una forma de aprender a encontrar consensos mediante el diálogo. No es una tarea fácil, pero si usamos la escucha activa, respetamos a los demás más allá de sus opiniones, analizamos antes de emitir juicios basados en emociones del momento, y nos expresamos con argumentos bien fundamentados, los resultados pueden sorprendernos.* {.block}
+
+    </div>
 
     <img src="{{ images.two.src }}" alt="{{ images.two.alt[page.lang] }}" class="{{ images.two.classes | join: ' ' }}">
 
