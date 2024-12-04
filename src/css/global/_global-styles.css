@@ -23,6 +23,7 @@ html {
 body {
     font-family: var(--font-base);
     font-size: var(--text-size-base);
+    font-feature-settings: "ss03";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: var(--leading-standard);
@@ -144,4 +145,15 @@ li::marker {
     font-weight: 600;
     /* font-size-adjust: 0.53; */
     /* font-variation-settings: 'opsz' 14; */
+}
+
+blockquote {
+    margin-left: 0;
+    padding: var(--space-s);
+    background: var(--blockquote-bg);
+    border-left: 5px solid var(--blockquote-border);
+
+    p {
+        margin-top: 0;
+    }
 }

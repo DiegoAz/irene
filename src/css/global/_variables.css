@@ -74,6 +74,8 @@
     --buton-color: hsl(240 3% 26%);
     --button-border: hsl(30 6% 75%);
     --button-hv-bg: hsl(0 0% 87%);
+    --blockquote-bg: var(--light-gray);
+    --blockquote-border: hsl(0 0% 75%);
 }
 
 [color-scheme="dark"] {
@@ -88,4 +90,6 @@
     --buton-color: hsl(0 0% 88%);
     --button-border: var(--meta-light);
     --button-hv-bg: hsl(240 3.5% 24%);
+    --blockquote-bg: var(--dark-gray);
+    --blockquote-border: hsl(240 3.5% 35%);
 }
