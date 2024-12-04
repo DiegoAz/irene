@@ -20,6 +20,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="{{ site.description }}">
         <title>{% if page.url == "/" %}{{ site.name }}{% else %}{{ pageTitle }} | {{ site.name }}{% endif %}</title>
+        <style id="menu-transitions">
+            .parent .children { display: none !important; }
+            .parent.expanded > li > .children { display: block !important; }
+            .parent .title button svg {
+                transform: translateY(-50%) !important;
+                transition: none !important;
+            }
+            .parent.expanded > .title button svg {
+                transform: translateY(-50%) rotate(90deg) !important;
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                requestAnimationFrame(() => {
+                    setTimeout(() => {
+                        const style = document.getElementById('menu-transitions');
+                        if (style) {
+                            style.textContent = `
+                                .parent .children { display: none; }
+                                .parent.expanded > li > .children { display: block; }
+                                .parent .title button svg {
+                                    transform: translateY(-50%);
+                                    transition: transform var(--transition-base);
+                                }
+                                .parent.expanded > .title button svg {
+                                    transform: translateY(-50%) rotate(90deg);
+                                }
+                            `;
+                        }
+                    }, 50);
+                });
+            });
+        </script>
+        {% include "components/inline-scripts.liquid" %}
         {% comment %} Inter font {% endcomment %}
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -31,6 +65,4 @@
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
         <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
-        {% include "components/inline-scripts.liquid" %}
     </head>
-
