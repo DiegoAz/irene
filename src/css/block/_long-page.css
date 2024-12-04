@@ -21,6 +21,21 @@
                 display: block;
                 margin-bottom: var(--space-s);
             }
+
+            .guiding-text {
+                background: var(--blockquote-bg);
+                padding: var(--space-m);
+                border-radius: var(--space-2xs);
+
+                p.block {
+                    margin-block-start: 0;
+
+                    &:last-child {
+                        margin-block-end: 0;
+                    }
+                }
+
+            }
         }
 
     }
