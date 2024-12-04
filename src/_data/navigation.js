@@ -91,6 +91,11 @@ module.exports = {
                     url: "/testimonios/fortaleza-2024/",
                     activePattern: "/testimonios/fortaleza-2024/",
                 },
+                {
+                    title: "Viotá, 2024",
+                    url: "/testimonios/viota-2024/",
+                    activePattern: "/testimonios/viota-2024/",
+                },
             ],
         },
         {
