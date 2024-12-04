@@ -96,6 +96,11 @@ module.exports = {
                     url: "/testimonios/viota-2024/",
                     activePattern: "/testimonios/viota-2024/",
                 },
+                {
+                    title: "Tunja y Bogotá, 2023",
+                    url: "/testimonios/tunja-bogota-2023/",
+                    activePattern: "/testimonios/tunja-bogota-2023/",
+                },
             ],
         },
         {
