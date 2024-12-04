@@ -1,5 +1,15 @@
+{% assign nested_is_expanded = false %}
+
+{% comment %} Verificar si hay una página activa en los hijos anidados {% endcomment %}
+{% for nested_child in child.children %}
+    {% if page.url contains nested_child.activePattern %}
+        {% assign nested_is_expanded = true %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
 <li>
-    <ul class="parent">
+    <ul class="parent nested-parent {% if nested_is_expanded %}expanded{% endif %}" data-menu-item="{{ child.title }}">
         <li class="title">
             <button class="link">
                 <span>{{ child.title }}</span>

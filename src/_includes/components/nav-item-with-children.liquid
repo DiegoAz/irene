@@ -1,13 +1,23 @@
 {% assign is_expanded = false %}
+
+{% comment %} Solo expandir si hay una página activa {% endcomment %}
 {% for child in item.children %}
-  {% if page.url contains child.activePattern %}
-    {% assign is_expanded = true %}
-    {% break %}
-  {% endif %}
+    {% if page.url contains child.activePattern %}
+        {% assign is_expanded = true %}
+        {% break %}
+    {% endif %}
+    {% if child.children %}
+        {% for grandchild in child.children %}
+            {% if page.url contains grandchild.activePattern %}
+                {% assign is_expanded = true %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
 {% endfor %}
 
 <li>
-    <ul class="parent {% if is_expanded %}expanded{% endif %}">
+    <ul class="parent {% if is_expanded %}expanded{% endif %}" data-menu-item="{{ item.title }}">
         <li class="title">
             <button class="link">
                 <span>{{ item.title }}</span>

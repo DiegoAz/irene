@@ -7,21 +7,16 @@ const SELECTORS = {
     childrenActive: ".children .active",
 };
 
-const STORAGE_KEY = "menuState";
 const BREAKPOINT = 820;
 
 class SidebarManager {
     constructor() {
-        this.menuToggle = document.querySelector(
-            SELECTORS.menuToggle,
-        );
+        this.menuToggle = document.querySelector(SELECTORS.menuToggle);
         this.sidebar = document.querySelector(SELECTORS.sidebar);
         this.overlay = document.querySelector(SELECTORS.overlay);
         this.body = document.body;
         this.scrollPosition = 0;
-        this.parentElements = document.querySelectorAll(
-            SELECTORS.parent,
-        );
+        this.parentElements = document.querySelectorAll(SELECTORS.parent);
 
         this.init();
     }
@@ -31,8 +26,6 @@ class SidebarManager {
         this.body.classList.add("no-transition");
 
         this.setupEventListeners();
-        this.loadMenuState();
-        this.setupActiveParents();
 
         // Remover la clase no-transition después de un breve retraso
         setTimeout(() => {
@@ -42,12 +35,8 @@ class SidebarManager {
 
     setupEventListeners() {
         // Menu toggle events
-        this.menuToggle?.addEventListener("click", () =>
-            this.toggleMenu(),
-        );
-        this.overlay?.addEventListener("click", () =>
-            this.toggleMenu(),
-        );
+        this.menuToggle?.addEventListener("click", () => this.toggleMenu());
+        this.overlay?.addEventListener("click", () => this.toggleMenu());
 
         // Resize event
         window.addEventListener("resize", () => {
@@ -70,13 +59,39 @@ class SidebarManager {
 
         // Parent elements click events
         this.parentElements.forEach((parentElement) => {
-            const toggleButton = parentElement.querySelector(
-                SELECTORS.toggleButton,
-            );
+            const toggleButton = parentElement.querySelector(SELECTORS.toggleButton);
             toggleButton?.addEventListener("click", (e) => {
                 e.preventDefault();
+
+                // Obtener el padre más cercano (si existe)
+                const isNested = parentElement.classList.contains("nested-parent");
+                const parentParent = isNested
+                    ? parentElement.closest(".parent:not(.nested-parent)")
+                    : null;
+
+                // Si es un elemento anidado, solo contraer otros elementos anidados del mismo nivel
+                if (isNested) {
+                    const siblings =
+                        parentParent?.querySelectorAll(".nested-parent") || [];
+                    siblings.forEach((sibling) => {
+                        if (sibling !== parentElement) {
+                            sibling.classList.remove("expanded");
+                        }
+                    });
+                } else {
+                    // Si es un elemento padre principal, contraer otros elementos principales
+                    this.parentElements.forEach((p) => {
+                        if (
+                            p !== parentElement &&
+                            !p.classList.contains("nested-parent")
+                        ) {
+                            p.classList.remove("expanded");
+                        }
+                    });
+                }
+
+                // Alternar el estado del elemento actual
                 parentElement.classList.toggle("expanded");
-                this.saveMenuState();
             });
         });
     }
@@ -88,16 +103,14 @@ class SidebarManager {
             "aria-expanded",
             this.sidebar?.classList.contains("active"),
         );
-        this.menuToggle.classList.toggle('is-active');
+        this.menuToggle.classList.toggle("is-active");
 
         if (this.sidebar?.classList.contains("active")) {
             this.disableScroll();
         } else {
             this.enableScroll();
         }
-
     }
-
 
     disableScroll() {
         this.scrollPosition = window.scrollY;
@@ -108,7 +121,7 @@ class SidebarManager {
     }
 
     enableScroll() {
-        document.documentElement.style.scrollBehavior = 'auto';
+        document.documentElement.style.scrollBehavior = "auto";
 
         this.body.style.removeProperty("overflow");
         this.body.style.removeProperty("position");
@@ -117,49 +130,8 @@ class SidebarManager {
         window.scrollTo(0, this.scrollPosition);
 
         setTimeout(() => {
-            document.documentElement.style.scrollBehavior = 'smooth';
+            document.documentElement.style.scrollBehavior = "smooth";
         }, 0);
-    }
-
-    saveMenuState() {
-        const state = {};
-        this.parentElements.forEach((parent) => {
-            const key = parent
-                .querySelector(`${SELECTORS.toggleButton} span`)
-                ?.textContent.trim();
-            if (key) {
-                state[key] = parent.classList.contains("expanded");
-            }
-        });
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    }
-
-    loadMenuState() {
-        try {
-            const state =
-                JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
-            this.parentElements.forEach((parent) => {
-                const key = parent
-                    .querySelector(`${SELECTORS.toggleButton} span`)
-                    ?.textContent.trim();
-                if (key && state[key]) {
-                    parent.classList.add("expanded");
-                }
-            });
-        } catch (error) {
-            console.error("Error loading menu state:", error);
-        }
-    }
-
-    setupActiveParents() {
-        this.parentElements.forEach((parentElement) => {
-            if (
-                parentElement.querySelector(SELECTORS.childrenActive)
-            ) {
-                parentElement.classList.add("expanded");
-                this.saveMenuState();
-            }
-        });
     }
 }
 
