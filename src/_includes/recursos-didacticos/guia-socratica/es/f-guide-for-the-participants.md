@@ -51,7 +51,5 @@ IV. **¿Cómo podemos aplicar el método socrático para la resolución de confl
 
 V.  **Reflexión final** {.inline}
 
-    <img src="{{ images.nine.src }}" alt="{{ images.nine.alt[page.lang] }}" class="{{ images.nine.classes | join: ' ' }}" id="{{ images.nine.id }}">
-
-    Es posible que debamos repetir los pasos varias veces, incluso en una o más sesiones, pues hay temas difíciles de tratar, pero el diálogo nos permitirá entender la dificultad y reconocer tanto el valor de las opiniones de los demás como las falencias de las nuestras. Finalizamos contestando a estas preguntas: ¿cómo te sentiste durante el proceso de discusión?, ¿cómo describirías el proceso de intentar llegar a un consenso?, ¿te pareció útil? {.block}
+    {% guideNineImage "Es posible que debamos repetir los pasos varias veces, incluso en una o más sesiones, pues hay temas difíciles de tratar, pero el diálogo nos permitirá entender la dificultad y reconocer tanto el valor de las opiniones de los demás como las falencias de las nuestras. Finalizamos contestando a estas preguntas: ¿cómo te sentiste durante el proceso de discusión?, ¿cómo describirías el proceso de intentar llegar a un consenso?, ¿te pareció útil?" %}
     

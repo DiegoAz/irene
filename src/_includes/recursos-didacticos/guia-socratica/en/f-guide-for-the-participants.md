@@ -52,7 +52,5 @@ IV. **How can we apply the Socratic Method to Conflict Resolution?** {.inline}
 
 V.  **Final Reflection** {.inline}
 
-    <img src="{{ images.nine.src }}" alt="{{ images.nine.alt[page.lang] }}" class="{{ images.nine.classes | join: ' ' }}" id="{{ images.nine.id }}">
-
-    It may be necessary to repeat these steps several times, even in multiple sessions, as some topics are challenging to address. However, dialogue will help us understand why it is so challenging and, at the same time, recognize the value of the opinions of others and the shortcomings of our own. We conclude by answering the following questions: How did you feel during the discussion process? How would you describe the process of trying to reach a consensus? Did you find it useful? {.block}
+    {% guideNineImage "It may be necessary to repeat these steps several times, even in multiple sessions, as some topics are challenging to address. However, dialogue will help us understand why it is so challenging and, at the same time, recognize the value of the opinions of others and the shortcomings of our own. We conclude by answering the following questions: How did you feel during the discussion process? How would you describe the process of trying to reach a consensus? Did you find it useful?" %}
     

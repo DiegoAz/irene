@@ -51,7 +51,5 @@ IV. **Comment pouvons-nous appliquer la méthode socratique à la résolution de
 
 V.  **Réflexion finale** {.inline}
 
-    <img src="{{ images.nine.src }}" alt="{{ images.nine.alt[page.lang] }}" class="{{ images.nine.classes | join: ' ' }}" id="{{ images.nine.id }}">
-
-    Il est possible que nous devions répéter les étapes plusieurs fois, voire au cours d'autres sessions, car certains sujets sont très difficiles à traiter. Cependant, le dialogue nous permettra de comprendre pourquoi ils sont si difficiles, tout en reconnaissant la valeur des opinions des autres et les faiblesses des nôtres. Nous terminons en répondant à ces questions : Comment vous êtes-vous senti pendant le processus de discussion ? Comment décririez-vous le processus visant à parvenir à un consensus ? Vous a-t-il semblé utile ? {.block}
+    {% guideNineImage "Il est possible que nous devions répéter les étapes plusieurs fois, voire au cours d'autres sessions, car certains sujets sont très difficiles à traiter. Cependant, le dialogue nous permettra de comprendre pourquoi ils sont si difficiles, tout en reconnaissant la valeur des opinions des autres et les faiblesses des nôtres. Nous terminons en répondant à ces questions : Comment vous êtes-vous senti pendant le processus de discussion ? Comment décririez-vous le processus visant à parvenir à un consensus ? Vous a-t-il semblé utile ?" %}
     

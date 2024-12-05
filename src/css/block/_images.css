@@ -54,10 +54,7 @@
 
 
 #sculpture2 {
-    width: 65%;
-    @media (max-width: 468px) {
-        width: 70%;
-    }
+    width: 70%;
 }
 
 .w-60 {

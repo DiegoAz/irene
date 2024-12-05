@@ -148,7 +148,7 @@ module.exports = {
             classes: ["guide-image", "w-50", "f-right", "m-left"],
         },
         nine: {
-            src: "/img/recursos-didacticos/guia-socratica/reflexion-escultura.png",
+            src: "/img/recursos-didacticos/guia-socratica/reflexion-escultura.jpg",
             alt: {
                 en: "Illustration of three people collaborating: a woman with glasses using a laptop, a man holding a tablet, and another woman pointing at a light bulb, symbolizing ideas.",
                 es: "Ilustración de tres personas colaborando: una mujer con gafas usando una laptop, un hombre sosteniendo una tablet y otra mujer señalando una bombilla, simbolizando ideas.",
