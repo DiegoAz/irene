@@ -22,7 +22,7 @@
 
 #bust1 {
     margin-top: 0;
-    width: 32%;
+    width: 40%;
     @media (max-width: 39.375rem) {
         width: 40%;
     }
@@ -39,8 +39,8 @@
 }
 
 #bust2 {
-    width: 30%;
-    margin-top: var(--space-m);
+    width: 40%;
+    margin-top: 0;
     /* height: auto; */
     @media (max-width: 500px) {
         width: 50%;
