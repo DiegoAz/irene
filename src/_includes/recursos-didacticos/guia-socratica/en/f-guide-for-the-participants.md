@@ -7,10 +7,8 @@
 # A Practical Dialogue Guide for Conflict Resolution Based on the Socratic Method
 
 I.  **Introduction** {.inline}
-
-    <img src="{{ images.six.src }}" alt="{{ images.six.alt[page.lang] }}" class="{{ images.six.classes | join: ' ' }}" id="{{ images.six.id }}">
-
-    This guide presents an adaptation of the Socratic method for conflict resolution. Its primary goal is to raise awareness about the importance of constructive dialogue, critical analysis, and the search for consensus. The guide also aims to motivate people to create spaces for exchanging ideas where participants can challenge their own assumptions and those of others. The dialogical process seeks to build a collective understanding that respects the diversity of perspectives and avoids the imposition of opinions. Participants are expected not only to learn how to lead a dialogue but also to negotiate and reach consensus, essential skills for harmonious coexistence. This guide is designed for any group of people interested in facilitating dialogue, since it can be applied in various contexts: {.block}
+    
+    {% guideSixImage "This guide presents an adaptation of the Socratic method for conflict resolution. Its primary goal is to raise awareness about the importance of constructive dialogue, critical analysis, and the search for consensus. The guide also aims to motivate people to create spaces for exchanging ideas where participants can challenge their own assumptions and those of others. The dialogical process seeks to build a collective understanding that respects the diversity of perspectives and avoids the imposition of opinions. Participants are expected not only to learn how to lead a dialogue but also to negotiate and reach consensus, essential skills for harmonious coexistence. This guide is designed for any group of people interested in facilitating dialogue, since it can be applied in various contexts:" %}
     
     - **In the community:** It allows people to discuss local issues and seek joint solutions.
     - **In the family environment:** It helps improve communication and resolve misunderstandings between family members or friends.

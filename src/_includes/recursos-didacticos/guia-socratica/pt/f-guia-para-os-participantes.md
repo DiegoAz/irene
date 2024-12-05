@@ -8,9 +8,7 @@
 
 I.  **Introdução** {.inline}
 
-    <img src="{{ images.six.src }}" alt="{{ images.six.alt[page.lang] }}" class="{{ images.six.classes | join: ' ' }}" id="{{ images.six.id }}">
-
-    Apresentamos neste guia uma adaptação do método socrático para a resolução de conflitos. Seu objetivo principal é conscientizar as pessoas sobre a necessidade do diálogo construtivo, da análise crítica e da busca por consensos. O guia também visa motivar as pessoas a criar espaços de troca de ideias, onde os participantes possam questionar suas próprias suposições e as dos outros. O processo dialógico busca construir uma compreensão coletiva que respeite a diversidade de perspectivas e se afaste da imposição de opiniões. Espera-se que os participantes não apenas aprendam a dialogar, mas também a negociar e chegar a consensos, habilidades essenciais para uma convivência harmoniosa. O guia é destinado a qualquer grupo de pessoas interessadas em facilitar o diálogo, podendo ser aplicado em diferentes contextos: {.block}
+   {% guideSixImage "Apresentamos neste guia uma adaptação do método socrático para a resolução de conflitos. Seu objetivo principal é conscientizar as pessoas sobre a necessidade do diálogo construtivo, da análise crítica e da busca por consensos. O guia também visa motivar as pessoas a criar espaços de troca de ideias, onde os participantes possam questionar suas próprias suposições e as dos outros. O processo dialógico busca construir uma compreensão coletiva que respeite a diversidade de perspectivas e se afaste da imposição de opiniões. Espera-se que os participantes não apenas aprendam a dialogar, mas também a negociar e chegar a consensos, habilidades essenciais para uma convivência harmoniosa. O guia é destinado a qualquer grupo de pessoas interessadas em facilitar o diálogo, podendo ser aplicado em diferentes contextos:" %}
 
     - **Na comunidade**: permite que as pessoas discutam problemas locais e busquem soluções conjuntas.
     - **No ambiente familiar**: ajuda a melhorar a comunicação e a resolver mal-entendidos entre familiares ou amigos.
