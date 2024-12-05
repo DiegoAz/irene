@@ -9,9 +9,13 @@ I.  **Activité préparatoire** {.inline}
 
     **Réflexion initiale :** L’enseignant, l’animateur ou le conseiller doit commencer par une réflexion visant à motiver les participants à s’interroger sur la manière dont ils interagissent avec les opinions des autres. Le texte suivant peut être utilisé : {.block}
 
-    > *Il nous arrive souvent de ne pas être d’accord avec les opinions de nos proches, amis, collègues ou camarades. Mais, comment pouvons-nous être si sûrs que cette personne a tort ? Lui avons-nous déjà demandé pourquoi elle pense ainsi ? Avons-nous pris le temps d’analyser ses arguments attentivement ? Est-ce que ce sont nos émotions ou nos raisonnements qui nous indiquent que cette personne se trompe ?* {.block}
-    >
-    > *La méthode socratique est un moyen d’apprendre à trouver un consensus à travers le dialogue. Ce n’est pas une tâche facile, mais si nous pratiquons l’écoute active, respectons les autres au-delà de leurs opinions, analysons avant de porter des jugements basés sur des émotions momentanées, et exprimons nos points de vue avec des arguments bien fondés, les résultats peuvent nous surprendre.* {.block}
+    <div class=guiding-text>
+
+    *Il nous arrive souvent de ne pas être d’accord avec les opinions de nos proches, amis, collègues ou camarades. Mais, comment pouvons-nous être si sûrs que cette personne a tort ? Lui avons-nous déjà demandé pourquoi elle pense ainsi ? Avons-nous pris le temps d’analyser ses arguments attentivement ? Est-ce que ce sont nos émotions ou nos raisonnements qui nous indiquent que cette personne se trompe ?* {.block}
+    
+    *La méthode socratique est un moyen d’apprendre à trouver un consensus à travers le dialogue. Ce n’est pas une tâche facile, mais si nous pratiquons l’écoute active, respectons les autres au-delà de leurs opinions, analysons avant de porter des jugements basés sur des émotions momentanées, et exprimons nos points de vue avec des arguments bien fondés, les résultats peuvent nous surprendre.* {.block}
+
+    </div>
 
     <img src="{{ images.two.src }}" alt="{{ images.two.alt[page.lang] }}" class="{{ images.two.classes | join: ' ' }}">
 

@@ -9,9 +9,13 @@ I.  **Preparatory Activity** {.inline}
 
     **Initial reflection**: The teacher, workshop leader, or facilitator should start with a reflection to encourage participants to question how they interact with the opinions of others. The following text may be used: {.block}
 
-    > *Often, we do not agree with the opinions of our family, friends, colleagues, or peers. But how can we be so sure that person is wrong? Have we ever asked them why they think that way? Have we taken the time to carefully analyze their arguments? Are our emotions or our reasoning telling us that they are wrong?* {.block}
-    >
-    > *The Socratic method is a way of learning to find consensus through dialogue. It is not an easy task, but if we use active listening, respect others beyond their opinions, analyze before passing judgment based on fleeting emotions, and express ourselves with well-founded arguments, the results may surprise us.* {.block}
+    <div class=guiding-text>
+
+    *Often, we do not agree with the opinions of our family, friends, colleagues, or peers. But how can we be so sure that person is wrong? Have we ever asked them why they think that way? Have we taken the time to carefully analyze their arguments? Are our emotions or our reasoning telling us that they are wrong?* {.block}
+    
+    *The Socratic method is a way of learning to find consensus through dialogue. It is not an easy task, but if we use active listening, respect others beyond their opinions, analyze before passing judgment based on fleeting emotions, and express ourselves with well-founded arguments, the results may surprise us.* {.block}
+
+    </div>
 
     <img src="{{ images.two.src }}" alt="{{ images.two.alt[page.lang] }}" class="{{ images.two.classes | join: ' ' }}">
 

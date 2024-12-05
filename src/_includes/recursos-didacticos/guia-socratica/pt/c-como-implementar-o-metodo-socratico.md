@@ -9,10 +9,14 @@ I.  **Atividade preparatória** {.inline}
 
     **Reflexão inicial**: O professor, facilitador ou orientador deve começar com uma reflexão para motivar os participantes a questionarem como interagem com as opiniões dos outros. O seguinte texto pode ser utilizado: {.block}
 
+    <div class=guiding-text>
+
     *Em muitas ocasiões, não concordamos com o que dizem nossos familiares, amigos, colegas ou conhecidos. Mas, como temos tanta certeza de que essa pessoa está errada? Alguma vez já perguntamos por que ela pensa dessa forma? Nos demos ao trabalho de analisar seus argumentos com cuidado? São nossas emoções ou nossos raciocínios que nos dizem que essa pessoa está equivocada?* {.block}
 
     *O método socrático é uma forma de aprender a alcançar consensos por meio do diálogo. Não é uma tarefa fácil, mas se praticarmos a escuta ativa, respeitarmos os outros além de suas opiniões, analisarmos antes de emitir julgamentos com base nas emoções do momento, e nos expressarmos com argumentos bem fundamentados, os resultados podem nos surpreender.* {.block}
 
+    </div>
+    
     <img src="{{ images.two.src }}" alt="{{ images.two.alt[page.lang] }}" class="{{ images.two.classes | join: ' ' }}">
 
     **Acordos de convivência**: Para que o diálogo socrático seja eficaz, é fundamental estabelecer uma série de normas de participação que garantam o respeito mútuo e a fluidez da troca de ideias. As normas permitem que todos os participantes se sintam à vontade ao expressar suas opiniões e asseguram que o processo seja construtivo e colaborativo. A seguir, são sugeridas algumas normas básicas que podem ser adaptadas conforme o contexto: {.block}
