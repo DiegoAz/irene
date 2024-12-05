@@ -116,7 +116,7 @@ module.exports = {
             id: "thinking",
         },
         six: {
-            src: "/img/recursos-didacticos/guia-socratica/socrates-busto-2.png",
+            src: "/img/recursos-didacticos/guia-socratica/socrates-busto-2.jpeg",
             alt: {
                 en: "Bust of Socrates, the Greek philosopher, with a serious expression and beard, carved in marble.",
                 es: "Busto de Sócrates, el filósofo griego, con una expresión seria y barba, tallado en mármol.",
