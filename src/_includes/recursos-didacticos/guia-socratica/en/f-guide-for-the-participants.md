@@ -20,9 +20,7 @@ II. **Who Was Socrates?** {.inline}
 
     Unlike many philosophers of his time, Socrates did not focus on studying nature or the universe but on moral and ethical issues. Socrates believed that knowledge and wisdom were the keys to living a good and virtuous life. He was known for his teaching style. Instead of giving direct answers to his interlocutors, he asked questions to make them reflect and arrive at their conclusions. {.block}
 
-    <img src="{{ images.seven.src }}" alt="{{ images.seven.alt[page.lang] }}" class="{{ images.seven.classes | join: ' ' }}" id="{{ images.seven.id }}">
-
-    Socrates had many disciples and followers, but he also had enemies. His ideas and teachings challenged the realities of his time, so Socrates was sentenced to death for blasphemy and corrupting the youth of Athens. His accusers believed he was introducing new gods and leading the youth away from democracy. He was forced to drink a cup of hemlock, a poisonous drink that led to his death in 399 B.C. Despite these unjust accusations, Socrates' life and teachings have influenced many later philosophers and thinkers. His vision of ethics and the importance of knowledge and wisdom remain relevant today.
+    {% guideSevenImage "Socrates had many disciples and followers, but he also had enemies. His ideas and teachings challenged the realities of his time, so Socrates was sentenced to death for blasphemy and corrupting the youth of Athens. His accusers believed he was introducing new gods and leading the youth away from democracy. He was forced to drink a cup of hemlock, a poisonous drink that led to his death in 399 B.C. Despite these unjust accusations, Socrates' life and teachings have influenced many later philosophers and thinkers. His vision of ethics and the importance of knowledge and wisdom remain relevant today." %}
     
 
 III.    **What Is the Socratic Method?** {.inline}

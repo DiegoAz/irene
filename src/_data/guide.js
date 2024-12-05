@@ -127,7 +127,7 @@ module.exports = {
             id: "bust2",
         },
         seven: {
-            src: "/img/recursos-didacticos/guia-socratica/socrates-escultura.png",
+            src: "/img/recursos-didacticos/guia-socratica/socrates-escultura.jpg",
             alt: {
                 en: "Sculpture of Socrates, the Greek philosopher, sitting and holding a book in his hand, with a focused expression.",
                 es: "Escultura de Sócrates, el filósofo griego, sentado y sosteniendo un libro en la mano, con una expresión concentrada",

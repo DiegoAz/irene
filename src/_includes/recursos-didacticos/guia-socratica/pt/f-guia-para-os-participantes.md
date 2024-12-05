@@ -23,9 +23,7 @@ II. **Quem foi Sócrates?** {.inline}
 
     Diferente de muitos filósofos de sua época, Sócrates não focava no estudo da natureza ou do universo, mas nas questões morais e éticas. Ele acreditava que o conhecimento e a sabedoria eram a chave para viver uma vida boa e virtuosa. Sócrates era conhecido por seu estilo de ensino. Em vez de dar respostas diretas aos seus interlocutores, ele fazia perguntas para que eles refletissem e chegassem às suas próprias conclusões. {.block}
 
-    <img src="{{ images.seven.src }}" alt="{{ images.seven.alt[page.lang] }}" class="{{ images.seven.classes | join: ' ' }}" id="{{ images.seven.id }}">
-
-    Sócrates teve muitos discípulos e seguidores, mas também inimigos. Suas ideias e ensinamentos questionavam as realidades de sua época, razão pela qual ele foi condenado à morte por blasfêmia e por corromper a juventude de Atenas. Seus acusadores acreditavam que ele estava introduzindo novos deuses e afastando os jovens da democracia. Sócrates foi forçado a beber uma taça de cicuta, uma bebida venenosa que o levou à morte em 399 a.C. Apesar dessas acusações injustas, a vida e os ensinamentos de Sócrates influenciaram muitos filósofos e pensadores posteriores. Sua visão sobre ética e a importância do conhecimento e da sabedoria continuam sendo relevantes até hoje. 
+    {% guideSevenImage "Sócrates teve muitos discípulos e seguidores, mas também inimigos. Suas ideias e ensinamentos questionavam as realidades de sua época, razão pela qual ele foi condenado à morte por blasfêmia e por corromper a juventude de Atenas. Seus acusadores acreditavam que ele estava introduzindo novos deuses e afastando os jovens da democracia. Sócrates foi forçado a beber uma taça de cicuta, uma bebida venenosa que o levou à morte em 399 a.C. Apesar dessas acusações injustas, a vida e os ensinamentos de Sócrates influenciaram muitos filósofos e pensadores posteriores. Sua visão sobre ética e a importância do conhecimento e da sabedoria continuam sendo relevantes até hoje." %}
     
 
 III.    **O que é o método socrático?** {.inline}

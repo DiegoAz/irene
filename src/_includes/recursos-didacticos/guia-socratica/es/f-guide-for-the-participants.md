@@ -20,9 +20,7 @@ II. **¿Quién era Sócrates?** {.inline}
 
     A diferencia de muchos filósofos de su época, Sócrates no se centraba en el estudio de la naturaleza o el universo, sino en el estudio de las cuestiones morales y éticas. Sócrates creía que el conocimiento y la sabiduría eran la clave para vivir una vida buena y virtuosa. Nuestro filósofo era conocido por su estilo de enseñanza. En lugar de dar respuestas directas a sus interlocutores, hacía preguntas para hacerlos reflexionar y llegar a sus propias conclusiones. {.block}
 
-    <img src="{{ images.seven.src }}" alt="{{ images.seven.alt[page.lang] }}" class="{{ images.seven.classes | join: ' ' }}" id="{{ images.seven.id }}">
-
-    Sócrates tuvo muchos discípulos y seguidores, pero también enemigos. Sus ideas y enseñanzas cuestionaban las realidades de su época, por lo que Sócrates fue condenado a muerte por blasfemia y corromper a la juventud de Atenas. Sus acusadores pensaban que estaba introduciendo nuevos dioses y estaba alejando a los jóvenes de la democracia. Fue obligado a beber una copa de cicuta, un brebaje venenoso que lo llevó a la muerte en el año 399 a. C. A pesar de esas injustas acusaciones, la vida y las enseñanzas de Sócrates han influido en muchos filósofos y pensadores posteriores. Su visión de la ética y la importancia del conocimiento y la sabiduría siguen siendo relevantes hoy en día.
+    {% guideSevenImage "Sócrates tuvo muchos discípulos y seguidores, pero también enemigos. Sus ideas y enseñanzas cuestionaban las realidades de su época, por lo que Sócrates fue condenado a muerte por blasfemia y corromper a la juventud de Atenas. Sus acusadores pensaban que estaba introduciendo nuevos dioses y estaba alejando a los jóvenes de la democracia. Fue obligado a beber una copa de cicuta, un brebaje venenoso que lo llevó a la muerte en el año 399 a. C. A pesar de esas injustas acusaciones, la vida y las enseñanzas de Sócrates han influido en muchos filósofos y pensadores posteriores. Su visión de la ética y la importancia del conocimiento y la sabiduría siguen siendo relevantes hoy en día." %}
 
 III.    **¿Qué es el método socrático?** {.inline}
 
