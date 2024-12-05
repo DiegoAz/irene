@@ -4,6 +4,7 @@ const htmlmin = require("html-minifier-terser");
 const markdownItFancyLists =
     require("markdown-it-fancy-lists").markdownItFancyListPlugin;
 const markdownItAttrs = require("markdown-it-attrs");
+const guide = require("./src/_data/guide.js");
 
 module.exports = async function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyPostcss);
@@ -30,6 +31,12 @@ module.exports = async function (eleventyConfig) {
         <p>${paragraphText}</p>
       </section>
     `;
+    });
+    eleventyConfig.addShortcode("guideFirstImage", function (text) {
+        return `<p><img src="${guide.images.one.src}"
+                           alt="${guide.images.one.alt[this.page.lang]}"
+                           class="${guide.images.one.classes.join(" ")}"
+                           id="${guide.images.one.id}">${text}</p>`;
     });
     eleventyConfig.setServerOptions({
         showAllHosts: true,
