@@ -1,7 +1,7 @@
 ## F. Guide pour les participants
 {% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
-<hr class="dashed">
+<hr class="solid">
 
 # Pouvons-nous parvenir à des consensus ?
 # Guide pratique pour le dialogue et la résolution de conflits basé sur la méthode socratique

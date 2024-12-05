@@ -1,7 +1,7 @@
 ## F. Guide for the participants
 {% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
-<hr class="dashed">
+<hr class="solid">
 
 # Can We Reach Consensus?
 # A Practical Dialogue Guide for Conflict Resolution Based on the Socratic Method

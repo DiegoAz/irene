@@ -137,6 +137,10 @@ hr.dashed {
     border-top: 1px dashed var(--border-color);
 }
 
+hr.solid {
+    border-top: 1px solid var(--border-color);
+}
+
 strong,
 .bold,
 li::marker {

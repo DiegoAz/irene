@@ -1,7 +1,7 @@
 ## F. Guía para los participantes
 {% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
-<hr class="dashed">
+<hr class="solid">
 
 # ¿Podemos llegar a consensos?
 # Guía práctica de diálogo para la resolución de conflictos basada en el método socrático

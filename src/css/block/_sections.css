@@ -105,7 +105,7 @@
         margin-right: 10px; /* Espacio entre el icono y el borde */
         width: 2em;
         height: 2em;
-        stroke: var(--meta-text-color);
+        stroke: var(--text-color);
         stroke-width:2;
         stroke-linecap:round;
         stroke-linejoin:round
@@ -115,6 +115,6 @@
         flex-grow: 1;
         height: 1px; /* Altura del borde */
         background: transparent; /* Fondo transparente */
-        border-top: 1px dashed var(--meta-text-color); /* Borde dash */
+        border-top: 1px solid var(--border-color); /* Borde dash */
     }
 }
