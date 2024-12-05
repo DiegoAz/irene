@@ -1,12 +1,59 @@
 ---
 layout: "layouts/base"
 ---
-# Presentación
+<section class="home-section hero">
+    <div class="hero-content">
+        <span>Presentamos</span>
+        <h1><em>Irene</em>: un libro de trabajo basado en la literatura clásica para la resolución de conflictos (HUM-13-2024)</h1>
+        <p>El proyecto emplea la literatura clásica como herramienta educativa para desarrollar habilidades de resolución de conflictos en estudiantes de secundaria. Además, busca promover el diálogo, la empatía y el pensamiento crítico, mediante una adaptación del método socrático.</p>
+        <p>Su enfoque principal es la promoción de una cultura de paz que integra valores de reconciliación y convivencia pacífica.</p>
+        <a href="/acerca-de/introduccion" class="section-link">
+        Conoce más sobre el proyecto
+        <span>&#8594;</span>
+        </a>
+    </div>
+</section>
+<section class="home-section two-grid">
+    <div>
+        <h2>Currículo</h2>
+        <p>Tempor quis amet laboris incididunt. Culpa minim duis consequat nisi id nisi velit aliquip cupidatat enim duis officia. Nisi qui sint duis nulla occaecat adipisicing est amet duis tempor cupidatat ea aliqua. Pariatur quis pariatur excepteur sint.</p>
+        <a href="/curriculo" class="section-link">
+        Consulta el currículo
+        <span>&#8594;</span>
+        </a>
+    </div>
+    <div>
+        <h2>Recursos didácticos</h2>
+        <p>Tempor quis amet laboris incididunt. Culpa minim duis consequat nisi id nisi velit aliquip cupidatat enim duis officia. Nisi qui sint duis nulla occaecat adipisicing est amet duis tempor cupidatat ea aliqua. Pariatur quis pariatur excepteur sint.</p>
+        <a href="/recursos-didacticos" class="section-link">
+        Accede a los recursos
+        <span>&#8594;</span>
+        </a>
+    </div>
+</section>
 
-El proyecto “Irene: un libro de trabajo basado en la literatura clásica para la resolución de conflictos (HUM-13-2024)” es una iniciativa de investigación educativa diseñada para integrar la enseñanza de la “Cátedra de la Paz” en las instituciones de educación secundaria de Colombia. El proyecto busca fomentar el diálogo, la empatía y el pensamiento crítico en los estudiantes, por medio de textos clásicos de la literatura griega y romana, con el fin de promover la resolución pacífica de conflictos tanto en el aula como en sus comunidades.
-
-Una de las principales innovaciones de Irene es la adaptación del método socrático, que ha sido probada en varias instituciones educativas y que cuenta con una guía para su implementación en contextos diferentes al escolar. Esta metodología se centra en generar debates abiertos que no buscan imponer quién tiene razón, sino alcanzar consensos a través de la reflexión colectiva y el respeto a la diversidad de opiniones. Los estudiantes son guiados para relacionar los conflictos presentados en los textos clásicos con los problemas sociales y políticos de su propio contexto, con lo que se fomenta una comprensión crítica de los derechos humanos y la convivencia pacífica.
-
-El proyecto, además de su implementación en Colombia, ha expandido su alcance hacia la región amazónica de Brasil, donde se está trabajando con comunidades indígenas para adaptar los materiales y el currículo a sus realidades culturales y sociales. Este esfuerzo pone un enfoque especial en reducir la violencia de género y fortalecer las capacidades de resolución de conflictos dentro de las comunidades locales. La colaboración con líderes y educadores locales es clave para garantizar que los materiales sean relevantes e impactantes.
-
-Gracias al apoyo de la Universidad de La Sabana, el King’s College London, la Universidade do Estado do Amazonas y el Arts and Humanities Research Council (AHRC), Irene busca generar un modelo educativo flexible y escalable que pueda aplicarse no solo en Colombia, sino en otras regiones de América Latina afectadas por conflictos. La combinación de recursos impresos y digitales asegura un acceso más amplio a los materiales, especialmente en áreas rurales o con limitado acceso a internet. De esta manera, el proyecto Irene subraya la importancia de las humanidades como herramientas para la transformación social y la construcción de paz.
+<section class="home-section testimonials">
+    <h2>Testimonios</h2>
+    <ul class="testimonials-list">
+        <li class="testimonial">
+            <p><a class="testimonial-link" href="#">Prueba del libro Irene en el Colegio Gustavo Rojas Pinilla</a></p>
+            <span class="meta-text-color">Tunja</span>
+            <span class="meta-text-color">2024</span>
+        </li>
+        <li class="testimonial">
+            <p><a class="testimonial-link" href="#">Sócrates en la Escola Municipal Creusa do Carmo Rocha</a></p>
+            <span class="meta-text-color">Fortaleza</span>
+            <span class="meta-text-color">2024</span>
+        </li>
+        <li class="testimonial">
+            <p><a class="testimonial-link" href="#">Sócrates en un paisaje de paz</a></p>
+            <span class="meta-text-color">Viotá</span>
+            <span class="meta-text-color">2024</span>
+        </li>
+        <li class="testimonial">
+            <p><a class="testimonial-link" href="#">Sócrates en los colegios Gustavo Rojas Pinilla y Delia Zapata Olivella</a></p>
+            <span class="meta-text-color">Tunja y Bogotá</span>
+            <span class="meta-text-color">2023</span>
+        </li>
+    
+</section>
