@@ -38,6 +38,12 @@ module.exports = async function (eleventyConfig) {
                            class="${guide.images.one.classes.join(" ")}"
                            id="${guide.images.one.id}">${text}</p>`;
     });
+    eleventyConfig.addShortcode("guideThirdImage", function (text) {
+        return `<p class="block"><img src="${guide.images.three.src}"
+                           alt="${guide.images.three.alt[this.page.lang]}"
+                           class="${guide.images.three.classes.join(" ")}"
+                           id="${guide.images.three.id}">${text}</p>`;
+    });
     eleventyConfig.setServerOptions({
         showAllHosts: true,
     });
