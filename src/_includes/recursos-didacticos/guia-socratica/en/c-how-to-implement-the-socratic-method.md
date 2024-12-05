@@ -33,15 +33,13 @@ I.  **Preparatory Activity** {.inline}
 
 II. **Explication of the Socratic Method** {.inline}
 
-    <p class="block">
-        <img src="{{ images.three.src }}" alt="{{ images.three.alt[page.lang] }}" class="{{ images.three.classes | join: ' ' }}" id="{{ images.three.id }}">
-        In the participants' guide, which is attached to this document, a brief biography of Socrates and a simple explanation of the Socratic method are included. It is recommended that this part of the guide be read in turns by the participants, which will allow for a better understanding of the method and encourage discussion from the outset. By reading Socrates’ story, participants will be able to ask questions, understand the purpose of Socratic dialogue, and learn how to apply it in the process of reflection and conflict resolution.
-    </p>
+   {% guideThirdImage "In the participants' guide, which is attached to this document, a brief biography of Socrates and a simple explanation of the Socratic method are included. It is recommended that this part of the guide be read in turns by the participants, which will allow for a better understanding of the method and encourage discussion from the outset. By reading Socrates’ story, participants will be able to ask questions, understand the purpose of Socratic dialogue, and learn how to apply it in the process of reflection and conflict resolution." %}
+
 
 III.  **Implementation of the Adapted Socratic Method** {.inline .clearfix}
 
       1. **Initial Question**
-        
+
           After completing the preparatory activity and explaining the Socratic method, an initial statement should be chosen to spark debate, adapted to the context in which the method will be implemented. It is crucial that this statement be carefully selected to promote a rich and participatory discussion. {.block}
 
           The statement should be incomplete, ambiguous, or lead to a false conclusion, known as a 'fallacy.' The purpose of this selection is to create a polarizing starting point, so that participants, through their interventions, are motivated to soften, clarify, or question the strength of the statement. This encourages participants to examine different perspectives and work towards consensus as the dialogue develops. {.block}
@@ -82,23 +80,23 @@ III.  **Implementation of the Adapted Socratic Method** {.inline .clearfix}
 
           <img src="{{ images.four.src }}" alt="{{ images.four.alt[page.lang] }}" class="{{ images.four.classes | join: ' ' }}">
 
-      2. **Opinions** 
+      2. **Opinions**
 
           Participants take turns expressing their opinions on the initial statement. These should be recorded concisely on a board or a visible screen for everyone. If these resources are not available, one or two participants can be assigned as secretaries, who will note down the opinions in a notebook or on a mobile device. {.block}
 
-      3. **Validation and Refutation** 
+      3. **Validation and Refutation**
 
           Once all opinions have been expressed, the process of validation and refutation begins. Each participant, in turn, will evaluate the strengths and weaknesses of the previous opinions. It is essential to explain that all opinions have at least one weakness and one strength. Additionally, it should be emphasized that the language used must avoid hurting the  feelings of others. Participants may be advised to use expressions such as: {.block}
-          
+
           <img src="{{ images.five.src }}" alt="{{ images.five.alt[page.lang] }}" class="{{ images.five.classes | join: ' ' }}" id="{{ images.five.id }}">
 
-         
+
           - Unfortunately, I cannot agree with your opinion because...
           - I respectfully disagree with this stance because...
           - I find this idea problematic, because ...
           - I believe there are better alternatives, such as...
           - I understand what you are saying, but it seems to me that…
-        
+
 
       4. **Reformulation** {.clearfix}
 

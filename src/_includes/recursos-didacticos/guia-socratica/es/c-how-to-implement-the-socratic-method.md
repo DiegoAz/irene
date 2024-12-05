@@ -10,9 +10,9 @@ I.  **Actividad preparatoria** {.inline}
     **Reflexión inicial**: El docente, tallerista u orientador debe comenzar con una reflexión para motivar a los participantes a cuestionarse cómo interactúan con las opiniones de los demás. Se puede usar el siguiente texto: {.block}
 
     <div class=guiding-text>
-    
+
     *En muchas ocasiones no estamos de acuerdo con lo que opinan nuestros familiares, amigos, compañeros o colegas. Pero, ¿cómo estamos tan seguros de que esa persona está equivocada? ¿Alguna vez le hemos preguntado por qué piensa de esa manera? ¿Nos hemos tomado el tiempo de analizar sus argumentos con detenimiento? ¿Son nuestras emociones o nuestros razonamientos los que nos indican que se está equivocando?* {.block}
-    
+
     *El método socrático es una forma de aprender a encontrar consensos mediante el diálogo. No es una tarea fácil, pero si usamos la escucha activa, respetamos a los demás más allá de sus opiniones, analizamos antes de emitir juicios basados en emociones del momento, y nos expresamos con argumentos bien fundamentados, los resultados pueden sorprendernos.* {.block}
 
     </div>
@@ -37,21 +37,19 @@ I.  **Actividad preparatoria** {.inline}
 
 II. **Explicación del método socrático** {.inline}
 
-    <p class="block">
-        <img src="{{ images.three.src }}" alt="{{ images.three.alt[page.lang] }}" class="{{ images.three.classes | join: ' ' }}" id="{{ images.three.id }}">
-        En la guía de los participantes, que está adjunta a este documento, se incluye una brevísima biografía de Sócrates y una explicación sencilla del método socrático. Se recomienda que esa parte de la guía sea leída por turnos entre los participantes, lo que permitirá un mejor entendimiento del método y fomentará la discusión desde el inicio. Al leer la historia de Sócrates, los participantes podrán hacer preguntas, comprender el propósito del diálogo socrático y cómo aplicarlo en el proceso de reflexión y resolución de conflictos.
-    </p>
+    {% guideThirdImage "En la guía de los participantes, que está adjunta a este documento, se incluye una brevísima biografía de Sócrates y una explicación sencilla del método socrático. Se recomienda que esa parte de la guía sea leída por turnos entre los participantes, lo que permitirá un mejor entendimiento del método y fomentará la discusión desde el inicio. Al leer la historia de Sócrates, los participantes podrán hacer preguntas, comprender el propósito del diálogo socrático y cómo aplicarlo en el proceso de reflexión y resolución de conflictos." %}
+
 
 III.  **Implementación de la adaptación del método socrático** {.inline .clearfix}
 
       1. **Cuestión inicial**
-        
+
           Una vez realizada la actividad preparatoria y explicado el método socrático, se debe elegir una afirmación inicial que fomente el debate, adaptada al contexto en el que se implementará el método. Es fundamental que esta afirmación sea cuidadosamente seleccionada para que promueva una discusión rica y participativa. {.block}
-          
+
           La afirmación debe ser incompleta, ambigua o que lleve a una conclusión errada, lo que se denomina ‘falacia’. El propósito de esta elección es generar un punto de partida polarizador, de modo que los participantes, a través de sus intervenciones, se vean motivados a matizar, suavizar o cuestionar la contundencia de la afirmación. Esto impulsa a los participantes a examinar las distintas perspectivas y a trabajar en la búsqueda de consensos a medida que se desarrolla el diálogo. {.block}
-          
+
           Por ejemplo, se podría utilizar una afirmación como: “Para alcanzar la paz, un bando debe ceder a los interese del otro”. En este caso, la formulación de la idea invita a que los participantes aporten otros puntos de vista, contrasten con experiencias personales o busquen ejemplos que cuestionen o modifiquen la afirmación inicial, con lo que se promueve una discusión dinámica y reflexiva. {.block}
-          
+
           La afirmación puede ser propuesta por el docente, el tallerista, el orientador o, idealmente, por uno de los participantes. Otros ejemplos de afirmaciones provocadoras son: {.block}
 
           - La inteligencia es algo innato y no se puede desarrollar.
@@ -86,22 +84,22 @@ III.  **Implementación de la adaptación del método socrático** {.inline .cle
 
           <img src="{{ images.four.src }}" alt="{{ images.four.alt[page.lang] }}" class="{{ images.four.classes | join: ' ' }}">
 
-      2. **Opiniones** 
+      2. **Opiniones**
 
           Por turnos, los participantes expresan sus opiniones sobre la afirmación inicial. Se deben registrar de manera concisa en el tablero o en una pantalla visible para todos. Si no se cuenta con estos recursos, se pueden asignar a uno o dos participantes como secretarios, quienes anotarán las opiniones en un cuaderno o en un celular. {.block}
 
-      3. **Validación y refutación** 
+      3. **Validación y refutación**
 
           Una vez que todas las opiniones hayan sido expresadas, comienza el proceso de validación y refutación. Cada participante, por turnos, evaluará las fortalezas y debilidades de las opiniones previas. Es esencial que se explique que todas las opiniones tienen al menos una debilidad y una fortaleza. A su vez, debe subrayarse que el lenguaje utilizado debe ser cuidadoso para evitar herir los sentimientos de los demás. Se puede aconsejar a los participantes que usen expresiones como las siguientes: {.block}
-          
+
           <img src="{{ images.five.src }}" alt="{{ images.five.alt[page.lang] }}" class="{{ images.five.classes | join: ' ' }}" id="{{ images.five.id }}">
-         
+
           - Lamentablemente, no puedo estar de acuerdo con tu opinión, porque...
           - No estoy de acuerdo con esa opinión, pues...
           - Encuentro algunos problemas con esa idea, en cuanto que...
           - Considero que hay mejores alternativas, tales como...
           - Comprendo lo que dice, pero me parece que…
-        
+
 
       4. **Reelaboración** {.clearfix}
 

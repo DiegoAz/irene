@@ -33,16 +33,13 @@ I.  **Atividade preparatória** {.inline}
 
 II. **Explicação do método socrático** {.inline}
 
-    <p class="block">
-        <img src="{{ images.three.src }}" alt="{{ images.three.alt[page.lang] }}" class="{{ images.three.classes | join: ' ' }}" id="{{ images.three.id }}">
-        No guia dos participantes, que está anexado a este documento, inclui-se uma breve biografia de Sócrates e uma explicação simples do método socrático. Recomenda-se que essa parte do guia seja lida por turnos entre os participantes, o que permitirá uma melhor compreensão do método e fomentará a discussão desde o início. Ao ler a história de Sócrates, os participantes poderão fazer perguntas, compreender o propósito do diálogo socrático e como aplicá-lo no processo de reflexão e resolução de conflitos.
-    </p>
-    
+    {% guideThirdImage "No guia dos participantes, que está anexado a este documento, inclui-se uma breve biografia de Sócrates e uma explicação simples do método socrático. Recomenda-se que essa parte do guia seja lida por turnos entre os participantes, o que permitirá uma melhor compreensão do método e fomentará a discussão desde o início. Ao ler a história de Sócrates, os participantes poderão fazer perguntas, compreender o propósito do diálogo socrático e como aplicá-lo no processo de reflexão e resolução de conflitos." %}
+
 
 III.  **Implementação da adaptação do método socrático** {.inline .clearfix}
 
       1. **Questão inicial**
-        
+
           Uma vez realizada a atividade preparatória e explicado o método socrático, deve-se escolher uma afirmação inicial que fomente o debate, adaptada ao contexto em que o método será implementado. É fundamental que essa afirmação seja cuidadosamente selecionada para promover uma discussão rica e participativa. {.block}
 
           A afirmação deve ser incompleta, ambígua ou levar a uma conclusão errada, o que se denomina ‘falácia’. O propósito dessa escolha é gerar um ponto de partida polarizador, de modo que os participantes, através de suas intervenções, sejam motivados a suavizar, matizar ou questionar a contundência da afirmação. Isso impulsiona os participantes a examinar diferentes perspectivas e trabalhar na busca de consensos à medida que o diálogo se desenvolve. {.block}
@@ -80,22 +77,22 @@ III.  **Implementação da adaptação do método socrático** {.inline .clearfi
           - Se evitar falar sobre o problema, ele desaparecerá por si só.
 
           <img src="{{ images.four.src }}" alt="{{ images.four.alt[page.lang] }}" class="{{ images.four.classes | join: ' ' }}">
-      
-      2. **Opiniões** 
+
+      2. **Opiniões**
 
           Por turnos, os participantes expressam suas opiniões sobre a afirmação inicial. Elas devem ser registradas de forma concisa no quadro ou em uma tela visível para todos. Se esses recursos não estiverem disponíveis, um ou dois participantes podem ser designados como secretários, anotando as opiniões em um caderno ou em um celular. {.block}
 
-      3. **Validação e refutação** 
+      3. **Validação e refutação**
 
           Uma vez que todas as opiniões tenham sido expressas, começa o processo de validação e refutação. Cada participante, por turnos, avaliará os pontos fortes e fracos das opiniões anteriores. É essencial que se explique que todas as opiniões têm, pelo menos, uma fraqueza e uma força. Também deve ser explicado que a linguagem utilizada deve ser cuidadosa para evitar ferir os sentimentos dos outros. Pode-se aconselhar os participantes a usarem expressões como: {.block}
 
           <img src="{{ images.five.src }}" alt="{{ images.five.alt[page.lang] }}" class="{{ images.five.classes | join: ' ' }}" id="{{ images.five.id }}">
 
           - Infelizmente, não posso concordar com sua opinião, porque…
-          - Respeitosamente, discordo dessa postura, pois… 
-          - Encontro alguns problemas com essa ideia, no sentido de que… 
-          - Considero que há melhores alternativas, como… 
-          - Compreendo o que você disse, mas me parece que… 
+          - Respeitosamente, discordo dessa postura, pois…
+          - Encontro alguns problemas com essa ideia, no sentido de que…
+          - Considero que há melhores alternativas, como…
+          - Compreendo o que você disse, mas me parece que…
 
       4. **Reformulação** {.clearfix}
 

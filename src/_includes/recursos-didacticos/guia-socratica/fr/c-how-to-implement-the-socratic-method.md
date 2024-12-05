@@ -33,15 +33,12 @@ I.  **Activité préparatoire** {.inline}
 
 II. **Explication de la méthode socratique** {.inline}
 
-    <p class="block">
-        <img src="{{ images.three.src }}" alt="{{ images.three.alt[page.lang] }}" class="{{ images.three.classes | join: ' ' }}" id="{{ images.three.id }}">
-        Dans le guide des participants, qui est joint à ce document, une brève biographie de Socrate et une explication simple de la méthode socratique sont incluses. Il est recommandé que cette partie du guide soit lue à tour de rôle par les participants, ce qui permettra une meilleure compréhension de la méthode et encouragera la discussion dès le début. En lisant l’histoire de Socrate, les participants pourront poser des questions, comprendre l’objectif du dialogue socratique et savoir comment l’appliquer dans le processus de réflexion et de résolution de conflits.
-    </p>
+    {% guideThirdImage "Dans le guide des participants, qui est joint à ce document, une brève biographie de Socrate et une explication simple de la méthode socratique sont incluses. Il est recommandé que cette partie du guide soit lue à tour de rôle par les participants, ce qui permettra une meilleure compréhension de la méthode et encouragera la discussion dès le début. En lisant l’histoire de Socrate, les participants pourront poser des questions, comprendre l’objectif du dialogue socratique et savoir comment l’appliquer dans le processus de réflexion et de résolution de conflits." %}
 
 III.  **Mise en œuvre de l’adaptation de la méthode socratique** {.inline .clearfix}
 
       1. **Question initiale**
-        
+
           Une fois l’activité préparatoire effectuée et la méthode socratique expliquée, il faut choisir une affirmation initiale qui encourage le débat, adaptée au contexte dans lequel la méthode sera appliquée. Il est fondamental que cette affirmation soit soigneusement sélectionnée afin de promouvoir une discussion riche et participative. {.block}
 
           L’affirmation doit être incomplète, ambiguë ou mener à une conclusion erronée, ce que l’on appelle un ‘sophisme’. Le but de ce choix est de générer un point de départ polarisant, de manière à ce que les participants, à travers leurs interventions, soient incités à nuancer, adoucir ou remettre en question la force de l’affirmation. Cela pousse les participants à examiner différentes perspectives et à travailler à la recherche de consensus au fur et à mesure que le dialogue se développe. {.block}
@@ -82,23 +79,23 @@ III.  **Mise en œuvre de l’adaptation de la méthode socratique** {.inline .c
 
           <img src="{{ images.four.src }}" alt="{{ images.four.alt[page.lang] }}" class="{{ images.four.classes | join: ' ' }}">
 
-      2. **Opinions** 
+      2. **Opinions**
 
           À tour de rôle, les participants expriment leurs opinions sur l’affirmation initiale. Celles-ci doivent être consignées de manière concise sur un tableau ou sur un écran visible par tous. Si ces ressources ne sont pas disponibles, un ou deux participants peuvent être désignés comme secrétaires, qui noteront les opinions dans un cahier ou sur un téléphone portable. {.block}
 
-      3. **Validation et réfutation** 
+      3. **Validation et réfutation**
 
           Une fois que toutes les opinions ont été exprimées, le processus de validation et de réfutation commence. Chaque participant, à tour de rôle, évaluera les forces et les faiblesses des opinions précédentes. Il est essentiel d’expliquer que toutes les opinions comportent au moins un point faible et un point fort. Il est également important de rappeler que le langage utilisé doit être soigneux afin d’éviter de blesser les sentiments des autres. On peut conseiller aux participants d’utiliser des expressions telles que : {.block}
-          
+
           <img src="{{ images.five.src }}" alt="{{ images.five.alt[page.lang] }}" class="{{ images.five.classes | join: ' ' }}" id="{{ images.five.id }}">
-         
+
           - Malheureusement, je ne peux pas être d'accord avec ton opinion, car...
           - Je ne suis pas d'accord avec respect, car...
           - Je ressens certaines difficultés avec cette idée, en ce sens que...
           - Je pense qu'il existe de meilleures alternatives, comme...
           - Je comprends ce que tu dis, mais il me semble que...
 
-        
+
 
       4. **Réélaboration** {.clearfix}
 
