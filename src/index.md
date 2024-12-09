@@ -69,4 +69,4 @@ layout: "layouts/base"
         <img src="/img/inicio/logos/udeda-2.svg">
     </div>
 </section>
-{% include "components/footer" %}
+
