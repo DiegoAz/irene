@@ -1,0 +1,70 @@
+<footer>
+  <nav class="footer-nav">
+    <span class="footer-nav-heading">Irene</span>
+    <div class="footer-grid">
+        {%- comment -%} Enlaces simples {%- endcomment -%}
+        <div class="footer-column">
+          <!-- <span class="footer-heading">Enlaces</span> -->
+          <ul>
+            {%- for item in navigation.es -%}
+            {%- unless item.children -%}
+                <li>
+                  <a href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+              {%- endunless -%}
+              {%- endfor -%}
+          </ul>
+        </div>
+
+     {%- comment -%} Elementos con children {%- endcomment -%}
+     {%- for item in navigation.es -%}
+            {%- if item.children -%}
+              <div class="footer-column">
+                {%- for child in item.children -%}
+                {%- if child.children -%}
+                    <span class="footer-heading">{{ item.title }} / {{ child.title }}</span>
+                    <ul>
+                      {%- for grandchild in child.children -%}
+                        <li>
+                          <a href="{{ grandchild.url }}">{{ grandchild.title }}</a>
+                        </li>
+                      {%- endfor -%}
+                    </ul>
+                  {%- else -%}
+                  {%- if forloop.first -%}
+                      <span class="footer-heading">{{ item.title }}</span>
+                      <ul>
+                    {%- endif -%}
+                      <li>
+                        <a href="{{ child.url }}">{{ child.title }}</a>
+                      </li>
+                    {%- if forloop.last -%}
+                      </ul>
+                    {%- endif -%}
+                    {%- endif -%}
+                {%- endfor -%}
+              </div>
+            {%- endif -%}
+            {%- endfor -%}
+            <div class="footer-column">
+              <span class="footer-heading">Redes sociales</span>
+              <ul>
+                    <li>
+                      <a href="#">
+                          {%- include "components/icons/x" -%}
+                      </a>
+                      <a href="#">
+                          {%- include "components/icons/instagram" -%}
+                      </a>
+                      <a href="#">
+                          {%- include "components/icons/facebook" -%}
+                      </a>
+                    </li>
+              </ul>
+            </div>
+    </div>
+  </nav>
+  <div>
+      <p>Sitio web desarrollado por @</p>
+  </div
+</footer>
