@@ -15,7 +15,7 @@
     }
 }
 
-.two-grid, .testimonials, .institutions {
+.two-grid, .testimonials, .institutions, .made-by {
     border-top: 1px solid var(--border-color);
 }
 
