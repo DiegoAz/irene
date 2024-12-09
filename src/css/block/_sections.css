@@ -1,15 +1,6 @@
 .hero {
     margin-block-start: var(--space-s);
-
-    .hero-content > span {
-        font-family: "Source Serif 4", serif;
-        font-weight: 400;
-        font-style: italic;
-    }
-
-    h1 {
-        margin-block-start: 0;
-    }
+    
 }
 
 .home-section {
@@ -17,14 +8,14 @@
     
 
     a.section-link {
-        display: block;
+        display: inline-block;
         color: var(--link-color);
-        margin-block-start: var(--space-xs);
+        margin-block-start: var(--space-2xs);
         text-decoration: none;
     }
 }
 
-.two-grid, .testimonials {
+.two-grid, .testimonials, .institutions {
     border-top: 1px solid var(--border-color);
 }
 
@@ -62,6 +53,15 @@
                     text-decoration: underline;
                 }
             }
+
+            .city {
+                justify-self: center;
+                text-align: center;
+            }
+
+            .year {
+                justify-self: end;
+            }
             
         }
 
@@ -70,6 +70,31 @@
         }
     }
     
+}
+
+.institutions {
+    .logos {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: var(--space-xs);
+
+        img {
+            flex: 0 1 30%;
+            max-width: 180px;
+            height: auto;
+            object-fit: contain;
+
+            /* @media (max-width: 768px) {
+                flex: 1 1 45%; 
+            } */
+
+            
+        }
+
+    }
+
+
 }
 
 .section {
