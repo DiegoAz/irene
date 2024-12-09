@@ -20,8 +20,10 @@ EXCEPTIONS
 */
 .layout-sidebar {
     display: flex;
-    flex-wrap: wrap;
-    gap: var(--gutter, var(--space-s-l));
+    max-width: 100%;
+    /* overflow: hidden; */
+    /* flex-wrap: wrap; */
+    /* gap: var(--gutter, var(--space-s-l)); */
 }
 
 @media (max-width: 51.25rem) {
@@ -30,17 +32,20 @@ EXCEPTIONS
     }
 }
 
-.layout-sidebar > .sidebar {
+ .layout-sidebar > .sidebar {
     flex-basis: 20rem;
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
 .layout-sidebar > .non-sidebar {
     flex-basis: 0;
-    flex-grow: 999;
+    flex-grow: 1;
+    overflow: hidden;
+    /* flex-grow: 999; */
 }
 
 .center {
+    position:relative;
     max-inline-size: 65ch;
     margin-inline: auto;
     padding-block-end: 4rem;
