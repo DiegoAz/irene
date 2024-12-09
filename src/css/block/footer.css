@@ -3,13 +3,14 @@ footer {
     padding-top: var(--space-s);
     font-size: var(--step--2);
     font-family: "Source Serif 4", serif;
+    margin-top: var(--space-s);
 }
 
 .footer-nav-heading {
     margin-bottom: var(--space-s);
     display: block;
     font-weight: bold;
-    /* font-style: italic; */
+    font-size: var(--step-0);
 }
 
 .footer-grid {
@@ -50,7 +51,17 @@ footer {
     text-decoration: underline;
 }
 
-.social-icon {
-    width: 1.7rem;
-    height: auto;
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2xs);
+    .social-icon {
+        width: 1.7rem;
+        height: auto;
+    }
+}
+
+
+.made-by {
+    text-align: right;
 }
