@@ -5,9 +5,7 @@ layout: "layouts/base"
     <div class="hero-content">
         <h1 class="hero-heading">Presentación</h1>
         <div class="hero-copy">
-            <p>Bienvenido al sitio web del proyecto “<em>Irene</em>: un libro de trabajo basado en la literatura clásica para la resolución de conflictos (HUM-13-2024)”.</p>
-            <p>El proyecto emplea la literatura clásica como herramienta educativa para desarrollar habilidades de resolución de conflictos en estudiantes de secundaria. Además, busca promover el diálogo, la empatía y el pensamiento crítico, mediante una adaptación del método socrático.</p>
-            <p>Su enfoque principal es la promoción de una cultura de paz que integra valores de reconciliación y convivencia pacífica.</p>
+            <p>El proyecto “<em>Irene</em>: un libro de trabajo basado en la literatura clásica para la resolución de conflictos (HUM-13-2024)” emplea la literatura clásica como herramienta educativa para desarrollar habilidades de resolución de conflictos en estudiantes de secundaria. El proyecto busca, además, promover el diálogo, la empatía y el pensamiento crítico, mediante una adaptación del método socrático. Su enfoque principal es la promoción de una cultura de paz que integra valores de reconciliación y convivencia pacífica.</p>
             <a href="/acerca-de/introduccion" class="section-link">
                 Conoce más sobre el proyecto
                 <span>&#8599;</span>
@@ -37,7 +35,7 @@ layout: "layouts/base"
 <section class="home-section testimonials">
     <h2>Testimonios</h2>
     <p>Laboris veniam veniam ut aute ea laborum enim voluptate.</p>
-    <ul class="testimonials-list">
+    <!-- <ul class="testimonials-list">
         <li class="testimonial">
             <p><a class="testimonial-link" href="#">Prueba del libro Irene en el Colegio Gustavo Rojas Pinilla</a></p>
             <span class="meta-text-color city">Tunja</span>
@@ -58,7 +56,7 @@ layout: "layouts/base"
             <span class="meta-text-color city">Tunja y Bogotá</span>
             <span class="meta-text-color year">2023</span>
         </li>
-    </ul>
+    </ul> -->
 </section>
 <section class="home-section institutions">
     <h2>Instituciones asociadas</h2>
