@@ -31,7 +31,7 @@
     .team-member-photo {
         width: 200px;
         height: 200px;
-        border-radius: 2%;
+        border-radius: 8px;
         object-fit: cover;
         align-self: center;
     }
