@@ -74,27 +74,21 @@
 
 .institutions {
     .logos {
-        display:flex;
+        max-width: 100%;
+        display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
         gap: var(--space-xs);
+        margin-block-start: var(--space-s);
+        margin-inline: var(--space-xs);
 
         img {
-            flex: 0 1 30%;
-            max-width: 180px;
+            flex: 1 1 0; 
+            max-width: 20%;
             height: auto;
             object-fit: contain;
-
-            /* @media (max-width: 768px) {
-                flex: 1 1 45%; 
-            } */
-
-            
         }
-
     }
-
-
 }
 
 .section {
