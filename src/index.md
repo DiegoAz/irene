@@ -36,7 +36,7 @@ layout: "layouts/base"
 
 <section class="home-section testimonials">
     <h2>Testimonios</h2>
-    <p>Laboris veniam veniam ut aute ea laborum enim voluptate.</p>
+    <!-- <p>Laboris veniam veniam ut aute ea laborum enim voluptate.</p> -->
     <ul class="testimonials-list">
         <li class="testimonial">
             <p><a class="testimonial-link" href="#">Prueba del libro Irene en el Colegio Gustavo Rojas Pinilla</a></p>
@@ -62,11 +62,12 @@ layout: "layouts/base"
 </section>
 <section class="home-section institutions">
     <h2>Instituciones asociadas</h2>
-    <p>Laboris veniam veniam ut aute ea laborum enim voluptate.</p>
+    <!-- <p>Laboris veniam veniam ut aute ea laborum enim voluptate.</p> -->
     <div class="logos">
-        <img src="/img/inicio/logos/udls.svg">
+        <img src="/img/inicio/logos/udls-v.svg">
         <img src="/img/inicio/logos/kcl.svg">
-        <img src="/img/inicio/logos/udeda-2.svg">
+        <img src="/img/inicio/logos/udeda.svg">
+        <img src="/img/inicio/logos/aahrc.svg">
     </div>
 </section>
 
