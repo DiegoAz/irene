@@ -1,0 +1,41 @@
+.logos {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: var(--space-s);
+    margin-block-start: var(--space-s);
+    margin-inline: var(--space-2xs);
+}
+
+.logo-wrapper {
+    position: relative;
+    flex: 1;
+    min-width: 0; /* Importante para Firefox */
+    display: flex; /* Importante para Firefox */
+    align-items: center;
+}
+
+.logo-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* En tema claro */
+[color-scheme="light"] .logo-light {
+    display: block;
+}
+
+[color-scheme="light"] .logo-dark {
+    display: none;
+}
+
+/* En tema oscuro */
+[color-scheme="dark"] .logo-light {
+    display: none;
+}
+
+[color-scheme="dark"] .logo-dark {
+    display: block;
+}

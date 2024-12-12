@@ -1,11 +1,9 @@
 .hero {
     margin-block-start: var(--space-s);
-    
 }
 
 .home-section {
     margin-bottom: var(--space-m);
-    
 
     a.section-link {
         display: inline-block;
@@ -15,7 +13,10 @@
     }
 }
 
-.two-grid, .testimonials, .institutions, .made-by {
+.two-grid,
+.testimonials,
+.institutions,
+.made-by {
     border-top: 1px solid var(--border-color);
 }
 
@@ -62,31 +63,10 @@
             .year {
                 justify-self: end;
             }
-            
         }
 
-        .testimonial:nth-child(odd){
+        .testimonial:nth-child(odd) {
             background: var(--blockquote-bg);
-        }
-    }
-    
-}
-
-.institutions {
-    .logos {
-        max-width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        gap: var(--space-xs);
-        margin-block-start: var(--space-s);
-        margin-inline: var(--space-xs);
-
-        img {
-            flex: 1 1 0; 
-            max-width: 20%;
-            height: auto;
-            object-fit: contain;
         }
     }
 }
@@ -96,9 +76,9 @@
         display: flex;
         padding-inline: var(--space-s);
         gap: var(--space-xs);
-        margin-block: var(--space-2xs)
+        margin-block: var(--space-2xs);
     }
-    
+
     .buttons {
         display: flex;
         padding-inline: var(--space-xs);
@@ -110,7 +90,6 @@
             gap: 0;
         }
     }
-
 }
 
 .more-photos {
@@ -125,9 +104,9 @@
         width: 2em;
         height: 2em;
         stroke: var(--text-color);
-        stroke-width:2;
-        stroke-linecap:round;
-        stroke-linejoin:round
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
     }
 
     .dash {
