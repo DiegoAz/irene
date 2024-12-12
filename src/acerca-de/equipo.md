@@ -45,6 +45,14 @@ A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada 
         <p>Lidera los esfuerzos del proyecto en la región amazónica de Brasil. Trabaja con comunidades indígenas para adaptar los contenidos educativos del proyecto.</p>
     </div>
     <div class="team-member-card">
+        <img src="/img/equipo/anni-santos-de-jesus.jpeg" alt="Anni Marcelli Santos de Jesus" class="team-member-photo">
+        <p>
+            <span class="bold">Anni Marcelli Santos de Jesus</span>
+            <span class="meta-text-color">Secretaria de Educação do Amazonas</span>
+        </p>
+        <p>Acompaña el diseño de talleres, así como la recopilación de información y documentación durante su implementación. Intermedia el diálogo con comunidades indígenas.</p>
+    </div>
+    <div class="team-member-card">
         <img src="/img/equipo/carlos_renato.jpg" alt="Carlos Renato Rosário de Jesús" class="team-member-photo">
         <p>
             <span class="bold">Carlos Renato Rosário de Jesús</span>
@@ -91,13 +99,5 @@ A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada 
             <span class="meta-text-color">Universidad de La Sabana</span>
         </p>
         <p>Es gestor de espacios y tallerista. Está a cargo de las redes sociales del proyecto y su promoción en espacios educativos y culturales.</p>
-    </div>
-    <div class="team-member-card">
-        <img src="/img/equipo/anni-santos-de-jesus.jpeg" alt="Anni Marcelli Santos de Jesus" class="team-member-photo">
-        <p>
-            <span class="bold">Anni Marcelli Santos de Jesus</span>
-            <span class="meta-text-color">Secretaria de Educação do Amazonas</span>
-        </p>
-        <p>Acompaña el diseño de talleres, así como la recopilación de información y documentación durante su implementación. Intermedia el diálogo con comunidades indígenas.</p>
     </div>
 </div>
