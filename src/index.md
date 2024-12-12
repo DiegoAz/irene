@@ -64,10 +64,25 @@ layout: "layouts/base"
     <h2>Instituciones asociadas</h2>
     <!-- <p>Laboris veniam veniam ut aute ea laborum enim voluptate.</p> -->
     <div class="logos">
-        <img src="/img/inicio/logos/udls-v.svg">
-        <img src="/img/inicio/logos/kcl.svg">
-        <img src="/img/inicio/logos/udeda.svg">
-        <img src="/img/inicio/logos/aahrc.svg">
+    <!-- Logo UDLS -->
+        <div class="logo-wrapper">
+            <img class="logo-light" src="/img/inicio/logos/udls-g.svg" alt="Logo UDLS">
+            <img class="logo-dark" src="/img/inicio/logos/udls-g-i.svg" alt="Logo UDLS">
+        </div>
+        <!-- Logo KCL -->
+        <div class="logo-wrapper">
+            <img class="logo-light" src="/img/inicio/logos/kcl-g.svg" alt="Logo KCL">
+            <img class="logo-dark" src="/img/inicio/logos/kcl-g-i.svg" alt="Logo KCL">
+        </div>
+        <!-- Logo UDEDA -->
+        <div class="logo-wrapper">
+            <img class="logo-light" src="/img/inicio/logos/udeda-g.svg" alt="Logo UDEDA">
+            <img class="logo-dark" src="/img/inicio/logos/udeda-g-i.svg" alt="Logo UDEDA">
+        </div>
+        <!-- Logo AAHRC -->
+        <div class="logo-wrapper">
+            <img class="logo-light" src="/img/inicio/logos/aahrc-g.svg" alt="Logo AAHRC">
+            <img class="logo-dark" src="/img/inicio/logos/aahrc-g-i.svg" alt="Logo AAHRC">
+        </div>
     </div>
 </section>
-
