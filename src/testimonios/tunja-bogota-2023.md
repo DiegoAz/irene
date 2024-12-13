@@ -25,13 +25,15 @@ Los comentarios de los estudiantes fueron positivos. Valoraron la dinámica de l
 
 Por su parte, los docentes observaron un aumento en el respeto mutuo entre los estudiantes, así como una mayor participación y disposición para compartir ideas, incluso entre los estudiantes más tímidos. Además, resaltaron cómo el método socrático contribuyó a aplicar conceptos de las humanidades en situaciones reales, lo que permitió a los estudiantes profundizar en su comprensión de los conflictos sociales. De esta manera, la combinación de literatura clásica y la resolución de conflictos puede crear espacios de aprendizaje enriquecedores, donde los estudiantes no solo mejoran su capacidad crítica y analítica, sino que también desarrollan habilidades para la resolución pacífica de conflictos.
 
+<hr class="solid">
+
 La guía puede descargarse gratuitamente en la sección “Recursos didácticos” de esta página web.
 
-Le invitamos a leer un artículo en español e inglés sobre esta experiencia:
+Le invitamos a leer un artículo sobre esta experiencia:
 
 - [El Método Socrático, herramienta para la resolución de conflictos en los colegios](https://www.unisabana.edu.co/portaldenoticias/sello-sabana/el-metodo-socratico-herramienta-para-la-resolucion-de-conflictos-en-los-colegios/){.internal-link}
 - [Application of the Socratic Method in a High School](https://www.unisabana.edu.co/portaldenoticias/sello-sabana/application-of-the-socratic-method-in-a-high-school/){.internal-link}
 
-<hr class="dashed">
+<hr class="solid">
 
 A continuación, se presentan entrevistas realizadas después de la implementación del método socrático.
