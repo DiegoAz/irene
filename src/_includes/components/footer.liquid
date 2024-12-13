@@ -16,56 +16,59 @@
           </ul>
         </div>
 
-     {%- comment -%} Elementos con children {%- endcomment -%}
-     {%- for item in navigation.es -%}
-            {%- if item.children -%}
-              <div class="footer-column">
-                {%- for child in item.children -%}
-                {%- if child.children -%}
-                    <span class="footer-heading">{{ item.title }} / {{ child.title }}</span>
-                    <ul>
-                      {%- for grandchild in child.children -%}
-                        <li>
-                          <a href="{{ grandchild.url }}">{{ grandchild.title }}</a>
-                        </li>
-                      {%- endfor -%}
-                    </ul>
-                  {%- else -%}
-                  {%- if forloop.first -%}
-                      <span class="footer-heading">{{ item.title }}</span>
-                      <ul>
-                    {%- endif -%}
-                      <li>
-                        <a href="{{ child.url }}">{{ child.title }}</a>
-                      </li>
-                    {%- if forloop.last -%}
-                      </ul>
-                    {%- endif -%}
-                    {%- endif -%}
+    {%- comment -%} Elementos con children {%- endcomment -%}
+    {%- for item in navigation.es -%}
+      {%- if item.children -%}
+        <div class="footer-column">
+          {%- for child in item.children -%}
+          {%- if child.children -%}
+              <span class="footer-heading">{{ item.title }} / {{ child.title }}</span>
+              <ul>
+                {%- for grandchild in child.children -%}
+                  <li>
+                    <a href="{{ grandchild.url }}">{{ grandchild.title }}</a>
+                  </li>
                 {%- endfor -%}
-              </div>
-            {%- endif -%}
-            {%- endfor -%}
-            <div class="footer-column">
-              <span class="footer-heading">Redes sociales</span>
-              <ul class="social-icons">
-                <li>
-                  <a href="#">
-                      {%- include "components/icons/x" -%}
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    {%- include "components/icons/instagram" -%}
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    {%- include "components/icons/facebook" -%}
-                  </a>
-                </li>
               </ul>
-            </div>
+            {%- else -%}
+            {%- if forloop.first -%}
+                <span class="footer-heading">{{ item.title }}</span>
+                <ul>
+              {%- endif -%}
+                <li>
+                  <a href="{{ child.url }}">{{ child.title }}</a>
+                </li>
+              {%- if forloop.last -%}
+                </ul>
+              {%- endif -%}
+              {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+      {%- endfor -%}
+      <div class="footer-column">
+        <span class="footer-heading">Redes sociales</span>
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.facebook.com/people/Irene-Paz-Col/pfbid0nGES2cySNBw3Gn7PHN3pKaGEours8mLVf3V9cXTRBTeUbuJT995uFRFMmiiqJYuhl/" target="_blank" rel="me noopener noreferrer">
+              <span class=" icon icon-facebook"></span>
+              <span class="visually-hidden">Síguenos en facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/irenepazcol" target="_blank" rel="me noopener noreferrer">
+              <span class="icon icon-instagram"></span>
+              <span class="visually-hidden">Síguenos en Instagram</span>
+            </a>
+          </li>
+          <li>
+          <a href="https://www.tiktok.com/@irenepazcol" target="_blank" rel="me noopener noreferrer">
+            <span class=" icon icon-tiktok"></span>
+            <span class="visually-hidden">Síguenos en TikTok</span>
+          </a>
+        </li>
+        </ul>
+      </div>
     </div>
   </nav>
   <div class="made-by">
