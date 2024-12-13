@@ -5,4 +5,4 @@ layout: "layouts/base"
 
 # Apoya el proyecto
 
-En desarrollo.
+En desarrollo. {.ed}

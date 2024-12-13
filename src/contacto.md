@@ -5,4 +5,4 @@ layout: "layouts/base"
 
 # Contacto
 
-En desarrollo.
+En desarrollo. {.ed}

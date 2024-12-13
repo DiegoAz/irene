@@ -5,4 +5,4 @@ layout: "layouts/base"
 
 # Currículo
 
-En desarrollo.
+En desarrollo. {.ed}

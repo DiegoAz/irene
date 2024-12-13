@@ -5,4 +5,4 @@ layout: "layouts/base"
 
 # Noticias
 
-En desarrollo.
+En desarrollo. {.ed}
