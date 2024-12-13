@@ -11,7 +11,7 @@ videos:
 
 <img src="/img/testimonios/tunja-bogota-2023/foto_01_tunja_estudiantes_2023.jpg" alt="Estudiantes de la Escola Municipal Creusa do Carmo Rocha participando en una discusión socrática" class="testimonial-image">
 
-El 7 de junio y el 9 de agosto de 2023, se realizaron las primeras pruebas de la adaptación del método socrático desarrollada en el marco del proyecto “Irene: un libro de trabajo basado en la literatura clásica para la resolución de conflictos”, en las Instituciones Educativas Gustavo Rojas Pinilla (Tunja) y Delia Zapata Olivella (Bogotá). El profesor Juan Gabriel Santamaría y el profesor Yesid Cabezas con el acompañamiento del profesor Ronald Forero Álvarez, implementaron la actividad que involucró a más de 200 estudiantes, como parte de un esfuerzo por integrar la Cátedra de la Paz en los colegios colombianos.
+El 7 de junio y el 9 de agosto de 2023, se realizaron las primeras pruebas de la adaptación del método socrático desarrollada en el marco del proyecto “*Irene*: un libro de trabajo basado en la literatura clásica para la resolución de conflictos”, en las Instituciones Educativas Gustavo Rojas Pinilla (Tunja) y Delia Zapata Olivella (Bogotá). El profesor Juan Gabriel Santamaría y el profesor Yesid Cabezas con el acompañamiento del profesor Ronald Forero Álvarez, implementaron la actividad que involucró a más de 200 estudiantes, como parte de un esfuerzo por integrar la *Cátedra de la Paz* en los colegios colombianos.
 
 <img src="/img/testimonios/tunja-bogota-2023/foto_02_tunja_estudiantes_2023.jpg" alt="Estudiantes de la Escola Municipal Creusa do Carmo Rocha participando en una discusión socrática" class="testimonial-image">
 
@@ -27,7 +27,7 @@ Por su parte, los docentes observaron un aumento en el respeto mutuo entre los e
 
 La guía puede descargarse gratuitamente en la sección “Recursos didácticos” de esta página web.
 
-Le invitamos a leer un artículo sobre esta experiencia, publicado en español e inglés, en el portal de noticias de la Universidad de La Sabana:
+Le invitamos a leer un artículo en español e inglés sobre esta experiencia:
 
 - [El Método Socrático, herramienta para la resolución de conflictos en los colegios](https://www.unisabana.edu.co/portaldenoticias/sello-sabana/el-metodo-socratico-herramienta-para-la-resolucion-de-conflictos-en-los-colegios/){.internal-link}
 - [Application of the Socratic Method in a High School](https://www.unisabana.edu.co/portaldenoticias/sello-sabana/application-of-the-socratic-method-in-a-high-school/){.internal-link}
