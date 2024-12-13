@@ -108,11 +108,11 @@ module.exports = {
             url: "/investigacion/",
             key: "research",
         },
-        {
-            title: "Colaboradores",
-            url: "/colaboradores/",
-            key: "partners",
-        },
+        // {
+        //     title: "Colaboradores",
+        //     url: "/colaboradores/",
+        //     key: "partners",
+        // },
         {
             title: "Contacto",
             url: "/contacto/",
