@@ -37,7 +37,9 @@ La experiencia fue enriquecedora tanto para los estudiantes como para los docent
 
 Por su parte, el docente observó un aumento en la participación y en el respeto mutuo durante los diálogos, aunque también señaló que los estudiantes necesitaron más tiempo y esfuerzo para completar los ejercicios de escritura que acompañaron a las discusiones.
 
-El plan curricular y libro de trabajo puede descargarse gratuitamente en la sección “Recursos didácticos” de esta página web.
+<hr class="solid">
+
+El plan curricular y libro de trabajo pueden descargarse gratuitamente en la sección “Recursos didácticos” de esta página web.
 
 Conozca más sobre el proyecto *Irene* en el artículo [Construir paz desde las aulas: un viaje a través de los clásicos griegos y romanos](https://www.unisabana.edu.co/portaldenoticias/paso-en-la-sabana/construir-paz-desde-las-aulas-un-viaje-a-traves-de-los-clasicos-griegos-y-romanos/){.internal-link} publicado en el portal de noticias de la Universidad de La Sabana.
 
