@@ -76,6 +76,8 @@
     --button-hv-bg: hsl(0 0% 87%);
     --blockquote-bg: var(--light-gray);
     --blockquote-border: hsl(0 0% 75%);
+    --icon-primary: var(--black);
+
 }
 
 [color-scheme="dark"] {
@@ -92,4 +94,5 @@
     --button-hv-bg: hsl(240 3.5% 24%);
     --blockquote-bg: var(--dark-gray);
     --blockquote-border: hsl(240 3.5% 35%);
+    --icon-primary: var(--white); 
 }
