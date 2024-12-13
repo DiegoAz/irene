@@ -26,4 +26,6 @@ Felipe Vargas comenta lo siguiente sobre la experiencia:
 
 El proyecto dejó un impacto significativo en los estudiantes, quienes, a través de estas actividades, lograron comprender el valor del diálogo y la búsqueda de consenso como herramientas para la resolución pacífica de conflictos. Este esfuerzo reafirma el papel transformador del arte, la cultura y la educación humanística en contextos afectados por la violencia.
 
+<hr class="solid">
 La guía para la implementación de la adaptación del método socrático puede descargarse gratuitamente en la sección “Recursos didácticos” de esta página web.
+<hr class="solid">
