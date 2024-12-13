@@ -1,6 +1,6 @@
 module.exports = {
   layout: "layouts/testimonial.liquid",
-  tags: ["testimonio"],
+  tags: ["impacto"],
   // eleventyComputed: {
   //   permalink: data => `/testimonios/${data.city.toLowerCase()}-${data.year}/index.html`,
   //   videos: data => {

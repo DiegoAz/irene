@@ -78,28 +78,28 @@ module.exports = {
             ],
         },
         {
-            title: "Testimonios",
+            title: "Impacto",
             key: "testimonials",
             children: [
                 {
                   title: "Tunja, 2024",
-                  url: "/testimonios/tunja-2024/",
-                  activePattern: "/testimonios/tunja-2024/"
+                  url: "/impacto/tunja-2024/",
+                  activePattern: "/impacto/tunja-2024/"
                 },
                 {
                     title: "Fortaleza, 2024",
-                    url: "/testimonios/fortaleza-2024/",
-                    activePattern: "/testimonios/fortaleza-2024/",
+                    url: "/impacto/fortaleza-2024/",
+                    activePattern: "/impacto/fortaleza-2024/",
                 },
                 {
                     title: "Viotá, 2024",
-                    url: "/testimonios/viota-2024/",
-                    activePattern: "/testimonios/viota-2024/",
+                    url: "/impacto/viota-2024/",
+                    activePattern: "/impacto/viota-2024/",
                 },
                 {
                     title: "Tunja y Bogotá, 2023",
-                    url: "/testimonios/tunja-bogota-2023/",
-                    activePattern: "/testimonios/tunja-bogota-2023/",
+                    url: "/impacto/tunja-bogota-2023/",
+                    activePattern: "/impacto/tunja-bogota-2023/",
                 },
             ],
         },
