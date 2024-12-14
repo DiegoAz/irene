@@ -146,6 +146,7 @@ module.exports = {
                 fr: "Illustration de trois personnes collaborant : une femme avec des lunettes utilisant un ordinateur portable, un homme tenant une tablette et une autre femme pointant une ampoule, symbolisant des idées.",
             },
             classes: ["guide-image", "w-50", "f-right", "m-left"],
+            id: "eight",
         },
         nine: {
             src: "/img/recursos-didacticos/guia-socratica/reflexion-escultura.jpg",
