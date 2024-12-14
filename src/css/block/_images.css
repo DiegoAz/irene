@@ -21,7 +21,7 @@
 }
 
 #bust1 {
-    margin-top: 0;
+    margin-top: var(--space-2xs);
     width: 40%;
     @media (max-width: 39.375rem) {
         width: 40%;
@@ -32,7 +32,7 @@
 }
 
 #thinking {
-    margin-top: 0;
+    margin-top: var(--space-2xs);
     @media (max-width: 20rem) {
         width: 41%;
     }
@@ -40,7 +40,7 @@
 
 #bust2 {
     width: 40%;
-    margin-top: 0;
+    margin-top: var(--space-2xs);
     /* height: auto; */
     @media (max-width: 500px) {
         width: 50%;
@@ -49,11 +49,11 @@
 }
 
 #sculpture1 {
-    margin-top: 0;
+    margin-top: var(--space-2xs);
 }
 
 #eight {
-    margin-top: var(--space-3xs);
+    margin-top: var(--space-2xs);
 }
 
 #sculpture2 {
