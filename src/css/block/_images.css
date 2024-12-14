@@ -52,6 +52,9 @@
     margin-top: 0;
 }
 
+#eight {
+    margin-top: var(--space-3xs);
+}
 
 #sculpture2 {
     width: 70%;
