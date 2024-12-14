@@ -50,6 +50,12 @@ module.exports = async function (eleventyConfig) {
                            class="${guide.images.seven.classes.join(" ")}"
                            id="${guide.images.seven.id}">${text}</p>`;
     });
+    eleventyConfig.addShortcode("guideEightImage", function (text) {
+        return `<p class="block"><img src="${guide.images.eight.src}"
+                           alt="${guide.images.eight.alt[this.page.lang]}"
+                           class="${guide.images.eight.classes.join(" ")}"
+                           id="${guide.images.eight.id}">${text}</p>`;
+    });
     eleventyConfig.addShortcode("guideNineImage", function (text) {
         return `<p class="block"><img src="${guide.images.nine.src}"
                            alt="${guide.images.nine.alt[this.page.lang]}"

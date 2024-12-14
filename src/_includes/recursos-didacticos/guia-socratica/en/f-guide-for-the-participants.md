@@ -29,9 +29,7 @@ III.    **What Is the Socratic Method?** {.inline}
 
 IV. **How can we apply the Socratic Method to Conflict Resolution?** {.inline}
     
-    <img src="{{ images.eight.src }}" alt="{{ images.eight.alt[page.lang] }}" class="{{ images.eight.classes | join: ' ' }}">
-
-    Before beginning the discussion, it is important to prepare to listen without prejudice. Often, we disagree with the opinions of others. However, how can we be so sure that person is wrong? Have I ever taken the time to analyze their arguments? Are my emotions or my reasoning telling me that they are mistaken? The first step is to question our own assumptions and open ourselves to dialogue. The Socratic method is not about winning or losing an argument but about enriching mutual understanding. During the activity, everyone must respect the following rules: {.block}
+    {% guideEightImage "Before beginning the discussion, it is important to prepare to listen without prejudice. Often, we disagree with the opinions of others. However, how can we be so sure that person is wrong? Have I ever taken the time to analyze their arguments? Are my emotions or my reasoning telling me that they are mistaken? The first step is to question our own assumptions and open ourselves to dialogue. The Socratic method is not about winning or losing an argument but about enriching mutual understanding. During the activity, everyone must respect the following rules:" %}
 
     - **Active listening:** Pay attention without interrupting others.
     - **Brief and clear interventions:** Express your ideas concisely and respectfully.

@@ -28,9 +28,7 @@ III.    **Qu'est-ce que la méthode socratique ?** {.inline}
 
 IV. **Comment pouvons-nous appliquer la méthode socratique à la résolution des conflits ?** {.inline}
     
-    <img src="{{ images.eight.src }}" alt="{{ images.eight.alt[page.lang] }}" class="{{ images.eight.classes | join: ' ' }}">
-
-    Avant de commencer la discussion, il est important de se préparer à écouter sans préjugés. Souvent, nous ne sommes pas d'accord avec les opinions des autres, mais comment sommes-nous si sûrs que cette personne a tort ? Est-ce que je me suis déjà efforcé d'analyser ses arguments ? Sont-ce mes émotions ou mes raisonnements qui me font croire qu'elle se trompe ? La première étape consiste à remettre en question nos propres suppositions et à nous ouvrir au dialogue. La méthode socratique ne repose pas sur le fait de gagner ou perdre une discussion, mais sur l'enrichissement de la compréhension mutuelle. Pendant l'activité, chacun doit respecter les règles suivantes : {.block}
+    {% guideEightImage "Avant de commencer la discussion, il est important de se préparer à écouter sans préjugés. Souvent, nous ne sommes pas d'accord avec les opinions des autres, mais comment sommes-nous si sûrs que cette personne a tort ? Est-ce que je me suis déjà efforcé d'analyser ses arguments ? Sont-ce mes émotions ou mes raisonnements qui me font croire qu'elle se trompe ? La première étape consiste à remettre en question nos propres suppositions et à nous ouvrir au dialogue. La méthode socratique ne repose pas sur le fait de gagner ou perdre une discussion, mais sur l'enrichissement de la compréhension mutuelle. Pendant l'activité, chacun doit respecter les règles suivantes :" %}
 
     - **Écoute active :** Prêtez attention sans interrompre les autres.
     - **Interventions brèves et claires :** Exprimez vos idées de manière concise et avec respect.

@@ -28,9 +28,7 @@ III.    **¿Qué es el método socrático?** {.inline}
 
 IV. **¿Cómo podemos aplicar el método socrático para la resolución de conflictos?** {.inline}
     
-    <img src="{{ images.eight.src }}" alt="{{ images.eight.alt[page.lang] }}" class="{{ images.eight.classes | join: ' ' }}">
-
-    Antes de iniciar la discusión, es importante prepararse para escuchar sin prejuicios. A menudo, no estamos de acuerdo con las opiniones de los demás, pero ¿cómo estamos tan seguros de que esa persona está equivocada?, ¿me he puesto en la tarea de analizar sus argumentos alguna vez?, ¿son mis emociones o mis razonamientos los que me indican que se está equivocando? El primer paso es cuestionar nuestras propias suposiciones y abrirnos al diálogo. El método socrático no se basa en que alguien gane o pierda una discusión, sino en enriquecer el entendimiento mutuo. Durante la actividad, todos deben respetar las siguientes normas: {.block}
+    {% guideEightImage "Antes de iniciar la discusión, es importante prepararse para escuchar sin prejuicios. A menudo, no estamos de acuerdo con las opiniones de los demás, pero ¿cómo estamos tan seguros de que esa persona está equivocada?, ¿me he puesto en la tarea de analizar sus argumentos alguna vez?, ¿son mis emociones o mis razonamientos los que me indican que se está equivocando? El primer paso es cuestionar nuestras propias suposiciones y abrirnos al diálogo. El método socrático no se basa en que alguien gane o pierda una discusión, sino en enriquecer el entendimiento mutuo. Durante la actividad, todos deben respetar las siguientes normas:" %}
 
     - **Escucha activa:** Presta atención sin interrumpir a los demás.
     - **Intervenciones breves y claras:** Expresa tus ideas de manera concisa y respetuosa.
