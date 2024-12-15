@@ -6,6 +6,7 @@ layout: "layouts/base"
         <h1 class="hero-heading">Presentación</h1>
         <div class="hero-copy">
             <p>Bienvenido al sitio web del proyecto “<em>Irene</em>: un libro de trabajo basado en la literatura clásica para la resolución de conflictos (HUM-13-2024)”.</p>
+            {%- render "components/swiper" -%}
             <p>El proyecto emplea la literatura clásica como herramienta educativa para desarrollar habilidades de resolución de conflictos en estudiantes de secundaria. Además, busca promover el diálogo, la empatía y el pensamiento crítico, mediante una adaptación del método socrático.</p>
             <p>Su enfoque principal es la promoción de una cultura de paz que integra valores de reconciliación y convivencia pacífica.</p>
             <a href="/acerca-de/introduccion" class="section-link">
