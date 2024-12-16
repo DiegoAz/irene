@@ -5,7 +5,7 @@ layout: "layouts/base"
 
 # Investigación
 
-El proyecto Irene ha generado resultados significativos a nivel académico, que se han presentado en diversas publicaciones y congresos internacionales. A continuación, se detallan las publicaciones y las participaciones en eventos internacionales derivadas del proyecto.
+El proyecto *Irene* ha generado resultados significativos a nivel académico, que se han presentado en diversas publicaciones y congresos internacionales. A continuación, se detallan las publicaciones y las participaciones en eventos internacionales derivadas del proyecto.
 
 ## Publicaciones
 
@@ -29,4 +29,4 @@ R. Forero Álvarez, R. Uribe Neira, D. A. Vásquez Guerrero, J. G. Santamaría P
 
 ## Tesis de pregrado
 
-Natalia Valentina Méndez López, estudiante de Filosofía, integrante del semillero de investigación Zétesis de la Facultad de Filosofía y Ciencias Humanas, hará su tesis de pregrado en el marco del proyecto Irene.
+Natalia Valentina Méndez López, estudiante de Filosofía, integrante del semillero de investigación Zétesis de la Facultad de Filosofía y Ciencias Humanas, hará su tesis de pregrado en el marco del proyecto *Irene*.
