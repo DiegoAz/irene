@@ -1,89 +1,49 @@
 .main-container {
     width: 100%;
-    margin-bottom: var(--space-m);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
-.swiper.main-swiper {
-    width: 100%;
+.swiper-wrapper {
+    align-items: flex-end;
 }
 
-.main-slide {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center;
-    /* padding: 20px;
-    gap: 30px; */
-    width: 100% !important;
+.swiper-slide {
+    border-radius: 8px;
 }
 
-.nested-carousel {
-    width: 100% !important;
-    max-width: 80%; /* Límite máximo de ancho */
-}
-
-.swiper.nested-swiper {
-    width: 100%;
-}
-
-.nested-slide {
-    width: 100% !important;
-}
-
-.nested-slide img {
+.swiper-slide img {
     width: 100%;
     height: auto;
-    object-fit: cover;
-    display: block; /* Eliminar espacio extra debajo de la imagen */
+    border-radius: 8px;
+    display: block;
 }
 
-.description {
-    width: 100% !important;
-    /* padding: 0 20px; */
-    text-align: center;
-
-    p {
-        margin-top: 0;
-    }
+/* Ajustar posición de la paginación */
+.swiper-pagination {
+    position: relative !important;
+    bottom: auto !important;
+    /* margin-top: 20px; */
 }
 
-.navigation-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: flex-end; /* Alinea a la derecha */
-    padding-right: 20px;
-    border-top: 1px solid var(--border-color);
-    font-family: "Source Serif 4", serif;
+.swiper-pagination-bullet {
+    background-color: var(--carousel-bullet-not-active) !important;
+    opacity: 0.3 !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: var(--carousel-bullet-active) !important;
+    opacity: 1 !important;
 }
 
-.nav-button {
-    cursor: pointer;
-    font-size: 24px;
-    color: #333;
-}
+/* .swiper-pagination-bullet-active-main {
+    background-color: var(--border-color) !important;
+} */
 
-.fraction {
-    font-size: 18px;
-}
-
+/* Prevenir selección */
 .main-container,
-.nested-carousel,
 .navigation-container,
 .nav-button,
 .fraction {
     user-select: none;
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-}
-
-/* Permitir selección solo en el texto descriptivo */
-.description {
-    user-select: text;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
