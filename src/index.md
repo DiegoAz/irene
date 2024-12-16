@@ -1,6 +1,10 @@
 ---
 layout: "layouts/base"
 ---
+
+<section class="home-section carousel">
+    {%- render "components/swiper" -%}
+</section>
 <section class="home-section hero">
     <div class="hero-content">
         <h1 class="hero-heading">Presentación</h1>
@@ -13,7 +17,6 @@ layout: "layouts/base"
                 <span>&#8599;</span>
             </a>
         </div>
-        {%- render "components/swiper" -%}
     </div>
 </section>
 <section class="home-section two-grid">
