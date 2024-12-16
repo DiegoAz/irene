@@ -1,6 +1,6 @@
 # Equipo
 
-A continuación, presentamos a los miembros del equipo del proyecto Irene. Cada uno de ellos aporta su experiencia y conocimiento para el éxito de esta iniciativa interdisciplinaria:
+A continuación, presentamos a los miembros del equipo del proyecto *Irene*. Cada uno de ellos aporta su experiencia y conocimiento para el éxito de esta iniciativa interdisciplinaria:
 
 <div class="grid">
     <div class="team-member-card">
