@@ -7,53 +7,70 @@ document.addEventListener("DOMContentLoaded", function () {
     initVideoPlayers();
     initSidebar();
 });
-// Inicializar carruseles anidados
-const nestedSwipers = new Swiper(".nested-swiper", {
-    effect: "cards",
-    grabCursor: true,
-    // loop: true,
-    // nested: true,
-    cardsEffect: {
-        slideShadows: false, // Esto desactivará las sombras
-        // perSlideOffset: 8, // Ajusta el espaciado entre cards
-        // perSlideRotate: 2, // Ajusta la rotación de las cards
-    },
-});
+// const mainSwiper = new Swiper(".main-swiper", {
+//     effect: "coverflow",
+//     grabCursor: true,
+//     loop: true,
+//     autoplay: {
+//         delay: 5000,
+//         disableOnInteraction: false,
+//     },
+//     navigation: {
+//         nextEl: ".next-button",
+//         prevEl: ".prev-button",
+//     },
+//     on: {
+//         init: function () {
+//             updateFraction(this);
+//         },
+//         slideChange: function () {
+//             updateFraction(this);
+//         },
+//     },
+// });
 
-// Inicializar carrusel principal
+// function updateFraction(swiper) {
+//     const fraction = document.querySelector(".fraction");
+//     // Ajustar el contador para el loop
+//     let realIndex = swiper.realIndex + 1;
+//     fraction.textContent = `${realIndex} / 10`;
+// }
+
 const mainSwiper = new Swiper(".main-swiper", {
-    spaceBetween: 30,
-    allowTouchMove: false,
-    navigation: {
-        nextEl: ".next-button",
-        prevEl: ".prev-button",
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 1,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
     },
-    on: {
-        init: function () {
-            updateFraction(this);
-        },
-        slideChange: function () {
-            updateFraction(this);
-        },
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+        clickable: true,
     },
 });
 
-function updateFraction(swiper) {
-    const fraction = document.querySelector(".fraction");
-    fraction.textContent = `${swiper.realIndex + 1} / ${swiper.slides.length}`;
-}
-
-// document.querySelector(".next-button").addEventListener("click", (e) => {
-//     e.preventDefault();
-//     mainSwiper.slideNext();
-// });
-// document.querySelector(".prev-button").addEventListener("click", (e) => {
-//     e.preventDefault();
-//     mainSwiper.slidePrev();
-// });
-// document.querySelector(".next-button").addEventListener("mousedown", (e) => {
-//     e.preventDefault();
-// });
-// document.querySelector(".prev-button").addEventListener("mousedown", (e) => {
-//     e.preventDefault();
+// const mainSwiper = new Swiper(".main-swiper", {
+//     grabCursor: true,
+//     slidesPerView: 1,
+//     loop: true,
+//     autoplay: {
+//         delay: 5000,
+//         disableOnInteraction: false,
+//     },
+//     pagination: {
+//         el: ".swiper-pagination", // Swiper creará este elemento
+//         dynamicBullets: true,
+//         clickable: true,
+//     },
 // });
