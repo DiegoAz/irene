@@ -31,7 +31,7 @@ layout: "layouts/base"
     <div>
         <h2>Recursos didácticos</h2>
         <p>El proyecto Irene busca expandir su impacto mediante recursos impresos y digitales gratuitos que garanticen el acceso en áreas rurales y de bajos recursos.</p>
-        <a href="/recursos-didacticos" class="section-link">
+        <a href="/recursos-didacticos/guia-socratica/es/" class="section-link">
         Accede a los recursos
         <span>&#8599;</span>
         </a>
