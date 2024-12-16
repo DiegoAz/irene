@@ -47,6 +47,7 @@
     .testimonials-list {
         list-style-type: none;
         padding: 0;
+        margin-block-start: var(--space-m);
 
         .testimonial {
             display: grid;
