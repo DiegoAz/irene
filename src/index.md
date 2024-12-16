@@ -20,7 +20,7 @@ layout: "layouts/base"
     </div>
 </section>
 <section class="home-section two-grid">
-    <div>
+    <div class="flex-end">
         <h2>Currículo</h2>
         <p>El núcleo del proyecto es un currículo innovador que emplea el método socrático para alentar discusiones abiertas y la búsqueda de consensos, en lugar de debates centrados en determinar quién tiene la razón.</p>
         <a href="/curriculo" class="section-link">
@@ -28,7 +28,7 @@ layout: "layouts/base"
         <span>&#8599;</span>
         </a>
     </div>
-    <div>
+    <div class="flex-end">
         <h2>Recursos didácticos</h2>
         <p>El proyecto Irene busca expandir su impacto mediante recursos impresos y digitales gratuitos que garanticen el acceso en áreas rurales y de bajos recursos.</p>
         <a href="/recursos-didacticos/guia-socratica/es/" class="section-link">

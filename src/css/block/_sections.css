@@ -32,6 +32,15 @@
     @media (max-width: 51.25rem) {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .flex-end {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            flex-grow: 2;
+        }
+    }
 }
 
 .testimonials {
