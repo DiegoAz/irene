@@ -54,12 +54,10 @@
     --black: hsl(240 3% 11%);
     --light-gray: hsl(0 0% 88%);
     --dark-gray: hsl(240 3.5% 22%);
-    --meta-light: hsl(30 6% 35%);   
+    --meta-light: hsl(30 6% 35%);
     --meta-dark: hsl(30 6% 75%);
     --light-blue: hsl(215 85% 45%);
-    --dark-blue: hsl(215 85% 70%); 
-
-
+    --dark-blue: hsl(215 85% 70%);
 }
 
 [color-scheme="light"] {
@@ -77,7 +75,8 @@
     --blockquote-bg: var(--light-gray);
     --blockquote-border: hsl(0 0% 75%);
     --icon-primary: var(--black);
-
+    --carousel-bullet-active: var(--black);
+    --carousel-bullet-not-active: hsl(240 3% 1%);
 }
 
 [color-scheme="dark"] {
@@ -94,5 +93,7 @@
     --button-hv-bg: hsl(240 3.5% 24%);
     --blockquote-bg: var(--dark-gray);
     --blockquote-border: hsl(240 3.5% 35%);
-    --icon-primary: var(--white); 
+    --icon-primary: var(--white);
+    --carousel-bullet-active: var(--white);
+    --carousel-bullet-not-active: hsl(0 0% 96%);
 }
