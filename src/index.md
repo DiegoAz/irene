@@ -7,7 +7,7 @@ layout: "layouts/base"
 </section>
 <section class="home-section hero">
     <div class="hero-content">
-        <h1 class="hero-heading">Presentación</h1>
+        <!-- <h1 class="hero-heading">Presentación</h1> -->
         <div class="hero-copy">
             <p>Bienvenido al sitio web del proyecto “<em>Irene</em>: un libro de trabajo basado en la literatura clásica para la resolución de conflictos (HUM-13-2024)”.</p>
             <p>El proyecto emplea la literatura clásica como herramienta educativa para desarrollar habilidades de resolución de conflictos en estudiantes de secundaria. Además, busca promover el diálogo, la empatía y el pensamiento crítico, mediante una adaptación del método socrático.</p>
