@@ -9,3 +9,15 @@
 .bold {
     font-weight: bold;
 }
+
+.medium {
+    font-weight: 500;
+}
+
+.serifa {
+    font-family: "Source Serif 4", serif;
+}
+
+.step-1 {
+    font-size: var(--step-1);
+}
