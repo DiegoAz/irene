@@ -40,25 +40,48 @@ layout: "layouts/base"
 
 <section class="home-section testimonials">
     <h2>Impacto</h2>
-    <!-- <p>Laboris veniam veniam ut aute ea laborum enim voluptate.</p> -->
+    <p>A continuación, se presentan testimonios de la aplicación del proyecto <em>Irene</em> en Colombia y Brasil en los que se resaltan los resultados obtenidos y el impacto en las comunidades participantes:</p>
     <ul class="testimonials-list">
         <li class="testimonial">
-            <p><a class="testimonial-link" href="/impacto/tunja-2024/">Prueba del libro Irene en el Colegio Gustavo Rojas Pinilla &#8599;</a></p>
+            <p>
+                <a class="testimonial-link" href="/impacto/tunja-2024/">
+                    Prueba del libro Irene en el Colegio Gustavo Rojas Pinilla
+                    <span>&#8599;</span>
+                </a>
+            </p>
             <span class="city">Tunja</span>
             <span class="year">2024</span>
         </li>
+        <hr class="solid">
         <li class="testimonial">
-            <p><a class="testimonial-link" href="/impacto/fortaleza-2024/">Sócrates en la Escola Municipal Creusa do Carmo Rocha &#8599;</a></p>
+            <p>
+                <a class="testimonial-link" href="/impacto/fortaleza-2024/">
+                    Sócrates en la Escola Municipal Creusa do Carmo Rocha
+                    <span>&#8599;</span>
+                </a>
+            </p>
             <span class="city">Fortaleza</span>
             <span class="year">2024</span>
         </li>
+        <hr class="solid">
         <li class="testimonial">
-            <p><a class="testimonial-link" href="/impacto/viota-2024/">Sócrates en un paisaje de paz &#8599;</a></p>
+            <p>
+                <a class="testimonial-link" href="/impacto/viota-2024/">
+                    Sócrates en un paisaje de paz
+                    <span>&#8599;</span>
+                </a>
+            </p>
             <span class="city">Viotá</span>
             <span class="year">2024</span>
         </li>
+        <hr class="solid">
         <li class="testimonial">
-            <p><a class="testimonial-link" href="/impacto/tunja-bogota-2023/">Sócrates en los colegios Gustavo Rojas Pinilla y Delia Zapata Olivella &#8599;</a></p>
+            <p>
+                <a class="testimonial-link" href="/impacto/tunja-bogota-2023/">
+                    Sócrates en los colegios Gustavo Rojas Pinilla y Delia Zapata Olivella
+                    <span>&#8599;</span>
+            </a>
+            </p>
             <span class="city">Tunja y Bogotá</span>
             <span class="year">2023</span>
         </li>

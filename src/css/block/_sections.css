@@ -55,6 +55,7 @@
             gap: var(--space-xs);
             padding: var(--space-2xs);
             border-radius: var(--space-2xs);
+            /* border-bottom: 1px solid var(--border-color); */
 
             p {
                 margin-top: 0;
@@ -66,6 +67,10 @@
 
                 &:hover {
                     text-decoration: underline;
+                    color: var(--link-color);
+                }
+
+                span {
                     color: var(--link-color);
                 }
             }
@@ -80,9 +85,9 @@
             }
         }
 
-        .testimonial:nth-child(odd) {
+        /* .testimonial:nth-child(odd) {
             background: var(--blockquote-bg);
-        }
+        } */
     }
 }
 
