@@ -9,6 +9,11 @@
     /* margin-left: var(--space-s) */
 }
 
+.solid-border {
+    border: 5px solid var(--border-color);
+    padding: 0;
+}
+
 #cover {
     margin-top: var(--space-2xs);
     width: 40%;
@@ -17,7 +22,24 @@
     @media (max-width: 468px) {
         width: 46%;
     }
-    
+}
+
+#coverr {
+    margin-top: var(--space-xs);
+    /* margin-right: auto;
+    margin-left: auto; */
+    width: 100%;
+    height: auto;
+    border: 5px solid var(--border-color);
+}
+
+#coverrr {
+    margin-top: var(--space-xs);
+    /* margin-right: auto;
+    margin-left: auto; */
+    width: 100%;
+    height: auto;
+    border: 0px solid var(--border-color);
 }
 
 #bust1 {
@@ -44,7 +66,6 @@
     /* height: auto; */
     @media (max-width: 500px) {
         width: 50%;
-        
     }
 }
 
@@ -57,7 +78,7 @@
 }
 
 #sculpture2 {
-    width: 70%;
+    width: 100%;
 }
 
 .w-60 {
@@ -76,7 +97,7 @@
     width: 30%;
 }
 
-.f-right{
+.f-right {
     float: right;
 }
 
@@ -97,11 +118,11 @@
 }
 
 .m-right {
-    margin-right: var(--space-xs)
+    margin-right: var(--space-xs);
 }
 
 .m-left {
-    margin-left: var(--space-xs)
+    margin-left: var(--space-xs);
 }
 
 .centered {
