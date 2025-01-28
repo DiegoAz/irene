@@ -63,7 +63,7 @@ module.exports = {
     },
     images: {
         one: {
-            src: "/img/recursos-didacticos/guia-socratica/socrates-portada.png",
+            src: "/img/recursos-didacticos/guia-socratica/socrates-portada.jpg",
             alt: {
                 en: "Bust of Socrates, Greek philosopher, in a thoughtful pose.",
                 es: "Busto de Sócrates, filósofo griego, en una pose pensativa.",
