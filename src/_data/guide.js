@@ -70,7 +70,7 @@ module.exports = {
                 pt: "Busto de Sócrates, filósofo grego, em uma pose pensativa.",
                 fr: "Buste de Socrate, philosophe grec, dans une pose pensive.",
             },
-            classes: ["guide-image", "f-right", "m-left"],
+            classes: ["guide-image"],
             id: "cover",
         },
         two: {
@@ -134,7 +134,7 @@ module.exports = {
                 pt: "Escultura de Sócrates, o filósofo grego, sentado e segurando um livro na mão, com uma expressão concentrada.",
                 fr: "Sculpture de Socrate, le philosophe grec, assis et tenant un livre à la main, avec une expression concentrée.",
             },
-            classes: ["guide-image", "w-60", "f-right", "m-left"],
+            classes: ["guide-image"],
             id: "sculpture1",
         },
         eight: {

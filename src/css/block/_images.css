@@ -3,48 +3,20 @@
 } */
 
 .guide-image {
-    border: 3px double var(--border-color);
     padding: var(--space-3xs);
     height: auto;
-    /* margin-left: var(--space-s) */
-}
-
-.solid-border {
-    border: 5px solid var(--border-color);
-    padding: 0;
 }
 
 #cover {
-    margin-top: var(--space-2xs);
-    width: 40%;
-    height: auto;
-
-    @media (max-width: 468px) {
-        width: 46%;
-    }
-}
-
-#coverr {
     margin-top: var(--space-xs);
-    /* margin-right: auto;
-    margin-left: auto; */
     width: 100%;
     height: auto;
-    border: 5px solid var(--border-color);
-}
-
-#coverrr {
-    margin-top: var(--space-xs);
-    /* margin-right: auto;
-    margin-left: auto; */
-    width: 100%;
-    height: auto;
-    border: 0px solid var(--border-color);
 }
 
 #bust1 {
-    margin-top: var(--space-2xs);
-    width: 40%;
+    margin-top: var(--space-3xs);
+    width: 30%;
+
     @media (max-width: 39.375rem) {
         width: 40%;
     }
@@ -71,6 +43,7 @@
 
 #sculpture1 {
     margin-top: var(--space-2xs);
+    width: 100%;
 }
 
 #eight {
@@ -78,7 +51,7 @@
 }
 
 #sculpture2 {
-    width: 100%;
+    width: 90%;
 }
 
 .w-60 {

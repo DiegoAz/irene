@@ -1,8 +1,9 @@
 ## Introduction
 
+<img src={{ images.one.src }} class="guide-image">
+
 The educational guide presented here is one of the products of the research project “<em>Irene</em>: A Workbook based on Classical Literature for Conflict Resolution.” This project was developed by an interdisciplinary team with the aim of integrating the teaching of the subject of peace education into secondary education institutions in Colombia. The <em>Irene</em> project uses classical texts from Greek and Roman literature as educational tools that promote critical reflection, constructive dialogue, and peaceful conflict resolution. This guide focuses on an adaptation of the Socratic method to be applied in various contexts. We propose a methodology of debate that does not focus on determining who is right, but rather on the search for consensus in an environment that encourages respect for the diversity of opinions and the collective construction of solutions.
 
-<img src={{ images.one.src }} class="guide-image" id="coverrr">
 
 The purpose of the guide is to engage participants in a dialogue process that will allow them to address different types of conflicts (interpersonal, social, political) and develop essential skills for peaceful coexistence, empathy, and critical thinking. Originally designed for the school environment, the material can be used in a wide variety of settings. Teachers, workshop leaders, or facilitators can implement it in diverse contexts where the goal is to foster dialogue based on the dialectical principles of the Socratic method, adapted for conflict resolution.
 
