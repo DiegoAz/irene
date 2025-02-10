@@ -1,5 +1,6 @@
 ---
 layout: "layouts/base"
+useSwiper: true
 ---
 
 <section class="home-section carousel">
