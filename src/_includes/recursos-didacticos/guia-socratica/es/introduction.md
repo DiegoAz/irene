@@ -1,6 +1,6 @@
 ## Presentación
 
-<img src={{ images.one.src }} class="guide-image">
+<img src="{{ images.one.src }}" alt="{{ images.one.alt[page.lang]}}" class="{{ images.two.classes | join: ' ' }}" width="670">
 
 La guía didáctica que presentamos a continuación es uno de los productos del proyecto de investigación “<em>Irene</em>: un libro de trabajo basado en la literatura clásica para la resolución de conflictos”. Este proyecto ha sido desarrollado por un equipo interdisciplinario con el propósito de integrar la enseñanza de la Cátedra de la Paz en las instituciones de educación secundaria en Colombia. El proyecto <em>Irene</em> utiliza textos clásicos de la literatura griega y romana como herramientas didácticas que promueven la reflexión crítica, el diálogo constructivo y la resolución pacífica de conflictos. La presente guía se enfoca en una adaptación del método socrático para aplicarse en diversos contextos. La propuesta es una metodología de debate que no se centra en determinar quién tiene la razón, sino en la búsqueda de consensos, en un ambiente que fomenta el respeto por la diversidad de opiniones y la construcción colectiva de soluciones.
 

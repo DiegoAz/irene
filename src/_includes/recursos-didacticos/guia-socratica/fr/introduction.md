@@ -1,6 +1,6 @@
 ## Présentation
 
-<img src={{ images.one.src }} class="guide-image">
+<img src="{{ images.one.src }}" alt="{{ images.one.alt[page.lang]}}" class="{{ images.two.classes | join: ' ' }}" width="670">
 
 Le guide pédagogique que nous présentons ci-dessous est l'un des produits du projet de recherche « <em>Irene</em> : un manuel basé sur la littérature classique pour la résolution de conflits ». Ce projet a été développé par une équipe interdisciplinaire dans le but d'intégrer l'enseignement de la Chaire de la Paix dans les établissements d'enseignement secondaire en Colombie. Le projet <em>Irene</em> utilise des textes classiques de la littérature grecque et romaine comme outils pédagogiques pour promouvoir la réflexion critique, le dialogue constructif et la résolution pacifique des conflits. Ce guide se concentre sur une adaptation de la méthode socratique qui peut être appliquée dans divers contextes. La proposition est une méthodologie de débat qui ne vise pas à déterminer qui a raison, mais à rechercher des consensus, dans un environnement qui favorise le respect de la diversité des opinions et la construction collective de solutions.
 
