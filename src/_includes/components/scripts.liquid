@@ -1,1 +1,31 @@
-<script type="module" src="/js/script.js"></script>
+<!-- Módulos base (siempre presentes) -->
+<script type="module">
+    import { initTheme } from "/js/modules/theme.js";
+    import { initSidebar } from "/js/modules/sidebar.js";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        initTheme();
+        initSidebar();
+    });
+</script>
+
+<!-- Módulos condicionales -->
+{% if useSwiper %}
+<script type="module">
+    import { initMainSlider } from "/js/modules/slider.js";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        initMainSlider();
+    });
+</script>
+{% endif %}
+
+{% if usePlyr %}
+<script type="module">
+    import { initVideoPlayers } from "/js/modules/video.js";
+
+    document.addEventListener("DOMContentLoaded", function () {
+        initVideoPlayers();
+    });
+</script>
+{% endif %}
