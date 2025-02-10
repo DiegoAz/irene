@@ -7,12 +7,6 @@
     height: auto;
 }
 
-#cover {
-    margin-top: var(--space-xs);
-    width: 100%;
-    height: auto;
-}
-
 #bust1 {
     margin-top: var(--space-3xs);
     width: 30%;
