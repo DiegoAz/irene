@@ -37,7 +37,7 @@ I.  **Actividad preparatoria** {.inline}
 
 II. **Explicación del método socrático** {.inline}
 
-    {% guideThirdImage "En la guía de los participantes, que está adjunta a este documento, se incluye una brevísima biografía de Sócrates y una explicación sencilla del método socrático. Se recomienda que esa parte de la guía sea leída por turnos entre los participantes, lo que permitirá un mejor entendimiento del método y fomentará la discusión desde el inicio. Al leer la historia de Sócrates, los participantes podrán hacer preguntas, comprender el propósito del diálogo socrático y cómo aplicarlo en el proceso de reflexión y resolución de conflictos." %}
+    {% guideImage "three", "En la guía de los participantes, que está adjunta a este documento, se incluye una brevísima biografía de Sócrates y una explicación sencilla del método socrático. Se recomienda que esa parte de la guía sea leída por turnos entre los participantes, lo que permitirá un mejor entendimiento del método y fomentará la discusión desde el inicio. Al leer la historia de Sócrates, los participantes podrán hacer preguntas, comprender el propósito del diálogo socrático y cómo aplicarlo en el proceso de reflexión y resolución de conflictos." %}
 
 
 III.  **Implementación de la adaptación del método socrático** {.inline .clearfix}

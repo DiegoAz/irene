@@ -12,7 +12,7 @@ I.  **Preparatory Activity** {.inline}
     <div class=guiding-text>
 
     *Often, we do not agree with the opinions of our family, friends, colleagues, or peers. But how can we be so sure that person is wrong? Have we ever asked them why they think that way? Have we taken the time to carefully analyze their arguments? Are our emotions or our reasoning telling us that they are wrong?* {.block}
-    
+
     *The Socratic method is a way of learning to find consensus through dialogue. It is not an easy task, but if we use active listening, respect others beyond their opinions, analyze before passing judgment based on fleeting emotions, and express ourselves with well-founded arguments, the results may surprise us.* {.block}
 
     </div>
@@ -37,7 +37,7 @@ I.  **Preparatory Activity** {.inline}
 
 II. **Explication of the Socratic Method** {.inline}
 
-   {% guideThirdImage "In the participants' guide, which is attached to this document, a brief biography of Socrates and a simple explanation of the Socratic method are included. It is recommended that this part of the guide be read in turns by the participants, which will allow for a better understanding of the method and encourage discussion from the outset. By reading Socrates’ story, participants will be able to ask questions, understand the purpose of Socratic dialogue, and learn how to apply it in the process of reflection and conflict resolution." %}
+   {% guideImage "three", "In the participants' guide, which is attached to this document, a brief biography of Socrates and a simple explanation of the Socratic method are included. It is recommended that this part of the guide be read in turns by the participants, which will allow for a better understanding of the method and encourage discussion from the outset. By reading Socrates’ story, participants will be able to ask questions, understand the purpose of Socratic dialogue, and learn how to apply it in the process of reflection and conflict resolution." %}
 
 
 III.  **Implementation of the Adapted Socratic Method** {.inline .clearfix}

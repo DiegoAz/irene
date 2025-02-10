@@ -8,7 +8,7 @@
 
 I.  **Introducción** {.inline}
 
-    {% guideSixImage "Presentamos en esta guía una adaptación del método socrático para la resolución de conflictos. Su objetivo principal es concientizar a las personas de la necesidad del diálogo constructivo, el análisis crítico y la búsqueda de consensos. La guía también busca motivar a las personas a crear espacios de intercambio de ideas donde los participantes puedan cuestionar sus propias suposiciones y las de los demás. El proceso dialógico además procura construir una comprensión colectiva que respete la diversidad de perspectivas y se aleje de la imposición de opiniones. Se espera que los participantes no solo aprendan a dialogar, sino también a negociar y llegar a consensos, habilidades clave para una convivencia armoniosa. La guía está diseñada para cualquier grupo de personas interesadas en facilitar el diálogo, ya que puede aplicarse en diferentes contextos:" %}
+    {% guideImage "six", "Presentamos en esta guía una adaptación del método socrático para la resolución de conflictos. Su objetivo principal es concientizar a las personas de la necesidad del diálogo constructivo, el análisis crítico y la búsqueda de consensos. La guía también busca motivar a las personas a crear espacios de intercambio de ideas donde los participantes puedan cuestionar sus propias suposiciones y las de los demás. El proceso dialógico además procura construir una comprensión colectiva que respete la diversidad de perspectivas y se aleje de la imposición de opiniones. Se espera que los participantes no solo aprendan a dialogar, sino también a negociar y llegar a consensos, habilidades clave para una convivencia armoniosa. La guía está diseñada para cualquier grupo de personas interesadas en facilitar el diálogo, ya que puede aplicarse en diferentes contextos:" %}
 
     - **En la comunidad:** permite que las personas discutan problemas locales y busquen soluciones conjuntas.
     - **En el entorno familiar:** ayuda a mejorar la comunicación y a resolver malentendidos entre familiares o amigos.
@@ -18,13 +18,10 @@ II. **¿Quién era Sócrates?** {.inline}
 
     Sócrates es uno de los filósofos más importantes de la historia de la filosofía occidental. Nació en Atenas, Grecia, en el año 469 a.C., es decir, hace casi 2500 años. Aunque se sabe poco sobre su infancia y juventud, se cree que su padre era un escultor y su madre una partera. Sócrates no dejó ningún libro escrito, por lo que la mayoría de lo que sabemos sobre él proviene de las obras de sus discípulos, especialmente de Platón. {.block}
 
-   <img src={{ images.seven.src }} class="guide-image" id="sculpture1">
-
     A diferencia de muchos filósofos de su época, Sócrates no se centraba en el
     estudio de la naturaleza o el universo, sino en el estudio de las cuestiones morales y éticas. Sócrates creía que el conocimiento y la sabiduría eran la clave para vivir una vida buena y virtuosa. Nuestro filósofo era conocido por su estilo de enseñanza. En lugar de dar respuestas directas a sus interlocutores, hacía preguntas para hacerlos reflexionar y llegar a sus propias conclusiones. {.block}
 
-
-   Sócrates tuvo muchos discípulos y seguidores, pero también enemigos. Sus ideas y enseñanzas cuestionaban las realidades de su época, por lo que Sócrates fue condenado a muerte por blasfemia y corromper a la juventud de Atenas. Sus acusadores pensaban que estaba introduciendo nuevos dioses y estaba alejando a los jóvenes de la democracia. Fue obligado a beber una copa de cicuta, un brebaje venenoso que lo llevó a la muerte en el año 399 a. C. A pesar de esas injustas acusaciones, la vida y las enseñanzas de Sócrates han influido en muchos filósofos y pensadores posteriores. Su visión de la ética y la importancia del conocimiento y la sabiduría siguen siendo relevantes hoy en día.
+    {% guideImage "seven", "Sócrates tuvo muchos discípulos y seguidores, pero también enemigos. Sus ideas y enseñanzas cuestionaban las realidades de su época, por lo que Sócrates fue condenado a muerte por blasfemia y corromper a la juventud de Atenas. Sus acusadores pensaban que estaba introduciendo nuevos dioses y estaba alejando a los jóvenes de la democracia. Fue obligado a beber una copa de cicuta, un brebaje venenoso que lo llevó a la muerte en el año 399 a. C. A pesar de esas injustas acusaciones, la vida y las enseñanzas de Sócrates han influido en muchos filósofos y pensadores posteriores. Su visión de la ética y la importancia del conocimiento y la sabiduría siguen siendo relevantes hoy en día." %}
 
 
 III.    **¿Qué es el método socrático?** {.inline}
@@ -33,7 +30,7 @@ III.    **¿Qué es el método socrático?** {.inline}
 
 IV. **¿Cómo podemos aplicar el método socrático para la resolución de conflictos?** {.inline}
 
-    {% guideEightImage "Antes de iniciar la discusión, es importante prepararse para escuchar sin prejuicios. A menudo, no estamos de acuerdo con las opiniones de los demás, pero ¿cómo estamos tan seguros de que esa persona está equivocada?, ¿me he puesto en la tarea de analizar sus argumentos alguna vez?, ¿son mis emociones o mis razonamientos los que me indican que se está equivocando? El primer paso es cuestionar nuestras propias suposiciones y abrirnos al diálogo. El método socrático no se basa en que alguien gane o pierda una discusión, sino en enriquecer el entendimiento mutuo. Durante la actividad, todos deben respetar las siguientes normas:" %}
+    {% guideImage "eight", "Antes de iniciar la discusión, es importante prepararse para escuchar sin prejuicios. A menudo, no estamos de acuerdo con las opiniones de los demás, pero ¿cómo estamos tan seguros de que esa persona está equivocada?, ¿me he puesto en la tarea de analizar sus argumentos alguna vez?, ¿son mis emociones o mis razonamientos los que me indican que se está equivocando? El primer paso es cuestionar nuestras propias suposiciones y abrirnos al diálogo. El método socrático no se basa en que alguien gane o pierda una discusión, sino en enriquecer el entendimiento mutuo. Durante la actividad, todos deben respetar las siguientes normas:" %}
 
     - **Escucha activa:** Presta atención sin interrumpir a los demás.
     - **Intervenciones breves y claras:** Expresa tus ideas de manera concisa y respetuosa.
@@ -54,4 +51,4 @@ IV. **¿Cómo podemos aplicar el método socrático para la resolución de confl
 
 V.  **Reflexión final** {.inline}
 
-    {% guideNineImage "Es posible que debamos repetir los pasos varias veces, incluso en una o más sesiones, pues hay temas difíciles de tratar, pero el diálogo nos permitirá entender la dificultad y reconocer tanto el valor de las opiniones de los demás como las falencias de las nuestras. Finalizamos contestando a estas preguntas: ¿cómo te sentiste durante el proceso de discusión?, ¿cómo describirías el proceso de intentar llegar a un consenso?, ¿te pareció útil?" %}
+    {% guideImage "nine", "Es posible que debamos repetir los pasos varias veces, incluso en una o más sesiones, pues hay temas difíciles de tratar, pero el diálogo nos permitirá entender la dificultad y reconocer tanto el valor de las opiniones de los demás como las falencias de las nuestras. Finalizamos contestando a estas preguntas: ¿cómo te sentiste durante el proceso de discusión?, ¿cómo describirías el proceso de intentar llegar a un consenso?, ¿te pareció útil?" %}
