@@ -71,7 +71,6 @@ module.exports = {
                 fr: "Buste de Socrate, philosophe grec, dans une pose pensive.",
             },
             classes: ["guide-image"],
-            id: "cover",
         },
         two: {
             src: "/img/recursos-didacticos/guia-socratica/la-escuela-de-atenas.png",
