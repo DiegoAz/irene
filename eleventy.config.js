@@ -1,5 +1,6 @@
 const eleventyPostcss = require("@jgarber/eleventy-plugin-postcss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 const htmlmin = require("html-minifier-terser");
 const markdownItFancyLists =
     require("markdown-it-fancy-lists").markdownItFancyListPlugin;
@@ -15,6 +16,7 @@ module.exports = async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets");
     const { EleventyRenderPlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(EleventyRenderPlugin);
+    eleventyConfig.addPlugin(eleventyImageTransformPlugin);
     eleventyConfig.amendLibrary("md", (mdLib) =>
         mdLib.use(markdownItFancyLists).use(markdownItAttrs),
     );
