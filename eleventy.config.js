@@ -28,42 +28,22 @@ module.exports = async function (eleventyConfig) {
       </section>
     `;
     });
-    eleventyConfig.addShortcode("guideFirstImage", function (text) {
-        return `<p><img src="${guide.images.one.src}"
-                           alt="${guide.images.one.alt[this.page.lang]}"
-                           class="${guide.images.one.classes.join(" ")}"
-                           id="${guide.images.one.id}">${text}</p>`;
+    eleventyConfig.addShortcode("guideImage", function (imageKey, text) {
+        // Verificar que la imagen existe en el objeto guide.images
+        if (!guide.images[imageKey]) {
+            console.warn(
+                `Warning: Image key "${imageKey}" not found in guide.images`,
+            );
+            return "";
+        }
+
+        const image = guide.images[imageKey];
+        return `<p class="block"><img src="${image.src}"
+                           alt="${image.alt[this.page.lang]}"
+                           class="${image.classes.join(" ")}"
+                           id="${image.id}">${text}</p>`;
     });
-    eleventyConfig.addShortcode("guideThirdImage", function (text) {
-        return `<p class="block"><img src="${guide.images.three.src}"
-                           alt="${guide.images.three.alt[this.page.lang]}"
-                           class="${guide.images.three.classes.join(" ")}"
-                           id="${guide.images.three.id}">${text}</p>`;
-    });
-    eleventyConfig.addShortcode("guideSixImage", function (text) {
-        return `<p class="block"><img src="${guide.images.six.src}"
-                           alt="${guide.images.six.alt[this.page.lang]}"
-                           class="${guide.images.six.classes.join(" ")}"
-                           id="${guide.images.six.id}">${text}</p>`;
-    });
-    eleventyConfig.addShortcode("guideSevenImage", function (text) {
-        return `<p class="block"><img src="${guide.images.seven.src}"
-                           alt="${guide.images.seven.alt[this.page.lang]}"
-                           class="${guide.images.seven.classes.join(" ")}"
-                           id="${guide.images.seven.id}">${text}</p>`;
-    });
-    eleventyConfig.addShortcode("guideEightImage", function (text) {
-        return `<p class="block"><img src="${guide.images.eight.src}"
-                           alt="${guide.images.eight.alt[this.page.lang]}"
-                           class="${guide.images.eight.classes.join(" ")}"
-                           id="${guide.images.eight.id}">${text}</p>`;
-    });
-    eleventyConfig.addShortcode("guideNineImage", function (text) {
-        return `<p class="block"><img src="${guide.images.nine.src}"
-                           alt="${guide.images.nine.alt[this.page.lang]}"
-                           class="${guide.images.nine.classes.join(" ")}"
-                           id="${guide.images.nine.id}">${text}</p>`;
-    });
+
     eleventyConfig.setServerOptions({
         showAllHosts: true,
     });
