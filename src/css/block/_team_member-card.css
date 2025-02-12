@@ -26,12 +26,13 @@
             font-weight: 500;
         }
     }
-
+    picture {
+        align-self: center;
+    }
     .team-member-photo {
         width: 200px;
         height: 200px;
-        border-radius: 8px;
         object-fit: cover;
-        align-self: center;
+        border-radius: 8px;
     }
 }
