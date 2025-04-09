@@ -8,8 +8,9 @@ module.exports = {
   // Información del sitio
   name: "Proyecto Irene",
   description: "Proyecto Irene: un libro de trabajo basado en la literatura clásica para la resolución de conflictos. Desarrollando habilidades de resolución de conflictos en estudiantes de secundaria a través de la literatura clásica.",
-  url: "https://proyectoirene.pages.dev", // URL de producción
-
+  url: process.env.ELEVENTY_ENV === "development" || process.env.CF_PAGES_BRANCH === "feat-seo"
+    ? "https://feat-seo.proyectoirene.pages.dev"  // Development URL
+    : "https://proyectoirene.pages.dev",          // Production URL
   // SEO
   author: "Ronald Forero Álvarez, Martin Dinter, Deisy Amapola Vásquez Guerrero, Juan Gabriel Santamaría Pérez, Jeiviane Justiniano Da Silva, Anni Marcelli Santos de Jesus, Carlos Renato Rosário de Jesús, Rafael Uribe Neira, Lucio Martín Forero Álvarez, Jesús David Girado Sierra, Natalia Valentina Méndez López, Felipe Vargas Cortés",
   keywords: "proyecto irene, educación, literatura clásica, resolución de conflictos, método socrático, paz, convivencia, diálogo",
