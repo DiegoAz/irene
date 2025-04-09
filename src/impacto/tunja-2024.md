@@ -2,6 +2,7 @@
 title: "Prueba del libro Irene en el Colegio Gustavo Rojas Pinilla"
 city: "Tunja"
 year: 2024
+image: "/img/testimonios/tunja-2024/tunja_01_2024.jpg"
 videos:
   - url: "/videos/testimonios/tunja-2024/video_01_tunja_2024.mp4"
   - url: "/videos/testimonios/tunja-2024/video_02_tunja_2024.mp4"
