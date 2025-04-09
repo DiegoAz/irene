@@ -4,8 +4,9 @@
     "description": "irene",
     "main": "index.js",
     "scripts": {
-        "serve": "eleventy --serve",
+        "serve": "ELEVENTY_ENV=development eleventy --serve",
         "build": "eleventy",
+        "build:dev": "ELEVENTY_ENV=development eleventy",
         "clean": "rm -rf _site",
         "debug": "DEBUG=Eleventy* eleventy"
     },
