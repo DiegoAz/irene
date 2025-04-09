@@ -4,6 +4,8 @@ basePath: "src/_includes/recursos-didacticos/guia-socratica/fr/"
 href: "#enlaces-descargas"
 page:
   lang: "fr"
+description: "Guide pratique utilisant la méthode socratique pour la résolution de conflits dans les environnements éducatifs. Développé par le Projet Irene."
+keywords: "méthode socratique, résolution de conflits, éducation, dialogue, guide pratique, projet irene, littérature classique"
 toc:
   heading: "Table des matières"
 ---
