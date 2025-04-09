@@ -2,7 +2,14 @@
 permalink: '/robots.txt'
 eleventyExcludeFromCollections: true
 ---
+{% if site.url contains "feat-seo" %}
+# This is a development version - do not index
+User-agent: *
+Disallow: /
+{% else %}
+# Production environment - allow indexing
 User-agent: *
 Allow: /
 
 Sitemap: {{ site.url }}/sitemap.xml
+{% endif %}
