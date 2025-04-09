@@ -23,6 +23,7 @@
     },
     "devDependencies": {
         "@jgarber/eleventy-plugin-postcss": "^1.0.1",
+        "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
         "autoprefixer": "^10.4.20",
         "cssnano": "^7.0.6",
         "postcss-easy-import": "^4.0.0",
