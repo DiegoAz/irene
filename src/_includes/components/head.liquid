@@ -24,6 +24,7 @@
         {% include "seo/open-graph.liquid" %}
         {% include "seo/social-links.liquid" %}
         {% include "seo/canonical.liquid" %}
+        {% include "seo/hreflang.liquid" %}
 
         <title>{% if page.url == "/" %}{{ site.name }}{% else %}{{ pageTitle }} | {{ site.name }}{% endif %}</title>
         <style id="menu-transitions">
