@@ -7,7 +7,7 @@ module.exports = {
   
   // Información del sitio
   name: "Proyecto Irene",
-  description: "Proyecto Irene: un libro de trabajo basado en la literatura clásica para la resolución de conflictos. Desarrollando habilidades de resolución de conflictos en estudiantes de secundaria a través de la literatura clásica.",
+  description: "Iniciativa educativa interdisciplinaria diseñada para integrar la “Cátedra de la Paz” en las escuelas secundarias de Colombia.",
   url: process.env.ELEVENTY_ENV === "development" || process.env.CF_PAGES_BRANCH === "feat-seo"
     ? "https://feat-seo.proyectoirene.pages.dev"  // Development URL
     : "https://proyectoirene.pages.dev",          // Production URL
