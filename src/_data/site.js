@@ -14,7 +14,9 @@ module.exports = {
   // SEO
   author: "Ronald Forero Álvarez, Martin Dinter, Deisy Amapola Vásquez Guerrero, Juan Gabriel Santamaría Pérez, Jeiviane Justiniano Da Silva, Anni Marcelli Santos de Jesus, Carlos Renato Rosário de Jesús, Rafael Uribe Neira, Lucio Martín Forero Álvarez, Jesús David Girado Sierra, Natalia Valentina Méndez López, Felipe Vargas Cortés",
   keywords: "proyecto irene, educación, literatura clásica, resolución de conflictos, método socrático, paz, convivencia, diálogo",
-
+  meta : {
+    twitterCard: "summary",
+  },
   // Social media
   social: {
     instagram: "irenepazcol", // Sin el @ inicial
