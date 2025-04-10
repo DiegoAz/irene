@@ -2,6 +2,9 @@ module.exports = {
     layout: "layouts/testimonial.liquid",
     tags: ["impacto"],
     usePlyr: true,
+    meta: {
+        twitterCard: "summary_large_image",
+    }
     // eleventyComputed: {
     //   permalink: data => `/testimonios/${data.city.toLowerCase()}-${data.year}/index.html`,
     //   videos: data => {
