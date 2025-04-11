@@ -1,6 +1,6 @@
 ---
 meta:
-  description: "Guia prático para a resolução de conflitos baseado no método socrático. Desenvolvido pelo Projeto Irene."
+  description: " Tal guia se concentra em uma adaptação do método socrático para ser aplicada em diversos contextos. Desenvolvido pelo Projeto Irene."
   keywords: "método socrático, resolução de conflitos, educação, diálogo, guia prático, projeto irene, literatura clássica"
 title: "Guia prático para a resolução de conflitos baseado no método socrático"
 basePath: "src/_includes/recursos-didacticos/guia-socratica/pt/"
