@@ -1,4 +1,6 @@
 ---
+meta:
+  image: "/img/testimonios/fortaleza-2024/image3.jpg"
 title: "Sócrates en la Escola Municipal Creusa do Carmo Rocha"
 city: "Fortaleza"
 year: 2024

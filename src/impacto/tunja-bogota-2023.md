@@ -1,4 +1,6 @@
 ---
+meta:
+  image: "/img/testimonios/tunja-bogota-2023/foto_01_tunja_estudiantes_2023.jpg"
 title: "Sócrates en los colegios Gustavo Rojas Pinilla y Delia Zapata Olivella"
 city: "Tunja y Bogotá"
 year: 2023
