@@ -45,17 +45,7 @@
                     setTimeout(() => {
                         const style = document.getElementById('menu-transitions');
                         if (style) {
-                            style.textContent = `
-                                .parent .children { display: none; }
-                                .parent.expanded > li > .children { display: block; }
-                                .parent .title button svg {
-                                    transform: translateY(-50%);
-                                    transition: transform var(--transition-base);
-                                }
-                                .parent.expanded > .title button svg {
-                                    transform: translateY(-50%) rotate(90deg);
-                                }
-                            `;
+                            style.textContent = '.parent .children { display: none; } .parent.expanded > li > .children { display: block; } .parent .title button svg { transform: translateY(-50%); transition: transform var(--transition-base); } .parent.expanded > .title button svg { transform: translateY(-50%) rotate(90deg); }';
                         }
                     }, 50);
                 });
