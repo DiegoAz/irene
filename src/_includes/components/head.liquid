@@ -21,11 +21,11 @@
 
         <!-- SEO Components -->
         {% include "seo/meta-tags.liquid" %}
-        {% include "seo/open-graph.liquid" %}
         {% include "seo/social-links.liquid" %}
         {% include "seo/canonical.liquid" %}
         {% include "seo/hreflang.liquid" %}
-        {% include "seo/twitter-cards.liquid" %}
+        {% comment %} {% include "seo/open-graph.liquid" %} {% endcomment %}
+        {% comment %} {% include "seo/twitter-cards.liquid" %} {% endcomment %}
 
         <title>{% if page.url == "/" %}{{ site.name }}{% else %}{{ pageTitle }} | {{ site.name }}{% endif %}</title>
         <style id="menu-transitions">
