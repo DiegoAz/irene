@@ -1,0 +1,11 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": WebSite",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}",
+  "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}",
+  "keywords": "{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}",
+  {% if page.lang %}"inLanguage": "{{ page.lang }}",{% endif %}
+}
+</script>
