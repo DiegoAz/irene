@@ -3,5 +3,5 @@ permalink: /sitemap.xml
 layout: null
 eleventyExcludeFromCollections: true
 ---
-{% assign filteredPages = collections.all | where_exp: "item", "item.data.inDevelopment != true" %}
+{%- assign filteredPages = collections.all | where_exp: "item", "item.data.inDevelopment != true" -%}
 {% sitemap filteredPages %}
