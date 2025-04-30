@@ -1,0 +1,20 @@
+---
+permalink: '/robots.txt'
+eleventyExcludeFromCollections: true
+---
+# DEBUG: site.url = {{ site.url }}
+{% if site.url contains "feat-seo" %}
+# Development version
+User-agent: *
+Disallow: /
+{% else %}
+# Production version
+User-agent: *
+Allow: /
+# Pages in development
+Disallow: /curriculo/
+Disallow: /contacto/
+Disallow: /noticias/
+Disallow: /apoyo/
+Sitemap: {{ site.url }}/sitemap.xml
+{% endif %}

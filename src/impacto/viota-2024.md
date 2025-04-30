@@ -1,4 +1,6 @@
 ---
+meta:
+  image: "/img/testimonios/viota-2024/01_viota_2024.jpg"
 title: "Sócrates en un paisaje de paz"
 city: "Viotá"
 year: 2024

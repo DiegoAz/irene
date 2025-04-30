@@ -1,6 +1,7 @@
 const eleventyPostcss = require("@jgarber/eleventy-plugin-postcss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const htmlmin = require("html-minifier-terser");
 const markdownItFancyLists =
     require("markdown-it-fancy-lists").markdownItFancyListPlugin;
@@ -17,6 +18,11 @@ module.exports = async function (eleventyConfig) {
     const { EleventyRenderPlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+    eleventyConfig.addPlugin(sitemap, {
+        sitemap: {
+            hostname: "https://proyectoirene.pages.dev",
+        },
+    });
     eleventyConfig.amendLibrary("md", (mdLib) =>
         mdLib.use(markdownItFancyLists).use(markdownItAttrs),
     );
