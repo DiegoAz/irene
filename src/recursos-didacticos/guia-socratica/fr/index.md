@@ -4,7 +4,7 @@ meta:
   keywords: "méthode socratique, résolution de conflits, éducation, dialogue, guide pratique, projet irene, littérature classique"
 title: "Guide pratique pour la résolution de conflits basée sur la méthode socratique"
 basePath: "src/_includes/recursos-didacticos/guia-socratica/fr/"
-href: "#enlaces-descargas"
+href: "#liens-de-telechargement"
 page:
   lang: "fr"
 toc:

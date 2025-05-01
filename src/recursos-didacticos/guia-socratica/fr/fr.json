@@ -3,19 +3,19 @@
     "hyperlink": "Télécharger le guide",
     "sections": [
         {
-            "id": "introduction",
+            "id": "presentation",
             "title": "Présentation"
         },
         {
-            "id": "a-what-is-the-socratic-method",
-            "title": "Qu'est-ce que la méthode socratique ?"
+            "id": "a-quest-ce-que-la-methode-socratique",
+            "title": "A. Qu'est-ce que la méthode socratique ?"
         },
         {
-            "id": "b-what-skills-are-aimed-to-be-developed",
+            "id": "b-quels-apprentissages-cherche-t-on-a-developper",
             "title": "B. Quels apprentissages cherche-t-on à développer ?"
         },
         {
-            "id": "c-how-to-implement-the-socratic-method",
+            "id": "c-comment-mettre-en-oeuvre-la-methode-socratique",
             "title": "C. Comment mettre en œuvre la méthode socratique ?"
         },
         {
@@ -27,11 +27,11 @@
             "title": "E. Évaluation"
         },
         {
-            "id": "f-guide-for-the-participants",
+            "id": "f-guide-pour-les-participants",
             "title": "F. Guide pour les participants"
         },
         {
-            "id": "download-links",
+            "id": "liens-de-telechargement",
             "title": "Liens de téléchargement"
         }
     ],
