@@ -13,11 +13,11 @@ module.exports = {
                 intro: "You can download the full guide and the guide for participants below",
                 all: {
                     text: "Complete guide",
-                    href: "/assets/recursos-didacticos/guia-socratica/complete/complete-guide.pdf",
+                    href: "/assets/recursos-didacticos/guia-socratica/completa/complete-guide.pdf",
                 },
                 participants: {
                     text: "Guide for the participants",
-                    href: "#",
+                    href: "/assets/recursos-didacticos/guia-socratica/participantes/guide-for-the-participants.pdf",
                 },
             },
         ],
@@ -26,11 +26,11 @@ module.exports = {
                 intro: "A continuación puede descargar la guía completa y la guía para los participantes:",
                 all: {
                     text: "Guía completa",
-                    href: "/assets/recursos-didacticos/guia-socratica/complete/guia-completa.pdf",
+                    href: "/assets/recursos-didacticos/guia-socratica/completa/guia-completa.pdf",
                 },
                 participants: {
                     text: "Guía para los participantes",
-                    href: "#",
+                    href: "/assets/recursos-didacticos/guia-socratica/participantes/guia-para-los-participantes.pdf",
                 },
             },
         ],
@@ -39,11 +39,11 @@ module.exports = {
                 intro: "Abaixo, você pode fazer o download do guia completo e do guia para os participantes.",
                 all: {
                     text: "Guia completo",
-                    href: "/assets/recursos-didacticos/guia-socratica/complete/guia-completo.pdf",
+                    href: "/assets/recursos-didacticos/guia-socratica/completa/guia-completo.pdf",
                 },
                 participants: {
                     text: "Guia para os participantes",
-                    href: "#",
+                    href: "/assets/recursos-didacticos/guia-socratica/participantes/guia-para-os-participantes.pdf",
                 },
             },
         ],
@@ -52,11 +52,11 @@ module.exports = {
                 intro: "Vous pouvez télécharger le guide complet et le guide pour les participants ci-dessous.",
                 all: {
                     text: "Guide complet",
-                    href: "/assets/recursos-didacticos/guia-socratica/complete/guide-complet.pdf",
+                    href: "/assets/recursos-didacticos/guia-socratica/completa/guide-complet.pdf",
                 },
                 participants: {
                     text: "Guide pour les participants",
-                    href: "#",
+                    href: "/assets/recursos-didacticos/guia-socratica/participantes/guide-pour-les-participants.pdf",
                 },
             },
         ],
