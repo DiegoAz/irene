@@ -4,7 +4,7 @@ meta:
   keywords: "método socrático, resolución de conflictos, educación, diálogo, guía práctica, proyecto irene, literatura clásica"
 title: "Guía práctica para la resolución de conflictos basada en el método socrático"
 basePath: "src/_includes/recursos-didacticos/guia-socratica/es/"
-href: "#enlaces-descargas"
+href: "#enlaces-de-descarga"
 page:
   lang: "es"
 toc:
