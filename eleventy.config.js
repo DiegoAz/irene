@@ -12,12 +12,28 @@ module.exports = async function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyPostcss);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPassthroughCopy("src/js");
-    eleventyConfig.addPassthroughCopy("src/img");
+    // eleventyConfig.addPassthroughCopy("src/img");
     eleventyConfig.addPassthroughCopy("src/videos");
     eleventyConfig.addPassthroughCopy("src/assets");
     const { EleventyRenderPlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(EleventyRenderPlugin);
-    eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+    eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+        // output image formats
+        formats: ["avif", "webp", "jpeg"],
+
+        // output image widths
+        widths: [400, 640, 1280, 1920, 3840, 'auto'],
+
+        // optional, attributes assigned on <img> nodes override these values
+        htmlOptions: {
+            imgAttributes: {
+                loading: "lazy",
+                decoding: "async",
+                sizes: "100vw",
+            },
+            pictureAttributes: {}
+        },
+    });
     eleventyConfig.addPlugin(sitemap, {
         sitemap: {
             hostname: "https://proyectoirene.pages.dev",
