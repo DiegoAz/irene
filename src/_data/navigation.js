@@ -69,8 +69,8 @@ module.exports = {
                         },
                         {
                             title: "Nhengatu",
-                            url: "/recursos-didacticos/guia-socratica/fr/",
-                            activePattern: "/recursos-didacticos/guia-socratica/fr/",
+                            url: "/recursos-didacticos/guia-socratica/nh/",
+                            activePattern: "/recursos-didacticos/guia-socratica/nh/",
                         },
                     ],
                 },

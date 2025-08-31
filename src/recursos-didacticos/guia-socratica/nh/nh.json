@@ -1,0 +1,48 @@
+{
+    "layout": "layouts/long-page.liquid",
+    "hyperlink": "Download guide in nhengatu",
+    "sections": [
+        {
+            "id": "introduction",
+            "title": "Introduction"
+        },
+        {
+            "id": "a-what-is-the-socratic-method",
+            "title": "A. What is the Socratic Method?"
+        },
+        {
+            "id": "b-what-skills-are-aimed-to-be-developed",
+            "title": "B. What skills are aimed to be developed?"
+        },
+        {
+            "id": "c-how-to-implement-the-socratic-method",
+            "title": "C. How to implement the Socratic method?"
+        },
+        {
+            "id": "d-variation",
+            "title": "D. Variation"
+        },
+        {
+            "id": "e-evaluation",
+            "title": "E. Evaluation"
+        },
+        {
+            "id": "f-guide-for-the-participants",
+            "title": "F. Guide for the participants"
+        },
+        {
+            "id": "download-links",
+            "title": "Download links"
+        }
+    ],
+    "buttons": [
+        {
+            "href": "/assets/Guia prático para a resolução de conflitos - Irene.pdf",
+            "text": "Guia completa"
+        },
+        {
+            "href": "/assets/Guia prático para a resolução de conflitos - Irene.pdf",
+            "text": "Guia para os participantes"
+        }
+    ]
+}
