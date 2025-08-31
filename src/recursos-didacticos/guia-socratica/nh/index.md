@@ -1,14 +1,14 @@
 ---
 meta:
-  description: "This guide focuses on an adaptation of the Socratic method to be applied in various contexts. Developed by the Irene Project."
-  keywords: "socratic method, conflict resolution, education, dialogue, practical guide, irene project, classical literature"
-title: "Practical guide for conflict resolution based on the socratic method"
-basePath: "src/_includes/recursos-didacticos/guia-socratica/en/"
-href: "#download-links"
+  description: " Tal guia se concentra em uma adaptação do método socrático para ser aplicada em diversos contextos. Desenvolvido pelo Projeto Irene."
+  keywords: "método socrático, resolução de conflitos, educação, diálogo, guia prático, projeto irene, literatura clássica"
+title: "MAYEARAMA YŨBAWA MARAMUYÃSA IRUPÍ KUA SÍCRATI MÃDUARISÁ"
+basePath: "src/_includes/recursos-didacticos/guia-socratica/nh/"
+href: "#links-de-download"
 page:
-  lang: "en"
+  lang: "nh"
 toc:
-  heading: "Contents"
+  heading: "MAÃ AIKUEWAÁ"
 ---
 
 {% for section in sections %}
