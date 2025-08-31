@@ -28,8 +28,7 @@ module.exports = {
                 {
                     title: "Instituciones asociadas",
                     url: "/acerca-de/instituciones-asociadas/",
-                    activePattern:
-                        "/acerca-de/instituciones-asociadas/",
+                    activePattern: "/acerca-de/instituciones-asociadas/",
                 },
             ],
         },
@@ -46,32 +45,32 @@ module.exports = {
                 {
                     title: "Guía socrática",
                     url: "/recursos-didacticos/guia-socratica/",
-                    activePattern:
-                        "/recursos-didacticos/guia-socratica/",
+                    activePattern: "/recursos-didacticos/guia-socratica/",
                     children: [
                         {
                             title: "Español",
                             url: "/recursos-didacticos/guia-socratica/es/",
-                            activePattern:
-                                "/recursos-didacticos/guia-socratica/es/",
+                            activePattern: "/recursos-didacticos/guia-socratica/es/",
                         },
                         {
                             title: "Português",
                             url: "/recursos-didacticos/guia-socratica/pt/",
-                            activePattern:
-                                "/recursos-didacticos/guia-socratica/pt/",
+                            activePattern: "/recursos-didacticos/guia-socratica/pt/",
                         },
                         {
                             title: "Inglés",
                             url: "/recursos-didacticos/guia-socratica/en/",
-                            activePattern:
-                                "/recursos-didacticos/guia-socratica/en/",
+                            activePattern: "/recursos-didacticos/guia-socratica/en/",
                         },
                         {
                             title: "Francés",
                             url: "/recursos-didacticos/guia-socratica/fr/",
-                            activePattern:
-                                "/recursos-didacticos/guia-socratica/fr/",
+                            activePattern: "/recursos-didacticos/guia-socratica/fr/",
+                        },
+                        {
+                            title: "Nhengatu",
+                            url: "/recursos-didacticos/guia-socratica/fr/",
+                            activePattern: "/recursos-didacticos/guia-socratica/fr/",
                         },
                     ],
                 },
@@ -82,9 +81,9 @@ module.exports = {
             key: "testimonials",
             children: [
                 {
-                  title: "Tunja, 2024",
-                  url: "/impacto/tunja-2024/",
-                  activePattern: "/impacto/tunja-2024/"
+                    title: "Tunja, 2024",
+                    url: "/impacto/tunja-2024/",
+                    activePattern: "/impacto/tunja-2024/",
                 },
                 {
                     title: "Fortaleza, 2024",
