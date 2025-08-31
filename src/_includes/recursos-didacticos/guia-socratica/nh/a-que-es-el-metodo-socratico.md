@@ -1,0 +1,10 @@
+## A. Maãta kua Sócrati Mãduarisá?
+{% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
+
+Kua Socrati Mãduarisá aé irupia ramẽ aikue kua yupurũgitasa-as asui mãduisá purãga sesé yã yuputãdusá yusuãtiriwaá asui yusuaxarasá. Maye yamuyã waá kua muaraki upé, kua seséwaita uiki tasikari takua purãga sesé yã tema, ũbasamã taputari sá tagãyai, tasikai tamukamẽ takua yepewasu  purãga sesé yã yukũtaiwa taiku. Muiri yupurũgita waita sui yusuaxarasá-ita urasu mãduairisá, umuyã waá takua purãga sesewá yepewasu, muiri uiku waita ápe takua yepewasu sesewara.
+
+Kua Socrati Mãduarisá, yusari katu muiri marupi yũbuesa aikue, Kuxima suiwara. Aé uiku yupurũgitasá platãukitiwara upé, Platãu uyui umukirai, maye uputai wa yawé, kua ituixawa Sócrati uxari te kua séra waita puderi arama umiakúta kua yupurũgitasá filosófico asui pukitiku. Ũbasamã umukamẽ ukuasá yepe bãda kikti Irupi kua ũbuesara, ma usikari uxari yepewasu míra tamãduiasá irupí kua yupurĩgata sá. Yawe ramẽ kua ũbuesara, aé umuiwasuĩmasá  u umukamẽsá aé upuderi utiari mayearama yumuyã purãdusá asui uwayudari suxarasá yumusupí.
+
+Kua aéretewaita kua Socrati Mãduarisá upé aé urui mãduaisá. Kua ipupé waita tasikari tayupurãdu tamãduarisá resewara asui amũitá mãduarisá. Yawe ramẽ, kua muraki umukaturu mãduarisá, maãsa asui yumusupi Irupi kua siíya yumãduarisá sesewara muiri míra upuderi waá mayé umãduari sa rupí. Kua kuaye waá urui purãgasá, yãse usenũi sesewaita uiku tayumiakũta maita tamãduaisá yepewasu ta rumuara ita irumu.
+
+Yupirũgasa suiwara, Kua Socrati Mãduarisá urui katusá irupi arama yumuyã muraki rupiara mayearama yũbawa maramuyãsa-ita, yãse ũbué sese waira uiku ũbasamã tayupurĩgita aramayũ, ma maã arama maãta puxuwerasá uiku tapiterupi. Kua Socrati Mãduarisá umuyã kua umãduai waita amurupí, tasikari taxari tasui yã puxuwerasá, yawe ramẽ aikué uikusá purãga, payẽ awa uyukirai usu yepewasu. Kuaye ramẽ, kua ipupé waita uiku tasikari tamiakũta taikusá asui tasikari yepewasu tasemu maramuyãsá suí purãgasá rupia asui saisusá ripí yuiri.
