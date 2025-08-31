@@ -53,6 +53,11 @@ module.exports = {
                             activePattern: "/recursos-didacticos/guia-socratica/es/",
                         },
                         {
+                            title: "Nhengatu",
+                            url: "/recursos-didacticos/guia-socratica/nh/",
+                            activePattern: "/recursos-didacticos/guia-socratica/nh/",
+                        },
+                        {
                             title: "Português",
                             url: "/recursos-didacticos/guia-socratica/pt/",
                             activePattern: "/recursos-didacticos/guia-socratica/pt/",
@@ -66,11 +71,6 @@ module.exports = {
                             title: "Francés",
                             url: "/recursos-didacticos/guia-socratica/fr/",
                             activePattern: "/recursos-didacticos/guia-socratica/fr/",
-                        },
-                        {
-                            title: "Nhengatu",
-                            url: "/recursos-didacticos/guia-socratica/nh/",
-                            activePattern: "/recursos-didacticos/guia-socratica/nh/",
                         },
                     ],
                 },
