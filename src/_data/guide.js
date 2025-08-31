@@ -4,6 +4,7 @@ module.exports = {
             en: "Go to top",
             es: "Ir arriba",
             pt: "Voltar",
+            nh: "Voltar",
             fr: "Haut de page",
         },
     },
@@ -35,6 +36,19 @@ module.exports = {
             },
         ],
         pt: [
+            {
+                intro: "Abaixo, você pode fazer o download do guia completo e do guia para os participantes.",
+                all: {
+                    text: "Guia completo",
+                    href: "/assets/recursos-didacticos/guia-socratica/completa/guia-completo.pdf",
+                },
+                participants: {
+                    text: "Guia para os participantes",
+                    href: "/assets/recursos-didacticos/guia-socratica/participantes/guia-para-os-participantes.pdf",
+                },
+            },
+        ],
+        nh: [
             {
                 intro: "Abaixo, você pode fazer o download do guia completo e do guia para os participantes.",
                 all: {
