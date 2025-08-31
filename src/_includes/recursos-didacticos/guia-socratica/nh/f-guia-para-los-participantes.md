@@ -1,4 +1,4 @@
-## F. ua ipupé arama waita yumuyã muraki
+## F. Kua ipupé arama waita yumuyã muraki
 {% include "components/go-back.liquid", text:hyperlinks.goToTop[page.lang] %}
 
 <hr class="solid">
