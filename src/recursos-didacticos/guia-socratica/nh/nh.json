@@ -1,37 +1,37 @@
 {
     "layout": "layouts/long-page.liquid",
-    "hyperlink": "Download guide in nhengatu",
+    "hyperlink": "Baixar guia",
     "sections": [
         {
-            "id": "introduction",
-            "title": "Introduction"
+            "id": "presentacion",
+            "title": "MUKAMÉSÁ"
         },
         {
-            "id": "a-what-is-the-socratic-method",
-            "title": "A. What is the Socratic Method?"
+            "id": "a-que-es-el-metodo-socratico",
+            "title": "A. MAÃTA KUA SÓCRATI MÃDUARISÁ?"
         },
         {
-            "id": "b-what-skills-are-aimed-to-be-developed",
-            "title": "B. What skills are aimed to be developed?"
+            "id": "b-que-aprendizajes-se-buscan-desarrollar",
+            "title": "B. MAYEWA YŨBUESAWA UPEDERI YUMUYÃ?"
         },
         {
-            "id": "c-how-to-implement-the-socratic-method",
-            "title": "C. How to implement the Socratic method?"
+            "id": "c-como-implementar-el-metodo-socratico",
+            "title": "C. MAITA PUDERI YUMUYÃ SOCRATI MÃDUARISÁ?"
         },
         {
-            "id": "d-variation",
-            "title": "D. Variation"
+            "id": "d-variacion",
+            "title": "D. SIÍYASA YUMUYÃ"
         },
         {
-            "id": "e-evaluation",
-            "title": "E. Evaluation"
+            "id": "e-evaluacion",
+            "title": "E. YUMIAKŨTASÁ"
         },
         {
-            "id": "f-guide-for-the-participants",
-            "title": "F. Guide for the participants"
+            "id": "f-guia-para-los-participantes",
+            "title": "F. KUA IPUPÉ ARAMA WAITA YUMUYÃ MURAKI"
         },
         {
-            "id": "download-links",
+            "id": "enlaces-de-descarga",
             "title": "Download links"
         }
     ],
