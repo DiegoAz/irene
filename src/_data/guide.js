@@ -53,11 +53,11 @@ module.exports = {
                 intro: "Abaixo, você pode fazer o download do guia completo e do guia para os participantes.",
                 all: {
                     text: "Guia completo",
-                    href: "/assets/recursos-didacticos/guia-socratica/completa/guia-completo.pdf",
+                    href: "/assets/recursos-didacticos/guia-socratica/completa/guia-completo-nhengatu.pdf",
                 },
                 participants: {
                     text: "Guia para os participantes",
-                    href: "/assets/recursos-didacticos/guia-socratica/participantes/guia-para-os-participantes.pdf",
+                    href: "/assets/recursos-didacticos/guia-socratica/participantes/guia-para-os-participantes-nhengatu.pdf",
                 },
             },
         ],
