@@ -10,11 +10,11 @@ useSwiper: true
     <div class="hero-content">
         <h1 class="visually-hidden">Presentación</h1>
         <div class="hero-copy">
-            <p>Bienvenido al sitio web del proyecto <span class="serifa step-1 medium">“<em>Irene</em>: un libro de trabajo basado en la literatura clásica para la resolución de conflictos (HUM-13-2024)”.</span></p>
-            <p>El proyecto emplea la literatura clásica como herramienta educativa para desarrollar habilidades de resolución de conflictos en estudiantes de secundaria. Además, busca promover el diálogo, la empatía y el pensamiento crítico, mediante una adaptación del método socrático.</p>
-            <p>Su enfoque principal es la promoción de una cultura de paz que integra valores de reconciliación y convivencia pacífica.</p>
+            <p>“Irene: Educación para la Paz” es un macroproyecto transdisciplinario que integra investigación, docencia y trabajo comunitario para la resolución pacífica de conflictos.</p>
+            <p>Sus ejes son las humanidades —con énfasis en la literatura clásica—, el aprendizaje experiencial y el diálogo intercultural, que guían procesos de co-creación junto a actores locales mediante investigación-acción participativa.</p>
+            <p>Aquí encontrarás los proyectos en curso, además de recursos didácticos abiertos, evidencias de impacto y publicaciones</p>
             <a href="/acerca-de/introduccion" class="section-link">
-                Conoce más sobre el proyecto
+                Conoce más sobre el macroproyecto
                 <span>&#8599;</span>
             </a>
         </div>
@@ -22,20 +22,29 @@ useSwiper: true
 </section>
 <section class="home-section two-grid">
     <div class="flex-end">
-        <h2>Currículo</h2>
-        <p>El núcleo del proyecto es un currículo innovador que emplea el método socrático para alentar discusiones abiertas y la búsqueda de consensos, en lugar de debates centrados en determinar quién tiene la razón.</p>
         <a href="/curriculo" class="section-link">
+            Proyectos
+            <span>&#8599;
+            </span>
+        </a>
+        <p>Descubre dos líneas activas: educación media en Colombia, con un libro de trabajo para la Cátedra de la Paz; y formación con lideresas indígenas en la Amazonía brasileña, donde co-diseñamos talleres comunitarios y materiales bilingües para la resolución de conflictos.</p>
+        <!--<a href="/curriculo" class="section-link">
         Consulta el currículo
         <span>&#8599;</span>
-        </a>
+        </a>-->
     </div>
     <div class="flex-end">
-        <h2>Recursos didácticos</h2>
-        <p>El proyecto Irene busca expandir su impacto mediante recursos impresos y digitales gratuitos que garanticen el acceso en áreas rurales y de bajos recursos.</p>
+        <!--<h2>Recursos didácticos</h2>-->
         <a href="/recursos-didacticos/guia-socratica/es/" class="section-link">
+            Recursos didácticos
+            <span>&#8599;
+            </span>
+        </a>
+        <p>Descarga materiales de acceso abierto: una guía socrática disponible en español, ñeꞌengatú, portugués, inglés y francés; y un libro de trabajo basado en la literatura clásica para la resolución de conflictos.</p>
+        <!--<a href="/recursos-didacticos/guia-socratica/es/" class="section-link">
         Accede a los recursos
         <span>&#8599;</span>
-        </a>
+        </a>-->
     </div>
 </section>
 
