@@ -44,14 +44,6 @@ A continuación, presentamos a los miembros del equipo del proyecto *Irene*. Cad
                 </p>
                 <p>Apoya la adaptación del proyecto a la realidad escolar. Trabaja directamente con los estudiantes y docentes en la implementación del currículo.</p>
             </div>
-            <!--<div class="team-member-card">
-                <img src="/img/equipo/rafael_uribe.jpg" alt="Rafael Uribe Neira" class="team-member-photo">
-                <p>
-                    <span class="bold">Rafael Uribe Neira</span>
-                    <span class="meta-text-color">Otto-von-Guericke University</span>
-                </p>
-                <p>Contribuye al desarrollo teórico del proyecto y ayuda a establecer vínculos con otros proyectos de investigación internacionales.</p>
-            </div>-->
             <div class="team-member-card">
                 <img src="/img/equipo/jesus-girado-sierra.jpeg" alt="Jesús David Girado Sierra" class="team-member-photo">
                 <p>
@@ -68,14 +60,6 @@ A continuación, presentamos a los miembros del equipo del proyecto *Irene*. Cad
                 </p>
                 <p>Aporta su experiencia en historia y escritura creativa para que los materiales didácticos tengan una conexión más profunda con los estudiantes mediante la escritura.</p>
             </div>
-            <!--<div class="team-member-card">
-                <img src="/img/equipo/natalia_mendez.jpg" alt="Natalia Valentina Méndez López" class="team-member-photo">
-                <p>
-                    <span class="bold">Natalia Valentina Méndez López</span>
-                    <span class="meta-text-color">Universidad de La Sabana</span>
-                </p>
-                <p>Apoya la coordinación y comunicación del proyecto y contribuye a mantener un enfoque interdisciplinario y colaborativo. Su tesis de pregrado está relacionada con el proyecto.</p>
-            </div>-->
             <div class="team-member-card">
                 <img src="/img/equipo/felipe-vargas.jpeg" alt="Felipe Vargas Cortés" class="team-member-photo">
                 <p>
@@ -89,40 +73,28 @@ A continuación, presentamos a los miembros del equipo del proyecto *Irene*. Cad
     <div class="team-section team-amazonia">
         <h2>Amazonia</h2>
         <div class="amipk-logo">
-            <img src="/img/equipo/logo_amipk.png" alt="asociacion de muejres indigenas putira kapuamu"">
+            <img src="/img/equipo/logo_amipk.png" alt="asociacion de mujeres indigenas putira kapuamu">
         </div>
         <div class="grid">
             <div class="team-member-card">
-                <!--<img src="/img/equipo/jeiviane-da-silva.jpeg" alt="Rozania Fernandes Lizardo" class="team-member-photo">-->
                 <p>
                     <span class="bold">Rozania Fernandes Lizardo</span>
-                    <!--<span class="meta-text-color">Universidade do Estado do Amazonas</span>-->
                 </p>
-                <!--<p>Lidera los esfuerzos del proyecto en la región amazónica de Brasil. Trabaja con comunidades indígenas para adaptar los contenidos educativos del proyecto.</p>-->
             </div>
             <div class="team-member-card">
-                <!--<img src="/img/equipo/anni-santos-de-jesus.jpeg" alt="Patrícia Costa Mendes" class="team-member-photo">-->
                 <p>
                     <span class="bold">Patrícia Costa Mendes</span>
-                    <!--<span class="meta-text-color">Secretaria de Educação do Amazonas</span>-->
                 </p>
-                <!--<p>Acompaña el diseño de talleres, así como la recopilación de información y documentación durante su implementación. Intermedia el diálogo con comunidades indígenas.</p>-->
             </div>
             <div class="team-member-card">
-                <!--<img src="/img/equipo/carlos_renato.jpg" alt="Matildes Peres Marcelino" class="team-member-photo">-->
                 <p>
                     <span class="bold">Matildes Peres Marcelino</span>
-                    <!--<span class="meta-text-color">Universidade do Estado do Amazonas</span>-->
                 </p>
-                <!--<p>Colabora en la adaptación cultural del proyecto en Brasil. Contribuye con su difusión en la región amazónica y colabora con la revisión de los materiales didácticos.</p>-->
             </div>
             <div class="team-member-card">
-                <!--<img src="/img/equipo/carlos_renato.jpg" alt="Derly Salgado Garrido" class="team-member-photo">-->
                 <p>
                     <span class="bold">Derly Salgado Garrido</span>
-                    <!--<span class="meta-text-color">Universidade do Estado do Amazonas</span>-->
                 </p>
-                <!--<p>Colabora en la adaptación cultural del proyecto en Brasil. Contribuye con su difusión en la región amazónica y colabora con la revisión de los materiales didácticos.</p>-->
             </div>
         </div>
     </div>
