@@ -20,4 +20,4 @@ Cualquier contribución monetaria será gestionada por alguna de las institucion
 
 Trabajamos con consentimiento libre, previo e informado, en corresponsabilidad con AMIPK y las instituciones educativas. Los materiales se publican con licencia CC BY-NC, de manera que se reconozca la autoría y sin fines comerciales.
 
-Escríbenos a <a href=”mailto:proyecto.irene.educacion.paz@gmail.com”>proyecto.irene.educacion.paz@gmail.com</a> para conversar una propuesta concreta. También ayudas usando y compartiendo los recursos, y enviando evidencias (fotos o videos con contexto y permisos) de su implementación.
+Escríbenos a <a href="mailto:proyecto.irene.educacion.paz@gmail.com">proyecto.irene.educacion.paz@gmail.com</a> para conversar una propuesta concreta. También ayudas usando y compartiendo los recursos, y enviando evidencias (fotos o videos con contexto y permisos) de su implementación.
