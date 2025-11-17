@@ -140,7 +140,7 @@ module.exports = {
         //     key: "partners",
         // },
         {
-            title: "Contacto",
+            title: "Contacto y apoyo",
             url: "/contacto/",
             key: "contact",
         },
@@ -149,11 +149,11 @@ module.exports = {
         //     url: "/noticias/",
         //     key: "news",
         // },
-        {
-            title: "Apoya el proyecto",
-            url: "/apoyo/",
-            key: "support",
-        },
+        // {
+        //     title: "Apoya el proyecto",
+        //     url: "/apoyo/",
+        //     key: "support",
+        // },
     ],
     // Puedes agregar más idiomas aquí en el futuro
 };
