@@ -67,7 +67,8 @@
             border-inline-start: 1px solid var(--border-color);
             margin-inline-start: var(--space-xs-s);
 
-            li a {
+            li a,
+            li ul {
                 margin-left: var(--space-xs);
             }
         }
