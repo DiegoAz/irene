@@ -9,6 +9,12 @@
     }
 }
 
+.amipk-logo {
+    max-width: 70%;
+    margin-inline: auto;
+    margin-block: var(--space-s);
+}
+
 .team-member-card {
     margin-block: var(--space-s);
     border: 1px solid var(--border-color);
