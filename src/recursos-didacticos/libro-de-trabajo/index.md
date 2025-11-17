@@ -1,3 +1,7 @@
+---
+layout: "layouts/base"
+---
+
 # Libro de trabajo educación media
 
 ## Instrucciones para el docente
