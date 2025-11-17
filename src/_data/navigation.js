@@ -144,11 +144,11 @@ module.exports = {
             url: "/contacto/",
             key: "contact",
         },
-        {
-            title: "Noticias",
-            url: "/noticias/",
-            key: "news",
-        },
+        // {
+        //     title: "Noticias",
+        //     url: "/noticias/",
+        //     key: "news",
+        // },
         {
             title: "Apoya el proyecto",
             url: "/apoyo/",
