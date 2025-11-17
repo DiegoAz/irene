@@ -6,7 +6,7 @@ module.exports = {
             key: "home",
         },
         {
-            title: "Sobre el proyecto",
+            title: "Sobre el macroproyecto",
             url: "/acerca-de/",
             key: "about",
             children: [
@@ -32,16 +32,38 @@ module.exports = {
                 },
             ],
         },
+        // {
+        //     title: "Currículo",
+        //     url: "/curriculo/",
+        //     key: "curriculum",
+        // },
         {
-            title: "Currículo",
-            url: "/curriculo/",
-            key: "curriculum",
+            title: "Proyectos",
+            url: "/proyectos/",
+            key: "projects",
+            children: [
+                {
+                    title: "Educación media – Colombia",
+                    url: "/proyectos/educacion-media-colombia/",
+                    activePattern: "/proyectos/educacion-media-colombia/",
+                },
+                {
+                    title: "Formación – Lideresas indígenas",
+                    url: "/proyectos/formacion-lideresas-indigenas/",
+                    activePattern: "/proyectos/formacion-lideresas-indigenas/",
+                },
+            ],
         },
         {
             title: "Recursos didácticos",
             url: "/recursos-didacticos/",
             key: "resources",
             children: [
+                {
+                    title: "Colección Irene",
+                    url: "/recursos-didacticos/coleccion-irene/",
+                    activePattern: "/recursos-didacticos/coleccion-irene/",
+                },
                 {
                     title: "Guía socrática",
                     url: "/recursos-didacticos/guia-socratica/",
@@ -73,6 +95,11 @@ module.exports = {
                             activePattern: "/recursos-didacticos/guia-socratica/fr/",
                         },
                     ],
+                },
+                {
+                    title: "Libro de trabajo educación media",
+                    url: "/recursos-didacticos/libro-de-trabajo/",
+                    activePattern: "/recursos-didacticos/libro-de-trabajo/",
                 },
             ],
         },
