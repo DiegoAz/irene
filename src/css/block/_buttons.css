@@ -16,14 +16,10 @@
     /* border: 1px solid var(--button-border); */
     margin: var(--space-2xs) 0;
 
-    
-    
     &:hover {
         background-color: var(--button-hv-bg);
     }
-
 }
-
 
 .btn-download {
     .text {
@@ -33,5 +29,5 @@
 }
 
 .btn-s {
-    max-width: 10em;
+    max-width: 50%;
 }
