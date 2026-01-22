@@ -45,6 +45,14 @@ A continuación, presentamos a los miembros del equipo del proyecto *Irene*. Cad
                 <p>Apoya la adaptación del proyecto a la realidad escolar. Trabaja directamente con los estudiantes y docentes en la implementación del currículo.</p>
             </div>
             <div class="team-member-card">
+                <img src="/img/equipo/rafael_uribe.jpg" alt="Rafael Uribe Neira" class="team-member-photo">
+                <p>
+                    <span class="bold">Rafael Uribe Neira</span>
+                    <span class="meta-text-color">Otto-von-Guericke University</span>
+                </p>
+                <p>Contribuye al desarrollo teórico del proyecto y ayuda a establecer vínculos con otros proyectos de investigación internacionales.</p>
+            </div>
+            <div class="team-member-card">
                 <img src="/img/equipo/jesus-girado-sierra.jpeg" alt="Jesús David Girado Sierra" class="team-member-photo">
                 <p>
                     <span class="bold">Jesús David Girado Sierra</span>
