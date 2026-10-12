@@ -1,5 +1,33 @@
 <header>
     {% include "components/hamburger.liquid" %}
     <a class="logo" href="/index.html">Irene</a>
-    {% include "components/theme-selector.liquid" %}
+    <div class="header-right-column">
+        <div id="google_translate_element"></div>
+        {% include "components/theme-selector.liquid" %}
+    </div>
+
+    <!-- Google Translate Widget -->
+
+    <script>
+        // 1. Definimos la función en el objeto global 'window' para que Google la encuentre siempre
+        window.googleTranslateElementInit = function() {
+            new google.translate.TranslateElement(
+                {
+                    pageLanguage: 'es',
+                    includedLanguages: 'en,es'
+                },
+                'google_translate_element'
+            );
+        };
+
+        // 2. Cargamos el script de Google dinámicamente solo cuando el DOM esté listo
+        window.addEventListener('DOMContentLoaded', function() {
+            var script = document.createElement('script');
+            script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+            script.async = true;
+            document.body.appendChild(script);
+        });
+    </script>
+
+
 </header>

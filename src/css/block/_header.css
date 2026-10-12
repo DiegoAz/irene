@@ -5,13 +5,19 @@ header {
     width: 100%;
     z-index: var(--z-index-header);
     padding-inline: var(--space-xs);
-    padding-block: var(--space-xs); 
+    padding-block: var(--space-xs);
     background-color: var(--background-color);
     color: var(--text-color);
     border-block-end: 1px solid var(--border-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-right-column {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
 }
 
 
