@@ -1,8 +1,5 @@
 #google_translate_element {
-  /*position: fixed;*/
-  /*bottom: 200px;
-  right: 10px;
-  z-index: 9999;*/
+  z-index: 9999;
   background: #fff;
   padding: 5px 10px;
   border-radius: 6px;
@@ -15,17 +12,17 @@
 }
 
 body > .skiptranslate {
-    display: none;
+    display: none !important;
 }
 
 body {
     top: 0 !important;
 }
 
-.goog-te-banner-frame.skiptranslate {
+/*.goog-te-banner-frame.skiptranslate {
     display: none !important;
 }
 
 .goog-te-banner-frame {
     display: none !important;
-}
+}*/
