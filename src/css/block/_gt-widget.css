@@ -1,10 +1,17 @@
 #google_translate_element {
   z-index: 9999;
-  background: #fff;
+  background: var(--background-color);
   padding: 5px 10px;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   font-size: 14px;
+  border: 1px solid var(--border-color);
+
+}
+
+.goog-te-gadget,
+.goog-te-gadget a {
+    color: var(--text-color) !important;
 }
 
 .goog-te-gadget img {
