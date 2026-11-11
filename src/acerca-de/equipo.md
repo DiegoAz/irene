@@ -11,7 +11,7 @@ A continuación, presentamos a los miembros del equipo del proyecto *Irene*. Cad
                 <p>
                     <span class="bold">Ronald Forero Álvarez</span>
                     <span class="meta-text-color">Investigador Principal</span>
-                    <span class="meta-text-color institution">Universidad de La Sabana</span>
+                    <span class="meta-text-color institution">Universidad de los Andes / Universidad Nacional de Colombia</span>
                 </p>
                 <p>Lidera el proyecto y es responsable de la investigación y la implementación del enfoque socrático en las instituciones educativas de Colombia.</p>
             </div>
